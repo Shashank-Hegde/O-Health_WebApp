@@ -2307,7 +2307,7 @@ def transcribe_audio(file_path):
     """
     try:
         with open(file_path, "rb") as audio_file:
-            transcript = openai.Audio.translate("whisper-large", audio_file)
+            transcript = openai.Audio.translate("whisper-1", audio_file)
             transcribed_text = transcript.get("text", "").strip()
             logger.info(f"Audio transcription successful: {transcribed_text}")
             return transcribed_text
