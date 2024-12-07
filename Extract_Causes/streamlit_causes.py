@@ -451,21 +451,21 @@ def normalize_symptom(phrase):
 
 # Define symptom-specific follow-up questions with associated symptoms
 symptom_followup_questions = {
-       'stomach ache': [
-        {"hi": "आपने हाल ही में कौन से खाद्य पदार्थ खाए?", "en": "What foods did you recently eat?",  "category": "pain_location", "symptom": "stomach ache"},
-        {"hi": "सीने में दर्द की तीव्रता क्या है?", "en": "What is the intensity of your stomach ache?", "category": "stomach ache", "symptom": "stomach ache"},
-        {"hi": "क्या दर्द का स्थान स्पष्ट है?", "en": "Is the location of the pain specific?", "category": "pain_location", "symptom": "Specific pain location"},
-        {"hi": "क्या दर्द के साथ सांस लेने में कठिनाई है?", "en": "Are you having difficulty breathing along with the pain?", "category": "breathing_difficulty", "symptom": "Difficulty breathing"},
-        {"hi": "क्या आप अत्यधिक तनाव में हैं साथ ही सीने में दर्द?", "en": "Are you under extreme stress along with chest pain?", "category": "stress_chest_pain", "symptom": "Stress-related chest pain"},
-        {"hi": "क्या आपको छाती में भारीपन महसूस हो रहा है?", "en": "Do you feel a heaviness in your chest?", "category": "chest_heaviness", "symptom": "Chest heaviness"},
-    ],
-    'acidity': [
-        {"hi": "आपने हाल ही में कौन से खाद्य पदार्थ खाए?", "en": "What foods did you recently eat?",  "category": "stomach ache", "symptom": "stomach ache"},
-        {"hi": "दर्द कितना तीव्र है?", "en": "How intense is the pain?", "category": "stomach ache", "symptom": "stomach ache"},
-        {"hi": "क्या दर्द के साथ सांस लेने में कठिनाई है?", "en": "Are you having difficulty breathing along with the pain?", "category": "breathing_difficulty", "symptom": "Difficulty breathing"},
-        {"hi": "क्या आप अत्यधिक तनाव में हैं साथ ही सीने में दर्द?", "en": "Are you under extreme stress along with chest pain?", "category": "stress_chest_pain", "symptom": "Stress-related chest pain"},
-        {"hi": "क्या आपको छाती में भारीपन महसूस हो रहा है?", "en": "Do you feel a heaviness in your chest?", "category": "chest_heaviness", "symptom": "Chest heaviness"},
-    ],
+       'stomach ache':[
+{"hi":"दर्द कहाँ स्थित है?","en":"Where exactly is the pain located?","category":"stomach ache","symptom":"stomach ache"},
+{"hi":"दर्द कब शुरू हुआ, और यह कितनी देर से हो रहा है?","en":"When did the pain start, and how long has it been happening?","category":"stomach ache","symptom":"stomach ache"},
+{"hi":"क्या आप दर्द का वर्णन कर सकते हैं? (तेज, हल्का, ऐंठन, जलन आदि)","en":"Can you describe the pain? (Sharp, dull, cramping, burning, etc.)","category":"stomach ache","symptom":"stomach ache"},
+{"hi":"क्या आपको अन्य कोई लक्षण जैसे कि उल्टी, दस्त, बुखार आदि महसूस हो रहे हैं?","en":"Do you have any other symptoms, such as nausea, vomiting, diarrhea, or fever?","category":"digestive symptoms","symptom":"nausea, vomiting, diarrhea, fever"},
+{"hi":"क्या आपने हाल ही में कोई असामान्य भोजन खाया है या आपके आहार में कोई बदलाव हुआ है?","en":"Have you eaten anything unusual or had any changes in your diet recently?","category":"dietary changes","symptom":"dietary changes"},
+{"hi":"क्या आपको पाचन समस्याओं का इतिहास है (जैसे कि अम्लता, IBS, अल्सर आदि)?","en":"Do you have a history of digestive problems (e.g., acid reflux, IBS, ulcers)?","category":"digestive history","symptom":"digestive problems"}
+],
+'acidity':[
+{"hi":"आपको लक्षणों का अनुभव कब पहली बार हुआ?","en":"When did you first start experiencing symptoms?","category":"heartburn","symptom":"acidity"},
+{"hi":"आपको हार्टबर्न या अम्लीय पुन: प्रवाह (acid reflux) कितनी बार होता है?","en":"How often do you experience heartburn or acid reflux?","category":"heartburn","symptom":"acidity"},
+{"hi":"लक्षणों को क्या ट्रिगर करता है या बिगाड़ता है (जैसे कि कुछ खाद्य पदार्थ, लेट जाना, तनाव)?","en":"What triggers or worsens the symptoms (e.g., certain foods, lying down, stress)?","category":"heartburn","symptom":"acidity"},
+{"hi":"क्या आपको अन्य कोई लक्षण जैसे कि उल्टी, पाचन में असुविधा या निगलने में कठिनाई महसूस हो रही है?","en":"Do you experience any other symptoms, such as nausea, regurgitation, or difficulty swallowing?","category":"heartburn","symptom":"acidity"},
+{"hi":"क्या आपके आहार, वजन, या जीवनशैली में हाल ही में कोई बदलाव हुआ है?","en":"Have you had any changes in your diet, weight, or lifestyle recently?","category":"dietary changes","symptom":"acidity"}
+],
 
      'weakness': [
         {"hi": "क्या आपको थकान महसूस होती है?", "en": "Do you feel fatigue? ", "category": "weakness",  "symptom": "weakness"},
