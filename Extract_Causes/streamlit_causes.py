@@ -519,19 +519,7 @@ symptom_followup_questions = {
         {"hi": "क्या आपकी आँखों में जलन हो रही है?", "en": "Are your eyes feeling itchy along with yellowing?", "category": "itchy_eyes", "symptom": "Itchy eyes"},
         {"hi": "क्या आपके मुँह से पीली लार निकल रही है?", "en": "Is yellow saliva coming from your mouth?", "category": "yellow_saliva", "symptom": "Yellow saliva"},
     ],
-        'pain': [
-        #{"hi": "क्या आपको पेट में दर्द हो रहा है?", "en": "Are you experiencing abdominal pain?", "category": "abdominal_pain", "symptom": "Abdominal pain"},
-        {"hi": "पेट दर्द कहाँ महसूस हो रहा है?", "en": "Where exactly are you feeling the pain?", "category": "pain_location", "symptom": None},
-        {"hi": "क्या पेट दर्द के साथ मतली है?", "en": "Do you have nausea along with the pain?", "category": "nausea", "symptom": "Nausea"},
-        {"hi": "क्या आपको उल्टी भी हो रही है?", "en": "Are you also vomiting?", "category": "vomiting", "symptom": "Vomiting"},
-        {"hi": "क्या आपके पेट में सूजन है?", "en": "Is there any swelling?", "category": "swelling", "symptom": "Abdominal swelling"},
-        {"hi": "क्या आपको कब्ज है या दस्त हो रहे हैं?", "en": "Are you experiencing constipation or diarrhea?", "category": "bowel_changes", "symptom": "Constipation or diarrhea"},
-        {"hi": "क्या पेट दर्द अचानक शुरू हुआ था या धीरे-धीरे?", "en": "Did the pain start suddenly or gradually?", "category": "pain_onset", "symptom": None},
-        {"hi": "क्या पेट दर्द खाने के बाद बढ़ता है?", "en": "Does the pain increase after eating?", "category": "postprandial_pain", "symptom": "Postprandial pain"},
-        {"hi": "क्या आपको पसीना आ रहा है पेट दर्द के साथ?", "en": "Are you sweating with the pain?", "category": "sweating", "symptom": "Sweating"},
-        {"hi": "क्या आपके पेट में कोई हार्टबिटिंग महसूस हो रहा है?", "en": "Do you feel any heartburn in your abdomen?", "category": "heartburn", "symptom": "Heartburn"},
-        {"hi": "क्या आप घायल हुए हैं?", "en": "Have you been injured?", "category": "injury", "symptom": "Injury"},
-    ],
+        
     'fever': [
         {"hi": "क्या आपका बुखार लगातार है या बीच-बीच में आता है?", "en": "Is your fever constant or intermittent?", "category": "fever_type", "symptom": None},
         {"hi": "क्या आपको ठंड लग रही है?", "en": "Are you experiencing any chills?", "category": "chills", "symptom": "Chills"},
