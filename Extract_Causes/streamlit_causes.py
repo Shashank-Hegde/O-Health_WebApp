@@ -214,7 +214,7 @@ symptom_list = ['fever','cold',
 ]
 """
 
-symptoms = [
+symptoms_list = [
     'fever', 'cold', 'runny nose', 'sneezing', 'rash', 'dizziness', 'weakness', 'loss of appetite', 
     'cough', 'muscle pain', 'joint pain', 'chest pain', 'back pain', 'constipation', 'throat pain', 
     'flu', 'breathlessness', 'stomach pain', 'migraine', 'ache', 'sore', 'burning', 'itching', 'swelling', 
