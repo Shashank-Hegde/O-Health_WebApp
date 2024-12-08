@@ -471,7 +471,7 @@ def normalize_symptom(phrase):
 symptom_followup_questions = {
        'stomach ache':[
 {"hi":"दर्द कहाँ स्थित है?","en":"Where exactly is the pain located?","category":"stomach ache","symptom":"stomach ache"},
-{"hi":"दर्द कब शुरू हुआ, और यह कितनी देर से हो रहा है?","en":"When did the pain start, and how long has it been happening?","category":"stomach ache","symptom":"stomach ache"},
+#{"hi":"दर्द कब शुरू हुआ, और यह कितनी देर से हो रहा है?","en":"When did the pain start, and how long has it been happening?","category":"stomach ache","symptom":"stomach ache"},
 {"hi":"क्या आप दर्द का वर्णन कर सकते हैं? (तेज, हल्का, ऐंठन, जलन आदि)","en":"Can you describe the pain? (Sharp, dull, cramping, burning, etc.)","category":"stomach ache","symptom":"stomach ache"},
 {"hi":"क्या आपको अन्य कोई लक्षण जैसे कि उल्टी, दस्त, बुखार आदि महसूस हो रहे हैं?","en":"Do you have any other symptoms, such as nausea, vomiting, diarrhea, or fever?","category":"digestive symptoms","symptom":"nausea, vomiting, diarrhea, fever"},
 {"hi":"क्या आपने हाल ही में कोई असामान्य भोजन खाया है या आपके आहार में कोई बदलाव हुआ है?","en":"Have you eaten anything unusual or had any changes in your diet recently?","category":"dietary changes","symptom":"dietary changes"},
@@ -2841,7 +2841,7 @@ def generate_report(conversation_history):
         st.write("**Possible Cause:**")
         st.write(f"- {possible_cause}")
     else:
-        st.write("**Possible Cause:** No possible causes determined.")
+        st.write("**Possible Cause:** The given input is insufficient to determine causes, we will connect you to the best specialist for more details")
 
     # Map symptoms to diseases
     probable_diseases = map_symptoms_to_diseases(matched_symptoms, additional_info)
