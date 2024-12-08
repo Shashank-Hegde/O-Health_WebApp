@@ -231,6 +231,7 @@ symptom_synonyms = {
     'back spasm': ['back is spasming', 'back spasms', 'back spasm'],
     'headache': ['head pain', 'head hurts', 'migraine'],
     'allergies':['allergy'],
+    'knee pain' : ['knee is paining', 'pain in knees'].
     # Add more symptom synonyms here
 }
 
