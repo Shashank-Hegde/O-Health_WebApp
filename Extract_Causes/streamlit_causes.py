@@ -578,6 +578,18 @@ symptom_followup_questions = {
         {"hi": "क्या आपको जोड़ों में कठोरता महसूस हो रही है?", "en": "Are you experiencing stiffness in your joints?", "category": "stiffness", "symptom": "stiffness"},
         {"hi": "क्या जोड़ों में दर्द के साथ कोई आवाज़ भी सुनाई देती है?", "en": "Do you hear any clicking or popping sounds in your joints along with pain?", "category": "sounds_with_pain", "symptom": None}
     ],
+     'knee pain': [
+  {"hi":"दर्द कब शुरू हुआ, और यह कितनी देर से हो रहा है?", "en":"When did you first start experiencing knee pain?", "category":"knee pain", "symptom":"knee pain"},
+  {"hi":"क्या दर्द किसी विशेष घटना या चोट के कारण हुआ था?", "en":"Was there any specific injury or event that triggered the pain?", "category":"knee pain", "symptom":"knee pain"},
+  {"hi":"क्या आप दर्द का वर्णन कर सकते हैं? (तेज, हल्का, ऐंठन, जलन आदि)", "en":"Can you describe the pain? (Sharp, dull, aching, etc.)", "category":"knee pain", "symptom":"knee pain"},
+  {"hi":"क्या दर्द लगातार है या यह कभी-कभी होता है?", "en":"Does the pain occur constantly, or does it come and go?", "category":"knee pain", "symptom":"knee pain"},
+  {"hi":"दर्द आपके घुटने के किस हिस्से में महसूस हो रहा है? (सामने, पीछे, किनारे)", "en":"Where exactly in the knee do you feel the pain (front, back, sides)?", "category":"knee pain", "symptom":"knee pain"},
+  {"hi":"क्या दर्द कुछ गतिविधियों जैसे चलने या सीढ़ियाँ चढ़ने से बढ़ जाता है?", "en":"Does the pain get worse with certain activities, like walking or climbing stairs?", "category":"knee pain", "symptom":"knee pain"},
+  {"hi":"क्या घुटने के आसपास सूजन, लाली या गर्मी महसूस हो रही है?", "en":"Have you noticed any swelling, redness, or warmth around the knee?", "category":"knee pain", "symptom":"knee pain"},
+  {"hi":"क्या आपको घुटने को मोड़ने या सीधा करने में कोई समस्या हो रही है?", "en":"Are you having trouble bending or straightening your knee?", "category":"knee pain", "symptom":"knee pain"},
+  {"hi":"क्या आपने पहले घुटने की किसी चोट या सर्जरी का अनुभव किया है?", "en":"Have you had any previous knee injuries or surgeries?", "category":"knee pain", "symptom":"knee pain"},
+  {"hi":"क्या आपको घुटने में अस्थिरता या ऐसा लगता है जैसे घुटना 'गिर' रहा हो?", "en":"Do you feel any instability or like your knee is 'giving way'?", "category":"knee pain", "symptom":"knee pain"}
+]
 
     'chest pain': [
         {"hi": "क्या आपका छाती में दर्द तेज है या स्थिर है?", "en": "Is your chest pain sharp or dull?", "category": "pain_intensity", "symptom": None},
@@ -1533,35 +1545,6 @@ symptom_followup_questions = {
     {"hi": "क्या आप कोई दवाइयाँ ले रहे हैं, जिसमें ओवर-द-काउंटर दवाइयाँ या हर्बल सप्लीमेंट्स शामिल हैं, जो आपके मूड को प्रभावित कर सकते हैं?",
      "en": "Are you taking any medications, including over-the-counter or herbal supplements, that could affect your mood?",
      "category": "mood_swings", "symptom": "medication use affecting mood"}
-],
-
-'memory loss' : [
-    {"hi": "आपको कितने समय से याददाश्त की समस्या हो रही है?", "en": "How long have you been experiencing memory loss?", "category": "memory_loss", "symptom": "duration of memory loss"},
-    {"hi": "क्या याददाश्त की समस्या धीरे-धीरे बढ़ी है या अचानक हुई है?", "en": "Is the memory loss gradual or sudden?", "category": "memory_loss", "symptom": "gradual or sudden memory loss"},
-    {"hi": "आप किस प्रकार की याददाश्त की समस्याओं का सामना कर रहे हैं (जैसे नाम, नियुक्तियां, या हाल की घटनाओं को भूलना)?",
-     "en": "What type of memory problems are you experiencing (e.g., forgetting names, appointments, or recent events)?",
-     "category": "memory_loss", "symptom": "types of memory problems"},
-    {"hi": "क्या आपको पुरानी घटनाओं को याद करने में कठिनाई हो रही है, या मुख्य रूप से हाल की याददाश्त प्रभावित हो रही है?",
-     "en": "Do you have difficulty recalling past events, or is it mainly recent memory that's affected?",
-     "category": "memory_loss", "symptom": "recent vs past memory"},
-    {"hi": "क्या आप भ्रम या दिशाहीनता महसूस करते हैं (जैसे, परिचित स्थानों में खो जाना)?",
-     "en": "Do you experience confusion or disorientation (e.g., getting lost in familiar places)?",
-     "category": "memory_loss", "symptom": "confusion or disorientation"},
-    {"hi": "क्या आपको कार्यों पर ध्यान केंद्रित करने में समस्या हो रही है?",
-     "en": "Are you having trouble concentrating or focusing on tasks?",
-     "category": "memory_loss", "symptom": "trouble concentrating"},
-    {"hi": "क्या आपको हाल ही में कोई सिर की चोट, संक्रमण, या बीमारी हुई है?",
-     "en": "Have you had any recent head injuries, infections, or illnesses?",
-     "category": "memory_loss", "symptom": "recent head injuries or illnesses"},
-    {"hi": "क्या आपके परिवार में याददाश्त की समस्याओं या अल्जाइमर रोग या डिमेंशिया जैसी स्थितियों का इतिहास है?",
-     "en": "Do you have a family history of memory problems or conditions like Alzheimer's disease or dementia?",
-     "category": "memory_loss", "symptom": "family history of memory problems"},
-    {"hi": "क्या आपने अपनी मानसिक स्थिति में कोई परिवर्तन महसूस किया है, जैसे अवसाद, चिंता, या चिड़चिड़ापन?",
-     "en": "Have you noticed any changes in your mood, such as depression, anxiety, or irritability?",
-     "category": "memory_loss", "symptom": "mood changes"},
-    {"hi": "क्या आप कोई दवाइयाँ या सप्लीमेंट्स ले रहे हैं जो आपकी याददाश्त को प्रभावित कर सकते हैं (जैसे, सोदीन, दर्द निवारक, या एंटीडिप्रेसेंट)?",
-     "en": "Are you taking any medications or supplements that could affect your memory (e.g., sedatives, pain relievers, or antidepressants)?",
-     "category": "memory_loss", "symptom": "medication affecting memory"}
 ],
 
 'difficulty concentrating' : [
