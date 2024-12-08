@@ -2324,10 +2324,17 @@ def transcribe_audio(file_path):
                 st.warning(f"Could not delete audio file {file_path}: {e}")
                 logger.warning(f"Could not delete audio file {file_path}: {e}")
 
-def extract_symptoms(text):
+def extract_symptoms(text, use_fuzzy=True):
     """
     Extract symptoms from the given text using BioBERT NER model, regex matching,
-    synonym mapping, and fuzzy matching.
+    synonym mapping, and optionally fuzzy matching.
+    
+    Parameters:
+        text (str): The input text from which to extract symptoms.
+        use_fuzzy (bool): Whether to perform fuzzy matching using rapidfuzz.
+    
+    Returns:
+        list: A list of extracted and normalized symptoms.
     """
     try:
         # Normalize the input text
@@ -2361,20 +2368,21 @@ def extract_symptoms(text):
             symptom_normalized = normalize_symptom(span.text)
             extracted_symptoms.add(symptom_normalized)
 
-        # Fuzzy matching against symptom list
-        threshold = 80  # Set a threshold for matching (0-100)
-        for symptom in symptom_list_normalized:
-            score = fuzz.partial_ratio(symptom, text_normalized)
-            if score >= threshold:
-                extracted_symptoms.add(symptom)
+        if use_fuzzy:
+            # Fuzzy matching against symptom list
+            threshold = 82  # Set a threshold for matching (0-100)
+            for symptom in symptom_list_normalized:
+                score = fuzz.partial_ratio(symptom, text_normalized)
+                if score >= threshold:
+                    extracted_symptoms.add(symptom)
 
-        # Fuzzy matching with synonyms
-        for standard_symptom, synonyms in normalized_symptom_synonyms.items():
-            for synonym in synonyms:
-                syn_score = fuzz.partial_ratio(synonym, text_normalized)
-                if syn_score >= threshold:
-                    extracted_symptoms.add(standard_symptom)
-                    break
+            # Fuzzy matching with synonyms
+            for standard_symptom, synonyms in normalized_symptom_synonyms.items():
+                for synonym in synonyms:
+                    syn_score = fuzz.partial_ratio(synonym, text_normalized)
+                    if syn_score >= threshold:
+                        extracted_symptoms.add(standard_symptom)
+                        break  # Avoid multiple additions for the same symptom
 
         logger.info(f"Final Extracted Symptoms: {extracted_symptoms}")
         # Remove generic affirmations and negations
@@ -2885,7 +2893,6 @@ def handle_yes_no_response(question, response):
         logger.info("Response not recognized as affirmative or negative.")
 
 # -------------------- Main Streamlit Application -------------------- #
-
 def main():
     if 'current_step' not in st.session_state:
         st.session_state.current_step = 0  # Start at welcome
@@ -2915,17 +2922,15 @@ def main():
     if st.session_state.current_step == 0:
         # Generate the welcome audio in Hindi
         welcome_text = "ओ-हेल्थ में आपका स्वागत है। कृपया माइक्रोफ़ोन बटन दबाएं और अपने लक्षण बोलें।"
-       #audio_bytes = generate_audio(welcome_text, lang='hi')
         audio_bytes = generate_audio_with_api_key(welcome_text, API_KEY, lang='hi')
         if audio_bytes:
-            # Attempt to embed and autoplay the audio
-            #embed_audio_autoplay(audio_bytes)
+            # Embed and autoplay the audio
             embed_audio_autoplay_google(audio_bytes)
         else:
             st.error("Failed to generate welcome audio.")
 
         # Display a welcome message
-        st.write("### Hello, Welcome to O-Health ")
+        st.write("### Hello, Welcome to O-Health")
         st.write("Please provide your symptoms to get started.")
 
         st.session_state.current_step = 1  # Proceed to the next step
@@ -2943,11 +2948,7 @@ def main():
                 st.info("Transcribing your audio... Please wait.")
                 transcribed_text = transcribe_audio(file_name)
                 if transcribed_text:
-                    # Detect and translate to English if necessary
-                    #translated_text = translate_to_english(transcribed_text)
-                    # Correct spelling in the translated text
-                    #corrected_text = correct_spelling(translated_text)
-
+                    # Translate to English
                     corrected_input = translate_to_english(transcribed_text)
 
                     st.subheader("📝 Transcribed Text (English):")
@@ -2957,8 +2958,8 @@ def main():
                         'user': corrected_input
                     })
 
-                    # Extract initial symptoms
-                    matched_symptoms = extract_symptoms(corrected_input)
+                    # Extract initial symptoms with fuzzy matching
+                    matched_symptoms = extract_symptoms(corrected_input, use_fuzzy=True)
                     st.session_state.initial_symptoms = set([symptom.lower() for symptom in matched_symptoms])
                     st.session_state.matched_symptoms.update(st.session_state.initial_symptoms)
 
@@ -2983,6 +2984,7 @@ def main():
                 st.error("Failed to save the audio file.")
         else:
             st.write("Please record your symptoms using the microphone button above.")
+
         # Optionally, provide a fallback text input
         st.write("**Alternatively, you can type your symptoms below:**")
         user_input = st.text_area("Enter your symptoms here...")
@@ -2990,26 +2992,35 @@ def main():
             if user_input.strip() == "":
                 st.warning("Please enter your symptoms.")
             else:
-                # Detect and translate to English if necessary
+                # Translate to English
                 translated_input = translate_to_english(user_input)
-                # Correct spelling in the translated text
                 corrected_input = translated_input
-                #corrected_input = correct_spelling(translated_input)
                 st.subheader("📝 Your Input:")
                 st.write(corrected_input)
                 st.session_state.conversation_history.append({
                     'user': corrected_input
                 })
+                # Extract initial symptoms with fuzzy matching
+                matched_symptoms = extract_symptoms(corrected_input, use_fuzzy=True)
+                st.session_state.initial_symptoms = set([symptom.lower() for symptom in matched_symptoms])
+                st.session_state.matched_symptoms.update(st.session_state.initial_symptoms)
+
                 # Extract additional_info
-                matched_symptoms, additional_info, possible_causes = extract_all_symptoms(st.session_state.conversation_history)
+                _, additional_info, possible_causes = extract_all_symptoms(st.session_state.conversation_history)
                 st.session_state.additional_info = additional_info  # Update additional_info in session state
-                # Determine follow-up questions with both conversation_history and additional_info
-                st.session_state.followup_questions = determine_followup_questions(st.session_state.conversation_history, additional_info)
+
+                # Determine follow-up questions using initial symptoms
+                st.session_state.followup_questions = determine_followup_questions(
+                    st.session_state.initial_symptoms,
+                    st.session_state.additional_info,
+                    st.session_state.asked_question_categories
+                )
+
                 st.session_state.current_step = 2  # Proceed to follow-up questions
                 st.session_state.symptoms_processed = True
                 st.experimental_rerun()
 
-     # Step 2: Follow-Up Questions
+    # Step 2: Follow-Up Questions
     if st.session_state.current_step == 2:
         total_questions = len(st.session_state.followup_questions)
         if total_questions == 0:
@@ -3046,19 +3057,19 @@ def main():
                     st.info("Transcribing your audio... Please wait.")
                     response_transcribed = transcribe_audio(response_file_name)
                     if response_transcribed:
-                        # Detect and translate to English if necessary
+                        # Translate to English
                         translated_response = translate_to_english(response_transcribed)
                         corrected_response = translated_response
                         st.subheader(f"📝 Response to Follow-Up Question {question_number} (English):")
                         st.write(corrected_response)
                         # Handle yes/no responses to add/remove symptoms
                         handle_yes_no_response(current_question, corrected_response)
-                        # Extract any new symptoms from the response
-                        extracted_new_symptoms = extract_symptoms(corrected_response)
+                        # Extract any new symptoms from the response WITHOUT fuzzy matching
+                        extracted_new_symptoms = extract_symptoms(corrected_response, use_fuzzy=False)
                         if extracted_new_symptoms:
                             st.session_state.matched_symptoms.update(extracted_new_symptoms)
                             st.success(f"New symptoms detected and added: {', '.join(extracted_new_symptoms)}")
-                            #st.session_state.new_symptoms_detected = True
+                            st.session_state.new_symptoms_detected = True
 
                         # Add current question category to asked categories
                         current_category = current_question.get('category')
@@ -3086,6 +3097,7 @@ def main():
                 if answer_input.strip() == "":
                     st.warning("Please enter your answer.")
                 else:
+                    # Translate to English
                     translated_answer = translate_to_english(answer_input)
                     corrected_answer = translated_answer
                     st.session_state.conversation_history.append({
@@ -3093,7 +3105,8 @@ def main():
                         'response': corrected_answer
                     })
                     handle_yes_no_response(current_question, corrected_answer)
-                    extracted_new_symptoms = extract_symptoms(corrected_answer)
+                    # Extract any new symptoms from the response WITHOUT fuzzy matching
+                    extracted_new_symptoms = extract_symptoms(corrected_answer, use_fuzzy=False)
                     if extracted_new_symptoms:
                         st.session_state.matched_symptoms.update(extracted_new_symptoms)
                         st.success(f"New symptoms detected and added: {', '.join(extracted_new_symptoms)}")
