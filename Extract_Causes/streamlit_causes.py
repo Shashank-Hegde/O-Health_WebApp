@@ -589,7 +589,7 @@ symptom_followup_questions = {
   {"hi":"क्या आपको घुटने को मोड़ने या सीधा करने में कोई समस्या हो रही है?", "en":"Are you having trouble bending or straightening your knee?", "category":"knee pain", "symptom":"knee pain"},
   {"hi":"क्या आपने पहले घुटने की किसी चोट या सर्जरी का अनुभव किया है?", "en":"Have you had any previous knee injuries or surgeries?", "category":"knee pain", "symptom":"knee pain"},
   {"hi":"क्या आपको घुटने में अस्थिरता या ऐसा लगता है जैसे घुटना 'गिर' रहा हो?", "en":"Do you feel any instability or like your knee is 'giving way'?", "category":"knee pain", "symptom":"knee pain"}
-]
+],
 
     'chest pain': [
         {"hi": "क्या आपका छाती में दर्द तेज है या स्थिर है?", "en": "Is your chest pain sharp or dull?", "category": "pain_intensity", "symptom": None},
