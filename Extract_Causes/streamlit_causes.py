@@ -2400,7 +2400,7 @@ def extract_symptoms(text, use_fuzzy=True):
 
         if use_fuzzy:
             # Fuzzy matching against symptom list
-            threshold = 75  # Set a threshold for matching (0-100)
+            threshold = 82  # Set a threshold for matching (0-100)
             for symptom in symptom_list_normalized:
                 score = fuzz.partial_ratio(symptom, text_normalized)
                 if score >= threshold:
