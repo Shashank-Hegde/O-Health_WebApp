@@ -3101,10 +3101,10 @@ def main():
                     # Translate to English
                     translated_answer = translate_to_english(answer_input)
                     corrected_answer = translated_answer
-                    st.session_state.conversation_history.append({
-                        'followup_question_en': current_question['en'],
-                        'response': corrected_answer
-                    })
+                    st.subheader(f"📝 Response to Follow-Up Question {question_number} (English):")
+                    st.write(corrected_answer)
+
+                    # Handle yes/no responses to add/remove symptoms
                     handle_yes_no_response(current_question, corrected_answer)
                     # Extract any new symptoms from the response WITHOUT fuzzy matching
                     extracted_new_symptoms = extract_symptoms(corrected_answer, use_fuzzy=False)
@@ -3117,7 +3117,7 @@ def main():
                     current_category = current_question.get('category')
                     if current_category:
                         st.session_state.asked_question_categories.add(current_category)
-
+                    st.session_state.conversation_history.append({'followup_question_en': current_question['en'],'response': corrected_answer})
                     st.session_state[f'answer_{st.session_state.current_followup}_processed'] = True
                     st.session_state.current_followup += 1
                     st.experimental_rerun()
