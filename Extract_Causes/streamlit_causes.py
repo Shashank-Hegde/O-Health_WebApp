@@ -2475,7 +2475,7 @@ def extract_possible_causes(text):
         return cause
     except Exception as e:
         logger.error(f"Failed to generate possible cause using OpenAI API: {e}")
-        return "No possible causes determined."
+        return "The given input is insufficient to determine causes, we will connect you to the best specialist for more details"
 
 def translate_and_correct(text):
     """
