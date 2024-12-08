@@ -590,6 +590,18 @@ symptom_followup_questions = {
   {"hi":"क्या आपने पहले घुटने की किसी चोट या सर्जरी का अनुभव किया है?", "en":"Have you had any previous knee injuries or surgeries?", "category":"knee pain", "symptom":"knee pain"},
   {"hi":"क्या आपको घुटने में अस्थिरता या ऐसा लगता है जैसे घुटना 'गिर' रहा हो?", "en":"Do you feel any instability or like your knee is 'giving way'?", "category":"knee pain", "symptom":"knee pain"}
 ],
+'leg pain': [
+  {"hi":"दर्द कब शुरू हुआ, और यह कितनी देर से हो रहा है?", "en":"When did you first start experiencing leg pain?", "category":"leg pain", "symptom":"leg pain"},
+  {"hi":"क्या दर्द किसी विशेष घटना या चोट के कारण हुआ था?", "en":"Was there any specific injury or event that triggered the pain?", "category":"leg pain", "symptom":"leg pain"},
+  {"hi":"क्या आप दर्द का वर्णन कर सकते हैं? (तेज, हल्का, ऐंठन, जलन आदि)", "en":"Can you describe the pain? (Sharp, dull, cramping, burning, etc.)", "category":"leg pain", "symptom":"leg pain"},
+  {"hi":"क्या दर्द लगातार है या यह कभी-कभी होता है?", "en":"Does the pain occur constantly, or does it come and go?", "category":"leg pain", "symptom":"leg pain"},
+  {"hi":"दर्द आपके पैर के किस हिस्से में महसूस हो रहा है? (जांघ, घुटना, बछड़ा, पंजा)", "en":"Where exactly in the leg do you feel the pain (thigh, knee, calf, foot)?", "category":"leg pain", "symptom":"leg pain"},
+  {"hi":"क्या दर्द चलने, दौड़ने या खड़े होने से बढ़ जाता है?", "en":"Does the pain get worse with walking, running, or standing?", "category":"leg pain", "symptom":"leg pain"},
+  {"hi":"क्या आपने पैरों में सूजन, लालिमा या गर्मी महसूस की है?", "en":"Have you noticed any swelling, redness, or warmth in the leg?", "category":"leg pain", "symptom":"leg pain"},
+  {"hi":"क्या दर्द पैर के अन्य हिस्सों तक फैलता है (जैसे कि जांघ से पंजे तक)?", "en":"Does the pain radiate to other parts of the leg (e.g., from the thigh to the foot)?", "category":"leg pain", "symptom":"leg pain"},
+  {"hi":"क्या आपने पहले अपने पैरों में किसी चोट या समस्या का अनुभव किया है?", "en":"Have you had any previous injuries or problems with your legs?", "category":"leg pain", "symptom":"leg pain"},
+  {"hi":"क्या आपको पैरों में कमजोरी, सुन्नता या झुनझुनी महसूस होती है?", "en":"Do you feel weakness, numbness, or tingling in the leg?", "category":"leg pain", "symptom":"leg pain"}
+],
 
     'chest pain': [
         {"hi": "क्या आपका छाती में दर्द तेज है या स्थिर है?", "en": "Is your chest pain sharp or dull?", "category": "pain_intensity", "symptom": None},
