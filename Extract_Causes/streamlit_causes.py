@@ -3116,7 +3116,7 @@ def main():
                 if response_file_name:
                     st.success("Audio recorded and saved successfully!")
                     st.info("Transcribing your audio... Please wait.")
-                    response_transcribed = transcribe_audio(file_name, use_prompt=True)
+                    response_transcribed = transcribe_audio(response_file_name, use_prompt=True)
                     if response_transcribed:
                         # Translate to English
                         translated_response = translate_to_english(response_transcribed)
