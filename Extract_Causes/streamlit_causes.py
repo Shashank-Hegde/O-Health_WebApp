@@ -2343,15 +2343,34 @@ def determine_best_specialist(symptoms):
         logging.error(f"Failed to determine specialist: {e}")
         return "General Practitioner"  # Fallback specialist
 
-def transcribe_audio(file_path):
+def transcribe_audio(file_path, use_prompt=False):
     """
-    Transcribe the audio file using OpenAI's Whisper API with translation to English.
+    Transcribe the audio file using OpenAI's Whisper API.
+    If use_prompt=True, provide a Hindi prompt for better accuracy on short inputs
+    and remove it from the final transcription if it appears.
     """
+    prompt_text = "एक भारतीय वक्ता अपनी प्रस्तुति शुरू करने जा रहा है। वह कहेगा:"
     try:
         with open(file_path, "rb") as audio_file:
-            transcript = openai.Audio.translate("whisper-1", audio_file)
+            if use_prompt:
+                # Use prompt and specify language as Hindi for better context
+                transcript = openai.Audio.transcribe(
+                    "whisper-1",
+                    audio_file,
+                    prompt=prompt_text,
+                    language='hi'
+                )
+            else:
+                # No prompt for longer initial inputs
+                transcript = openai.Audio.translate("whisper-1", audio_file)
+
             transcribed_text = transcript.get("text", "").strip()
             logger.info(f"Audio transcription successful: {transcribed_text}")
+
+            # Remove the prompt text if it somehow appears in the transcription
+            if prompt_text in transcribed_text:
+                transcribed_text = transcribed_text.replace(prompt_text, "").strip()
+
             return transcribed_text
     except Exception as e:
         st.error(f"Transcription failed: {e}")
@@ -2988,7 +3007,7 @@ def main():
             if file_name:
                 st.success("Audio recorded and saved successfully!")
                 st.info("Transcribing your audio... Please wait.")
-                transcribed_text = transcribe_audio(file_name)
+                transcribed_text = transcribe_audio(file_name, use_prompt=False)
                 if transcribed_text:
                     # Translate to English
                     corrected_input = translate_to_english(transcribed_text)
@@ -3097,7 +3116,7 @@ def main():
                 if response_file_name:
                     st.success("Audio recorded and saved successfully!")
                     st.info("Transcribing your audio... Please wait.")
-                    response_transcribed = transcribe_audio(response_file_name)
+                    response_transcribed = transcribe_audio(file_name, use_prompt=True)
                     if response_transcribed:
                         # Translate to English
                         translated_response = translate_to_english(response_transcribed)
