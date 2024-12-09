@@ -599,7 +599,7 @@ symptom_followup_questions = {
   {"hi":"क्या दर्द लगातार है या यह कभी-कभी होता है?", "en":"Is the pain constant or intermittent?", "category":"wrist pain", "symptom":"wrist pain"},
   {"hi":"क्या विश्राम करने पर दर्द में कोई सुधार या वृद्धि होती है?", "en":"Does the pain improve or worsen with rest?", "category":"wrist pain", "symptom":"wrist pain"},
   {"hi":"क्या दर्द के साथ कोई अन्य लक्षण हैं? (जैसे बुखार, जकड़न आदि)", "en":"Are there any other symptoms associated with the pain? (e.g., fever, stiffness)", "category":"wrist pain", "symptom":"wrist pain"}
-]
+],
 
 'leg pain': [
   {"hi":"दर्द कब शुरू हुआ, और यह कितनी देर से हो रहा है?", "en":"When did you first start experiencing leg pain?", "category":"leg pain", "symptom":"leg pain"},
