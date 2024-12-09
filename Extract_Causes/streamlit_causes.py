@@ -250,7 +250,7 @@ symptom_synonyms = {
     'diarrhea': ['loose stools', 'frequent bowel movements', 'watery stools'],
     'vomiting': ['throwing up', 'puking', 'stomach upset'],
     'earache': ['ear pain', 'pain in the ear', 'ear discomfort'],
-    'back pain': ['lower back pain', 'upper back pain', 'spinal pain'],
+    'back pain': ['lower back pain', 'upper back pain', 'spinal pain','pain in the back','back is paining'],
     'cold': ['common cold', 'nasal cold', 'winter cold'],
     'sweating': ['excessive sweating', 'night sweats', 'profuse sweating'],
     'swelling': ['swollen area', 'inflammation', 'edema'],
