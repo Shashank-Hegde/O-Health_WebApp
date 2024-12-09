@@ -187,7 +187,7 @@ def load_symptom_list(csv_file_path='symptom_list.csv'):
 
 symptom_list = [
     'fever', 'cold', 'runny nose', 'sneezing', 'rash', 'dizziness', 'weakness', 'loss of appetite', 
-    'cough', 'muscle pain', 'joint pain', 'chest pain', 'back pain', 'constipation', 'throat pain', 
+    'cough', 'muscle pain', 'joint pain', 'chest pain', 'back pain', 'wrist pain', 'constipation', 'throat pain', 
     'flu', 'breathlessness', 'stomach pain', 'migraine', 'ache', 'sore', 'burning', 'itching', 'swelling', 
     'infection', 'inflammation', 'cramps', 'ulcers', 'bleeding', 'irritation', 'anxiety', 'depression', 
     'insomnia', 'cancer', 'diabetes', 'hypertension', 'allergies', 'weight loss', 'weight gain', 'hair loss', 
@@ -266,7 +266,6 @@ symptom_synonyms = {
     'tooth pain': ['toothache', 'dental pain', 'pain in the tooth'],
     'chest pain': ['pain in the chest', 'chest discomfort', 'tightness in chest'],
     'abdominal pain': ['stomach ache', 'belly pain', 'pain in the abdomen'],
-    'pelvic pain': ['pain in the pelvic region', 'lower abdominal pain', 'pelvic discomfort'],
     'knee pain': ['knee discomfort', 'pain in the knee', 'joint pain in the knee'],
     'foot pain': ['pain in the foot', 'plantar pain', 'foot discomfort'],
     'ankle pain': ['ankle discomfort', 'pain in the ankle', 'twisted ankle pain'],
@@ -276,7 +275,6 @@ symptom_synonyms = {
     'leg pain': ['pain in the leg', 'lower limb pain', 'leg discomfort'],
     'hip pain': ['pain in the hip', 'hip discomfort', 'hip joint pain'],
     'back pain': ['lower back pain', 'upper back pain', 'spinal pain'],
-    'scalp pain': ['pain on the scalp', 'scalp discomfort', 'head scalp pain'],
     'muscle pain': ['muscle soreness', 'muscle ache', 'muscle tenderness'],
 }
 
@@ -590,6 +588,19 @@ symptom_followup_questions = {
   {"hi":"क्या आपने पहले घुटने की किसी चोट या सर्जरी का अनुभव किया है?", "en":"Have you had any previous knee injuries or surgeries?", "category":"knee pain", "symptom":"knee pain"},
   {"hi":"क्या आपको घुटने में अस्थिरता या ऐसा लगता है जैसे घुटना 'गिर' रहा हो?", "en":"Do you feel any instability or like your knee is 'giving way'?", "category":"knee pain", "symptom":"knee pain"}
 ],
+    'wrist pain': [
+  {"hi":"दर्द कब शुरू हुआ?", "en":"When did the pain start?", "category":"wrist pain", "symptom":"wrist pain"},
+  {"hi":"क्या आप दर्द का वर्णन कर सकते हैं? (तेज, हल्का, ऐंठन, जलन आदि)", "en":"Can you describe the pain? (Sharp, dull, aching, etc.)", "category":"wrist pain", "symptom":"wrist pain"},
+  {"hi":"कौन सी गतिविधियाँ दर्द को और बढ़ाती हैं?", "en":"What activities make the pain worse?", "category":"wrist pain", "symptom":"wrist pain"},
+  {"hi":"क्या आपकी कलाई के आसपास सूजन या चोट है?", "en":"Is there swelling or bruising around the wrist?", "category":"wrist pain", "symptom":"wrist pain"},
+  {"hi":"क्या आपके हाथ या अंगुलियों में सुन्नता या झनझनाहट महसूस हो रही है?", "en":"Do you have numbness or tingling in your hand or fingers?", "category":"wrist pain", "symptom":"wrist pain"},
+  {"hi":"क्या आपने हाल ही में कलाई को चोट पहुँचाई है? (गिरना, मुड़ना, सीधा असर)", "en":"Have you injured the wrist recently? (e.g., fall, twist, direct blow)", "category":"wrist pain", "symptom":"wrist pain"},
+  {"hi":"क्या आपने हाल ही में कोई पुनरावृत्त गतिविधियाँ या अधिक उपयोग किया है?", "en":"Have you had any recent repetitive activities or overuse?", "category":"wrist pain", "symptom":"wrist pain"},
+  {"hi":"क्या दर्द लगातार है या यह कभी-कभी होता है?", "en":"Is the pain constant or intermittent?", "category":"wrist pain", "symptom":"wrist pain"},
+  {"hi":"क्या विश्राम करने पर दर्द में कोई सुधार या वृद्धि होती है?", "en":"Does the pain improve or worsen with rest?", "category":"wrist pain", "symptom":"wrist pain"},
+  {"hi":"क्या दर्द के साथ कोई अन्य लक्षण हैं? (जैसे बुखार, जकड़न आदि)", "en":"Are there any other symptoms associated with the pain? (e.g., fever, stiffness)", "category":"wrist pain", "symptom":"wrist pain"}
+]
+
 'leg pain': [
   {"hi":"दर्द कब शुरू हुआ, और यह कितनी देर से हो रहा है?", "en":"When did you first start experiencing leg pain?", "category":"leg pain", "symptom":"leg pain"},
   {"hi":"क्या दर्द किसी विशेष घटना या चोट के कारण हुआ था?", "en":"Was there any specific injury or event that triggered the pain?", "category":"leg pain", "symptom":"leg pain"},
