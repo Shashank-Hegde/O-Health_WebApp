@@ -224,7 +224,6 @@ symptom_list = [
 
 
 # Create a synonym mapping
-symptom_synonyms = {
     symptom_synonyms = {
     # General Symptoms:
     'fever': ['elevated temperature', 'high body temperature', 'pyrexia', 'febrile state', 'raised temperature', 'chills and fever', 'body overheating'],
