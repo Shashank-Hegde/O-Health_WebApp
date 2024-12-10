@@ -1085,7 +1085,7 @@ symptom_followup_questions = {
         {"hi": "क्या स्राव के साथ आपको कोई अन्य लक्षण भी महसूस हो रहे हैं?", "en": "Are you experiencing any other symptoms along with ear discharge?", "category": "other_symptoms_with_ear_discharge", "symptom": None}
     ],
 
-    'hearing loss': [
+    'hear loss': [
         {"hi": "क्या आपको सुनने में कठिनाई हो रही है लगातार या कभी-कभी?", "en": "Are you experiencing difficulty hearing continuously or intermittently?", "category": "intermittent_hearing_loss", "symptom": None},
         {"hi": "क्या सुनने में कमी किसी विशेष समय या स्थिति में होती है?", "en": "Does the hearing loss occur more during any specific time or situation?", "category": "time_situation_related_hearing_loss", "symptom": None},
         {"hi": "क्या सुनने में कमी के साथ आपको कान में दर्द भी हो रहा है?", "en": "Are you experiencing ear pain along with hearing loss?", "category": "ear_pain_with_hearing_loss", "symptom": "ear pain"},
@@ -1095,7 +1095,7 @@ symptom_followup_questions = {
         {"hi": "क्या सुनने में कमी के कारण आपको सामाजिक स्थितियों में कठिनाई हो रही है?", "en": "Are you facing difficulties in social situations due to hearing loss?", "category": "social_difficulty_with_hearing_loss", "symptom": None}
     ],
 
-    'balance problems': [
+    'balance problem': [
         {"hi": "क्या आपको संतुलन बिगड़ने की समस्या हो रही है?", "en": "Are you experiencing balance problems?", "category": "balance_problems", "symptom": "balance problems"},
         {"hi": "क्या संतुलन बिगड़ने के साथ चक्कर आना भी हो रहा है?", "en": "Are you experiencing dizziness along with balance problems?", "category": "dizziness_with_balance_problems", "symptom": "dizziness"},
         {"hi": "क्या संतुलन बिगड़ने की समस्या किसी विशेष समय या स्थिति में होती है?", "en": "Do balance problems occur more during any specific time or situation?", "category": "time_situation_related_balance_problems", "symptom": None},
@@ -1105,7 +1105,7 @@ symptom_followup_questions = {
         {"hi": "क्या संतुलन बिगड़ने के कारण आपको चलने-फिरने में कठिनाई हो रही है?", "en": "Are you having difficulty walking due to balance problems?", "category": "walking_difficulty_with_balance_problems", "symptom": None}
     ],
 
-    'taste changes': [
+    'taste change': [
         {"hi": "क्या आपके स्वाद में कोई बदलाव आया है?", "en": "Have you noticed any changes in your taste?", "category": "taste_changes", "symptom": "taste changes"},
         {"hi": "क्या स्वाद में बदलाव के साथ आप कुछ खास चीज़ों का स्वाद नहीं ले पा रहे हैं?", "en": "Are you unable to taste certain specific things along with taste changes?", "category": "specific_taste_changes", "symptom": None},
         {"hi": "क्या आपको स्वाद में कमी या बढ़ोतरी महसूस हो रही है?", "en": "Are you experiencing a decrease or increase in taste?", "category": "decrease_increase_taste", "symptom": None},
@@ -1115,7 +1115,7 @@ symptom_followup_questions = {
         {"hi": "क्या स्वाद में बदलाव अचानक शुरू हुआ है या धीरे-धीरे?", "en": "Did your taste changes start suddenly or gradually?", "category": "sudden_graduate_taste_changes", "symptom": None}
     ],
 
-    'smell changes': [
+    'smell change': [
         {"hi": "क्या आपकी गंध में कोई बदलाव आया है?", "en": "Have you noticed any changes in your sense of smell?", "category": "smell_changes", "symptom": "smell changes"},
         {"hi": "क्या गंध में बदलाव के साथ आपकी भूख प्रभावित हो रही है?", "en": "Is your appetite being affected due to changes in smell?", "category": "appetite_impact_with_smell_changes", "symptom": "decreased appetite"},
         {"hi": "क्या गंध में बदलाव के कारण आप कुछ खास चीजों की गंध नहीं ले पा रहे हैं?", "en": "Are you unable to detect the smell of certain specific things due to smell changes?", "category": "specific_smell_changes", "symptom": None},
