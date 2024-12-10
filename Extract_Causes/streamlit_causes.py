@@ -752,7 +752,7 @@ symptom_followup_questions = {
         {"hi": "क्या आपको पेट में दर्द हो रहा है?", "en": "Are you experiencing abdominal pain?", "category": "abdominal_pain", "symptom": "abdominal pain"},
         {"hi": "क्या आपकी त्वचा ठंडी और पसीनी है?", "en": "Is your skin cold and clammy?", "category": "skin_cold_clammy", "symptom": "sweating"}
     ],
-    'cramps': [
+    'cramp': [
         {"hi": "क्या आपको क्रैम्प्स लगातार हो रहे हैं या कभी-कभी?", "en": "Are you experiencing cramps continuously or intermittently?", "category": "intermittent_cramps", "symptom": None},
         {"hi": "क्या क्रैम्प्स किसी विशेष समय पर अधिक होते हैं?", "en": "Do your cramps occur more frequently at any specific time?", "category": "time_related_cramps", "symptom": None},
         {"hi": "क्या क्रैम्प्स के साथ दर्द की तीव्रता बढ़ रही है?", "en": "Is the intensity of your cramps increasing?", "category": "intensity_increase", "symptom": None},
@@ -838,7 +838,7 @@ symptom_followup_questions = {
         {"hi": "क्या गैस के कारण आपकी नींद प्रभावित हो रही है?", "en": "Is gas affecting your sleep?", "category": "sleep_disturbance_with_gas", "symptom": "insomnia"}
     ],
 
-    'hiccups': [
+    'hiccup': [
         {"hi": "क्या आपके सिकुड़न लगातार हो रही है या आती-जाती हैं?", "en": "Are your hiccups continuous or intermittent?", "category": "intermittent_hiccups", "symptom": None},
         {"hi": "क्या सिकुड़न के साथ आपको दर्द भी हो रहा है?", "en": "Are you experiencing pain along with hiccups?", "category": "pain_with_hiccups", "symptom": "chest pain"},
         {"hi": "क्या आपको सिकुड़न के दौरान सांस लेने में कठिनाई हो रही है?", "en": "Are you having difficulty breathing during hiccups?", "category": "breathing_difficulty_with_hiccups", "symptom": "shortness of breath"},
