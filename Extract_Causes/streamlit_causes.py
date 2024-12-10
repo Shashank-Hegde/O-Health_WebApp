@@ -224,7 +224,7 @@ symptom_list = [
 
 
 # Create a synonym mapping
-symptom_synonyms = [
+symptom_synonyms = {
     # General Symptoms:
     'fever': ['elevated temperature', 'high body temperature', 'pyrexia', 'febrile state', 'raised temperature', 'chills and fever', 'body overheating'],
     'cold': ['common cold', 'viral cold', 'respiratory infection', 'head cold', 'seasonal cold', 'upper respiratory infection', 'nasal cold'],
@@ -315,7 +315,7 @@ symptom_synonyms = [
     'blood in urine': ['hematuria', 'bloody urine'],
     'blood in stool': ['hematochezia', 'melena'], 
 
-]
+}
 
 
 medications_list = [
