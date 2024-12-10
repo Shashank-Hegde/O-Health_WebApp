@@ -272,6 +272,8 @@ symptom_synonyms = {
     'leg pain': ['pain in the leg', 'lower limb pain', 'leg discomfort'],
     'hip pain': ['pain in the hip', 'hip discomfort', 'hip joint pain'],
     'back pain': ['lower back pain', 'upper back pain', 'spinal pain'],
+    'depression': ['sad', 'unhappy'],
+    'hearing loss': ['can't hear','cannot hear'],
     'muscle pain': ['muscle soreness', 'muscle ache', 'muscle tenderness'],
 }
 
