@@ -565,7 +565,7 @@ symptom_followup_questions = {
         {"hi": "क्या आपके आसपास की चीजें घूमती हुई दिख रही हैं?", "en": "Are objects around you spinning?", "category": "visual_dizziness", "symptom": "Visual dizziness"},
         {"hi": "क्या आपको संतुलन बिगड़ रहा है?", "en": "Are you losing your balance?", "category": "balance_issues", "symptom": "Balance issues"},
     ],
-    'yellow eyes': [
+    'yellow eye': [
         {"hi": "क्या आपके आंखों का रंग पीला हो गया है?", "en": "Have your eyes turned yellow?", "category": "jaundice_eye", "symptom": "Jaundice in eyes"},
         {"hi": "क्या आपकी त्वचा भी पीली हो गई है?", "en": "Has your skin also turned yellow?", "category": "jaundice_skin", "symptom": "Jaundice in skin"},
         {"hi": "क्या आपको थकान महसूस हो रही है साथ में पीली आँखें?", "en": "Are you feeling fatigued along with yellow eyes?", "category": "fatigue_jaundice", "symptom": "Fatigue with jaundice"},
@@ -707,7 +707,7 @@ symptom_followup_questions = {
         {"hi": "क्या आपको उल्टी के साथ कोई अन्य लक्षण महसूस हो रहे हैं?", "en": "Are you experiencing any other symptoms along with vomiting?", "category": "other_symptoms", "symptom": None}
     ],
 
-    'chills': [
+    'chill': [
         {"hi": "क्या आपके ठंडक के साथ बुखार भी है?", "en": "Do you have a fever along with chills?", "category": "fever", "symptom": "fever"},
         {"hi": "क्या ठंडक की अनुभूति लगातार है या आता-जाता है?", "en": "Is your feeling of chills constant or intermittent?", "category": "intermittent_chills", "symptom": None},
         {"hi": "क्या ठंडक के साथ पसीना आना भी शुरू हो गया है?", "en": "Have you started sweating along with chills?", "category": "sweating_with_chills", "symptom": "sweating"},
@@ -851,7 +851,7 @@ symptom_followup_questions = {
         {"hi": "क्या सुन्नता के साथ त्वचा में कोई परिवर्तन आ रहा है?", "en": "Are there any changes in your skin due to numbness?", "category": "skin_changes_with_numbness", "symptom": "skin changes"}
     ],
 
-    'itchy eyes': [
+    'itchy eye': [
         {"hi": "क्या आपकी आँखों में खुजली लगातार है या आती-जाती है?", "en": "Is the itchiness in your eyes constant or does it come and go?", "category": "intermittent_itchiness", "symptom": None},
         {"hi": "क्या आपकी आँखों में लालिमा भी है?", "en": "Is there any redness in your eyes along with itchiness?", "category": "redness_with_itchy_eyes", "symptom": "redness"},
         {"hi": "क्या आपकी आँखों में जलन या दर्द है?", "en": "Are you experiencing any burning or pain in your eyes?", "category": "burning_pain_with_itchy_eyes", "symptom": "burning"},
@@ -905,7 +905,7 @@ symptom_followup_questions = {
         {"hi": "क्या आपको पेट में भारीपन महसूस हो रहा है?", "en": "Are you feeling a heaviness in your stomach?", "category": "heaviness_with_heartburn", "symptom": None}
     ],
 
-    'mouth sores': [
+    'mouth sore': [
         {"hi": "क्या आपके मुंह में घाव तेजी से बढ़ रहे हैं?", "en": "Are your mouth sores spreading rapidly?", "category": "rapid_spread_mouth_sores", "symptom": "mouth sores"},
         {"hi": "क्या मुंह के घावों के साथ सूजन भी है?", "en": "Is there any swelling along with your mouth sores?", "category": "swelling_with_mouth_sores", "symptom": "swelling"},
         {"hi": "क्या मुंह के घाव खाने या पीने में दर्द पैदा करते हैं?", "en": "Do your mouth sores cause pain while eating or drinking?", "category": "pain_with_mouth_sores", "symptom": "pain"},
@@ -915,7 +915,7 @@ symptom_followup_questions = {
         {"hi": "क्या मुंह के घावों के साथ आपको कोई अन्य लक्षण भी हैं?", "en": "Are there any other symptoms along with mouth sores?", "category": "other_symptoms", "symptom": None}
     ],
 
-    'nosebleeds': [
+    'nosebleed': [
         {"hi": "क्या नाक से खून बहना बार-बार हो रहा है?", "en": "Are you experiencing frequent nosebleeds?", "category": "frequent_nosebleeds", "symptom": "nosebleeds"},
         {"hi": "क्या नाक से खून बहने के साथ दर्द भी हो रहा है?", "en": "Are you experiencing pain along with nosebleeds?", "category": "pain_with_nosebleeds", "symptom": "chest pain"},
         {"hi": "क्या नाक से खून बहने का कोई विशेष कारण है?", "en": "Is there any specific cause for your nosebleeds?", "category": "specific_cause_nosebleeds", "symptom": None},
@@ -985,7 +985,7 @@ symptom_followup_questions = {
         {"hi": "क्या आपका पेशाब गहरा रंग होने के कारण आपको थकान महसूस हो रही है?", "en": "Are you feeling fatigued due to dark-colored urine?", "category": "fatigue_with_dark_urine", "symptom": "fatigue"}
     ],
 
-    'light-colored stools': [
+    'light-colored stool': [
         {"hi": "क्या आपके मल का रंग हल्का हो गया है?", "en": "Has your stool become light-colored?", "category": "light_colored_stools", "symptom": "light-colored stools"},
         {"hi": "क्या हल्के रंग के मल के साथ आपको पेट में दर्द भी हो रहा है?", "en": "Are you experiencing abdominal pain along with light-colored stools?", "category": "abdominal_pain_with_light_stools", "symptom": "abdominal pain"},
         {"hi": "क्या आपके मल में कोई अन्य परिवर्तन आ रहा है?", "en": "Are you noticing any other changes in your stool?", "category": "other_changes_with_light_stools", "symptom": None},
@@ -1015,7 +1015,7 @@ symptom_followup_questions = {
         {"hi": "क्या खून आने के कारण आपकी त्वचा में कोई परिवर्तन आ रहा है?", "en": "Is there any change in your skin due to blood in stool?", "category": "skin_changes_with_blood_in_stool", "symptom": "skin discoloration"}
     ],
 
-    'frequent infections': [
+    'frequent infection': [
         {"hi": "क्या आपको बार-बार संक्रमण हो रहे हैं?", "en": "Are you experiencing frequent infections?", "category": "frequent_infections", "symptom": "frequent infections"},
         {"hi": "क्या बार-बार होने वाले संक्रमणों के साथ आपको कोई अन्य लक्षण भी महसूस हो रहे हैं?", "en": "Are you experiencing any other symptoms along with frequent infections?", "category": "other_symptoms_with_frequent_infections", "symptom": None},
         {"hi": "क्या आपको संक्रमण होने के बाद तेजी से ठीक होने में कठिनाई हो रही है?", "en": "Are you having difficulty recovering quickly after infections?", "category": "delayed_recovery_with_infections", "symptom": "delayed healing"},
@@ -1215,7 +1215,7 @@ symptom_followup_questions = {
         {"hi": "क्या सिरदर्द अचानक शुरू हुआ है या धीरे-धीरे?", "en": "Did your headache start suddenly or gradually?", "category": "sudden_graduate_headache", "symptom": None}
     ],
 
-    'muscle spasms': [
+    'muscle spasm': [
         {"hi": "क्या आपको मांसपेशियों में अचानक स्पैसम्स महसूस हो रहे हैं?", "en": "Are you experiencing sudden muscle spasms?", "category": "sudden_muscle_spasms", "symptom": "muscle spasms"},
         {"hi": "क्या मांसपेशियों में स्पैसम्स लगातार हो रहे हैं या कभी-कभी?", "en": "Are muscle spasms occurring continuously or intermittently?", "category": "intermittent_muscle_spasms", "symptom": None},
         {"hi": "क्या स्पैसम्स के साथ दर्द भी हो रहा है?", "en": "Are you experiencing pain along with muscle spasms?", "category": "pain_with_muscle_spasms", "symptom": "pain"},
@@ -1236,7 +1236,7 @@ symptom_followup_questions = {
         #{"hi": "क्या स्पैसम्स के साथ आपको कोई अन्य लक्षण भी महसूस हो रहे हैं?", "en": "Are you experiencing any other symptoms along with muscle spasms?", "category": "other_symptoms_with_muscle_spasms", "symptom": None}
         ],
 
-    'muscle strains': [
+    'muscle strain': [
         {"hi": "क्या आपको मांसपेशियों में खिंचाव या तनाव महसूस हो रहा है?", "en": "Are you feeling any muscle strain or tension?", "category": "muscle_strain", "symptom": "muscle strains"},
         {"hi": "क्या मांसपेशियों में तनाव के साथ दर्द भी हो रहा है?", "en": "Are you experiencing pain along with muscle strain?", "category": "pain_with_muscle_strain", "symptom": "pain"},
         {"hi": "क्या मांसपेशियों में तनाव किसी विशेष गतिविधि के दौरान बढ़ता है?", "en": "Does muscle strain increase during any specific activity?", "category": "activity_related_muscle_strain", "symptom": None},
@@ -1246,7 +1246,7 @@ symptom_followup_questions = {
         {"hi": "क्या मांसपेशियों में तनाव अचानक शुरू हुआ है या धीरे-धीरे?", "en": "Did your muscle strain start suddenly or gradually?", "category": "sudden_graduate_muscle_strain", "symptom": None}
     ],
 
-    'muscle injuries': [
+    'muscle injury': [
         {"hi": "क्या आपको किसी मांसपेशी में चोट लगी है?", "en": "Have you injured any muscle?", "category": "muscle_injury", "symptom": "muscle injuries"},
         {"hi": "क्या मांसपेशी में चोट के साथ दर्द भी हो रहा है?", "en": "Are you experiencing pain along with the muscle injury?", "category": "pain_with_muscle_injury", "symptom": "pain"},
         {"hi": "क्या मांसपेशी में चोट के कारण आपकी गतिशीलता प्रभावित हो रही है?", "en": "Is your mobility being affected due to the muscle injury?", "category": "mobility_impact_with_muscle_injury", "symptom": None},
@@ -1266,7 +1266,7 @@ symptom_followup_questions = {
         {"hi": "क्या रैश अचानक शुरू हुए हैं या धीरे-धीरे?", "en": "Did your rashes start suddenly or gradually?", "category": "sudden_graduate_skin_rash", "symptom": None}
     ],
 
-    'herpes': [
+    'herp': [
         {"hi": "क्या आपको मुंह या होंठों पर छाले हैं?", "en": "Do you have sores on your mouth or lips?", "category": "mouth_lips_sores_with_herpes", "symptom": "mouth sores"},
         {"hi": "क्या हर्पीज़ के साथ आपके होंठों में सूजन भी है?", "en": "Is there any swelling in your lips along with herpes?", "category": "lip_swelling_with_herpes", "symptom": "swelling"},
         {"hi": "क्या हर्पीज़ के कारण आपकी त्वचा में कोई परिवर्तन हो रहा है?", "en": "Are there any changes in your skin due to herpes?", "category": "skin_changes_with_herpes", "symptom": "skin discoloration"},
@@ -1276,7 +1276,7 @@ symptom_followup_questions = {
         {"hi": "क्या हर्पीज़ अचानक शुरू हुई है या किसी संक्रमण के बाद?", "en": "Did your herpes start suddenly or after an infection?", "category": "sudden_or_infection_related_herpes", "symptom": None}
     ],
 
-    'shingles': [
+    'shingle': [
         {"hi": "क्या आपको त्वचा पर जलन या दर्द महसूस हो रही है?", "en": "Are you feeling burning sensations or pain on your skin?", "category": "burning_pain_with_shingles", "symptom": "burning"},
         {"hi": "क्या त्वचा पर पट्टियां या फफोले हो रहे हैं?", "en": "Are you developing blisters or patches on your skin?", "category": "blisters_patches_with_shingles", "symptom": "skin lesions"},
         {"hi": "क्या दर्द किसी विशेष क्षेत्र में केंद्रित है?", "en": "Is the pain concentrated in any specific area?", "category": "localized_pain_with_shingles", "symptom": None},
@@ -1286,7 +1286,7 @@ symptom_followup_questions = {
         {"hi": "क्या दर्द से आपकी नींद प्रभावित हो रही है?", "en": "Is the pain affecting your sleep?", "category": "sleep_disturbance_with_shingles", "symptom": "insomnia"}
     ],
 
-    'warts': [
+    'wart': [
         {"hi": "क्या आपके शरीर पर वर्ट्स हो रहे हैं?", "en": "Are you developing warts on your body?", "category": "warts", "symptom": "warts"},
         {"hi": "क्या वर्ट्स के साथ कोई दर्द या खुजली हो रही है?", "en": "Are you experiencing any pain or itching along with warts?", "category": "pain_itching_with_warts", "symptom": "itching"},
         {"hi": "क्या वर्ट्स कहीं फैल रहे हैं या स्थिर हैं?", "en": "Are the warts spreading or remaining static?", "category": "spreading_vs_static_warts", "symptom": None},
@@ -1296,7 +1296,7 @@ symptom_followup_questions = {
         {"hi": "क्या वर्ट्स अचानक शुरू हुए हैं या किसी संक्रमण के बाद?", "en": "Did your warts start suddenly or after an infection?", "category": "sudden_or_infection_related_warts", "symptom": None}
     ],
 
-    'moles': [
+    'mole': [
         {"hi": "क्या आपके शरीर पर मौल्स में कोई बदलाव आया है?", "en": "Have there been any changes in your moles?", "category": "mole_changes", "symptom": "moles"},
         {"hi": "क्या मौल्स का आकार, रंग या आकृति बदल गई है?", "en": "Has the size, color, or shape of your moles changed?", "category": "size_color_shape_changes_with_moles", "symptom": None},
         {"hi": "क्या मौल्स से खून आ रहा है या दर्द हो रहा है?", "en": "Are you experiencing bleeding or pain from your moles?", "category": "bleeding_pain_with_moles", "symptom": "bleeding"},
@@ -1306,7 +1306,7 @@ symptom_followup_questions = {
         {"hi": "क्या मौल्स के साथ आपको कोई अन्य लक्षण भी महसूस हो रहे हैं?", "en": "Are you experiencing any other symptoms along with moles?", "category": "other_symptoms_with_moles", "symptom": None}
     ],
 
-    'skin lesions': [
+    'skin lesion': [
         {"hi": "क्या आपको त्वचा पर घाव या गांठें महसूस हो रही हैं?", "en": "Are you feeling sores or lumps on your skin?", "category": "sores_lumps_with_skin_lesions", "symptom": "skin lesions"},
         {"hi": "क्या त्वचा पर घावों के साथ सूजन भी है?", "en": "Is there any swelling along with sores on your skin?", "category": "swelling_with_skin_lesions", "symptom": "swelling"},
         {"hi": "क्या त्वचा पर घावों के साथ दर्द भी हो रहा है?", "en": "Are you experiencing pain along with sores on your skin?", "category": "pain_with_skin_lesions", "symptom": "pain"},
@@ -1316,7 +1316,7 @@ symptom_followup_questions = {
         {"hi": "क्या त्वचा पर घावों के कारण आपकी त्वचा में कोई अन्य परिवर्तन हो रहा है?", "en": "Are there any other changes in your skin due to sores?", "category": "other_skin_changes_with_skin_lesions", "symptom": None}
     ],
 
-    'skin lumps': [
+    'skin lump': [
         {"hi": "क्या आपको त्वचा पर गांठें या गांठे महसूस हो रही हैं?", "en": "Are you feeling lumps or bumps on your skin?", "category": "skin_lumps", "symptom": "skin lumps"},
         {"hi": "क्या त्वचा पर गांठों के साथ सूजन भी है?", "en": "Is there any swelling along with lumps on your skin?", "category": "swelling_with_skin_lumps", "symptom": "swelling"},
         {"hi": "क्या त्वचा पर गांठों के साथ दर्द भी हो रहा है?", "en": "Are you experiencing pain along with lumps on your skin?", "category": "pain_with_skin_lumps", "symptom": "pain"},
@@ -1326,7 +1326,7 @@ symptom_followup_questions = {
         {"hi": "क्या त्वचा पर गांठों के कारण आपकी त्वचा में कोई अन्य परिवर्तन हो रहा है?", "en": "Are there any other changes in your skin due to lumps?", "category": "other_skin_changes_with_skin_lumps", "symptom": None}
     ],
 
-    'skin bumps': [
+    'skin bump': [
         {"hi": "क्या आपको त्वचा पर उभार या गांठें महसूस हो रही हैं?", "en": "Are you feeling bumps or lumps on your skin?", "category": "skin_bumps", "symptom": "skin bumps"},
         {"hi": "क्या त्वचा पर उभार के साथ सूजन भी है?", "en": "Is there any swelling along with bumps on your skin?", "category": "swelling_with_skin_bumps", "symptom": "swelling"},
         {"hi": "क्या त्वचा पर उभार के साथ दर्द भी हो रहा है?", "en": "Are you experiencing pain along with bumps on your skin?", "category": "pain_with_skin_bumps", "symptom": "pain"},
@@ -1522,7 +1522,7 @@ symptom_followup_questions = {
      "category": "hypertension", "symptom": "blood pressure monitoring"}
 ],
 
-'tremors' : [
+'tremor' : [
     #{"hi": "आपको कितने समय से कंपन महसूस हो रहे हैं?", "en": "How long have you been experiencing tremors?", "category": "tremors", "symptom": "duration of tremors"},
     {"hi": "क्या कंपन हमेशा होते हैं या यह आते-जाते हैं?", "en": "Are the tremors present all the time or do they come and go?", "category": "tremors", "symptom": "tremor frequency"},
     {"hi": "क्या कंपन आपके शरीर के किसी विशेष हिस्से में होते हैं (जैसे, हाथ, सिर, आवाज)?",
@@ -1580,7 +1580,7 @@ symptom_followup_questions = {
      "category": "panic_attack", "symptom": "physical changes outside of panic attacks"}
 ],
 
-'mood swings' : [
+'mood swing' : [
     #{"hi": "आपको कितने समय से मूड स्विंग्स का अनुभव हो रहा है?", "en": "How long have you been experiencing mood swings?", "category": "mood_swings", "symptom": "duration of mood swings"},
     {"hi": "आपके मूड स्विंग्स कितनी बार होते हैं?", "en": "How often do your mood swings occur?", "category": "mood_swings", "symptom": "frequency of mood swings"},
     {"hi": "आप किस प्रकार के मूड परिवर्तनों का अनुभव करते हैं (जैसे, बहुत खुश या बहुत उदास महसूस करना)?",
@@ -1638,7 +1638,7 @@ symptom_followup_questions = {
      "category": "difficulty_concentrating", "symptom": "lifestyle changes affecting concentration"}
 ],
 
-'hallucinations' : [
+'hallucination' : [
     {"hi": "आपको कितने समय से भ्रांतियाँ हो रही हैं?", "en": "How long have you been experiencing hallucinations?", "category": "hallucinations", "symptom": "duration of hallucinations"},
     {"hi": "आप किस प्रकार की भ्रांतियाँ अनुभव कर रहे हैं (जैसे, आवाजें सुनना, चीज़ें देखना, गंध महसूस करना)?",
      "en": "What type of hallucinations are you experiencing (e.g., hearing voices, seeing things, smelling odors)?",
@@ -1669,7 +1669,7 @@ symptom_followup_questions = {
      "category": "hallucinations", "symptom": "family history of mental health disorders"}
 ],
 
-'delusions' : [
+'delusion' : [
     {"hi": "आपको कितने समय से भ्रांतियाँ हो रही हैं?", "en": "How long have you been experiencing delusions?", "category": "delusions", "symptom": "duration of delusions"},
     {"hi": "आप किस प्रकार की भ्रांतियाँ अनुभव कर रहे हैं (जैसे, संदेहवादी, महानता, विचित्र)?",
      "en": "What kind of delusions are you experiencing (e.g., paranoid, grandiose, bizarre)?",
@@ -1968,7 +1968,7 @@ symptom_followup_questions = {
     {"hi": "क्या आपको हाल ही में नींद में कोई विघटन, थकान, या भूख में बदलाव महसूस हुआ है?", "en": "Have you experienced any recent sleep disturbances, fatigue, or changes in appetite?", "category": "agitation", "symptom": "sleep disturbances, fatigue, or appetite changes"}
 ],
 
-'convulsions' : [
+'convulsion' : [
     {"hi": "आप कब से दौरे (माथे के झटके) का अनुभव कर रहे हैं?", "en": "How long have you been experiencing convulsions or seizures?", "category": "convulsions", "symptom": "duration of seizures"},
     {"hi": "पहला दौरा कब हुआ था, और वे कितनी बार होते हैं?", "en": "When did the first seizure occur, and how often do they happen?", "category": "convulsions", "symptom": "frequency of seizures"},
     {"hi": "दौरे के दौरान क्या दिखाई देता है (जैसे झटका, मरोड़, होश का चले जाना)?", "en": "What does the seizure look like (e.g., shaking, jerking movements, loss of consciousness)?", "category": "convulsions", "symptom": "type of seizure"},
@@ -1981,7 +1981,7 @@ symptom_followup_questions = {
     {"hi": "क्या आपके परिवार में मिर्गी, दौरे, या अन्य तंत्रिका संबंधी विकारों का इतिहास है?", "en": "Is there a family history of epilepsy, seizures, or other neurological disorders?", "category": "convulsions", "symptom": "family history of seizures or neurological disorders"}
 ],
 
-'hives' : [
+'hive' : [
     {"hi": "आप कब से शरीर पर फफोले (उठे हुए, लाल, खुजलीदार धब्बे) का अनुभव कर रहे हैं?", "en": "How long have you been experiencing hives (raised, red, itchy welts on your skin)?", "category": "hives", "symptom": "duration of hives"},
     {"hi": "फफोले पहले कब दिखाई दिए थे, और क्या वे बढ़ते जा रहे हैं?", "en": "When did the hives first appear, and have they been getting worse?", "category": "hives", "symptom": "onset and progression of hives"},
     {"hi": "क्या फफोले किसी विशेष स्थान पर हैं, या वे आपके शरीर के विभिन्न हिस्सों में फैल रहे हैं?", "en": "Are the hives localized to a specific area, or do they spread to different parts of your body?", "category": "hives", "symptom": "location and spread of hives"},
