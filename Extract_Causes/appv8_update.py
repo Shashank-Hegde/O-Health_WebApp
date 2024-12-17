@@ -108,13 +108,19 @@ symptom_synonyms = {
         'throat dryness', 'itchy throat', 'burning sensation in throat', 'scratching feeling in throat', 'tenderness in throat', 'chronic throat discomfort', 'raspiness in voice',
         'feeling like throat is closing', 'constant need to clear throat', 'sore throat with hoarseness', 'dry cough with sore throat', 'sharp throat pain'
     ],
-    'stomach ache': [
+    'stomach pain': [
         'stomach pain', 'abdominal pain', 'belly ache', 'intestinal discomfort', 'cramps', 'stomach cramps', 'gastric discomfort', 'bloated feeling', 'nauseous stomach pain',
         'sharp stomach pain', 'stomach tenderness', 'sharp abdominal cramps', 'stomach upset', 'abdominal tenderness', 'intestinal bloating', 'tummy pain', 'swollen belly',
         'feeling of fullness', 'feeling heavy in stomach', 'digestive pain', 'stomach spasms', 'soreness in abdomen', 'gas in stomach', 'bloating', 'nausea and stomach ache',
         'gastric pain', 'pain after eating', 'belly discomfort', 'gurgling stomach', 'stomach churning', 'sharp abdominal pain', 'dull abdominal pain', 'stomach bloating',
         'abdominal tightness', 'cramping feeling', 'aching belly', 'painful digestion', 'nausea and bloating', 'gassy feeling', 'pain under ribs', 'discomfort after meals',
-        'uncomfortable stomach', 'intestinal cramps', 'sharp pain in lower abdomen', 'feeling of indigestion', 'pain around stomach area'
+        'uncomfortable stomach', 'intestinal cramps', 'sharp pain in lower abdomen', 'feeling of indigestion', 'pain around stomach area', 'belly pain', 'pain in the abdomen', 'stomach discomfort', 'gastric pain',
+        'sharp stomach pain', 'dull abdominal pain', 'cramping in the abdomen', 'bloating with pain',
+        'gas pain in the abdomen', 'stabbing pain in the belly', 'abdominal cramps', 'sharp pain in the stomach area', 'pain from indigestion', 'pain after eating', 'nauseating abdominal pain',
+        'pain from gas buildup', 'pressure in the stomach', 'pain from constipation', 'burning sensation in the stomach', 'distended abdomen', 'pain from ulcers', 'pain from bloating', 'pain from food intolerance',
+        'sore stomach', 'pain from intestinal issues', 'gastrointestinal pain', 'tenderness in the stomach', 'pain near the navel', 'pain from diarrhea', 'stomach flu pain', 'pain in the lower abdomen',
+        'pain from stress', 'feeling of fullness with pain', 'pain in the upper abdomen', 'stomach cramping', 'sharp abdominal cramps', 'nausea with stomach pain', 'abdominal swelling with pain', 'abdominal pain',
+        'chronic stomach pain', 'pain with digestive issues', 'pain from food poisoning', 'pain from gallbladder issues', 'pain from acid reflux'
     ],
     'fatigue': [
         'tiredness', 'extreme tiredness', 'exhaustion', 'weariness', 'fatigued feeling', 'lack of energy', 'physical depletion', 'mental fatigue', 'chronic tiredness',
@@ -141,6 +147,7 @@ symptom_synonyms = {
         'wavy-field-of-view sensation', 'lurching environment', 'faltering steadiness', 'delicately balanced but slipping', 'rubbery legs feeling', 'giddy swirl in head',
         'tilting world', 'swaying sensation', 'imbalance feeling', 'shaky equilibrium', 'floating dizziness', 'spinning sensation', 'feeling off-kilter'
     ],
+
     'shortness of breath': [
         'Shortness of breath', 'breathlessness', 'difficulty breathing', 'feeling air hunger', 'rapid breathing', 'fast breathing', 'shallow breathing', 'gasping for air',
         'labored breathing', 'struggling to breathe', 'tightness in chest while inhaling', 'feeling suffocated', 'can’t catch my breath', 'panting heavily', 'air feeling thin',
@@ -376,14 +383,7 @@ symptom_synonyms = {
         'pain in the center of the chest', 'pain from chest cold', 'pain in the chest while breathing', 'sore chest area', 'pain in the left side of the chest', 'pain from coughing', 'pain from deep breathing'
     ],
     'itching': ['skin itching'],
-    'abdominal pain': [
-        'stomach ache', 'belly pain', 'pain in the abdomen', 'stomach discomfort', 'gastric pain', 'sharp stomach pain', 'dull abdominal pain', 'cramping in the abdomen', 'bloating with pain',
-        'gas pain in the abdomen', 'stabbing pain in the belly', 'abdominal cramps', 'sharp pain in the stomach area', 'pain from indigestion', 'pain after eating', 'nauseating abdominal pain',
-        'pain from gas buildup', 'pressure in the stomach', 'pain from constipation', 'burning sensation in the stomach', 'distended abdomen', 'pain from ulcers', 'pain from bloating', 'pain from food intolerance',
-        'sore stomach', 'pain from intestinal issues', 'gastrointestinal pain', 'tenderness in the stomach', 'pain near the navel', 'pain from diarrhea', 'stomach flu pain', 'pain in the lower abdomen',
-        'pain from stress', 'feeling of fullness with pain', 'pain in the upper abdomen', 'stomach cramping', 'sharp abdominal cramps', 'nausea with stomach pain', 'abdominal swelling with pain',
-        'chronic stomach pain', 'pain with digestive issues', 'pain from food poisoning', 'pain from gallbladder issues', 'pain from acid reflux'
-    ],
+   
     'knee pain': [
         'knee discomfort', 'pain in the knee', 'joint pain in the knee', 'knee ache', 'sharp knee pain', 'throbbing knee pain', 'stabbing pain in the knee', 'pain in the knee joint',
         'pain from knee injury', 'pain from knee strain', 'knee swelling', 'pain when bending knee', 'pain while walking', 'pain after exercise', 'pain from knee overuse', 'pain with knee movement',
@@ -705,7 +705,7 @@ symptom_followup_questions = {
       "hi": "क्या आपको पेट में दर्द हो रहा है साथ ही मतली?",
       "en": "Are you experiencing abdominal pain along with nausea?",
       "category": "abdominal_pain_nausea",
-      "symptom": "Abdominal pain",
+      "symptom": ",
     },
     {
       "hi": "क्या आपको सिरदर्द है साथ ही मतली?",
