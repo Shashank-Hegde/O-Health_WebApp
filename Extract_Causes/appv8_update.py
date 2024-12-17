@@ -1758,96 +1758,102 @@ symptom_followup_questions = {
     },
   ],
 
-  "high blood pressure": [
-    {
-      "hi": "क्या आपको सिरदर्द होता है खासकर सुबह में?",
-      "en": "Do you experience headaches, especially in the morning?",
-      "category": "morning_headaches",
-      "symptom": "headache",
-    },
-    {
-      "hi": "क्या आपको धड़कन तेज या अनियमित महसूस होती है?",
-      "en": "Do you feel your heartbeat is fast or irregular?",
-      "category": "irregular_heartbeat",
-      "symptom": "irregular heartbeat",
-    },
-    {
-      "hi": "क्या आपको चक्कर आना या चक्कर आना महसूस होता है?",
-      "en": "Do you feel dizzy or lightheaded?",
-      "category": "dizziness",
-      "symptom": "dizziness",
-    },
-    {
-      "hi": "क्या आपको सांस लेने में कठिनाई हो रही है?",
-      "en": "Are you having difficulty breathing?",
-      "category": "breathing_difficulty",
-      "symptom": "shortness of breath",
-    },
-    {
-      "hi": "क्या आपकी आँखों में धुंधलापन है?",
-      "en": "Do you experience blurred vision?",
-      "category": "blurred_vision",
-      "symptom": "blurred vision",
-    },
-    {
-      "hi": "क्या आपको थकान महसूस हो रही है?",
-      "en": "Are you feeling fatigued?",
-      "category": "fatigue",
-      "symptom": "fatigue",
-    },
-    {
-      "hi": "क्या आपको छाती में दर्द महसूस हो रहा है?",
-      "en": "Are you feeling chest pain?",
-      "category": "chest_pain",
-      "symptom": "chest pain",
-    },
-  ],
+ "high blood pressure": [
+  {
+    "hi": "आपने आखिरी बार कब अपना रक्तचाप जांचवाया था, और उसके परिणाम क्या थे?",
+    "en": "When was the last time you had your blood pressure checked, and what were the results?",
+    "category": "high blood pressure",
+    "symptom": "high blood pressure"
+  },
+  {
+    "hi": "क्या आपके परिवार में उच्च रक्तचाप, हृदय रोग, या स्ट्रोक का इतिहास है?",
+    "en": "Do you have a family history of high blood pressure, heart disease, or stroke?",
+    "category": "high blood pressure",
+    "symptom": "high blood pressure"
+  },
+  {
+    "hi": "क्या आप सिरदर्द, चक्कर, छाती में दर्द, या सांस की तकलीफ जैसे लक्षण महसूस कर रहे हैं?",
+    "en": "Are you experiencing any symptoms like headaches, dizziness, chest pain, or shortness of breath?",
+    "category": "high blood pressure",
+    "symptom": "high blood pressure"
+  },
+  {
+    "hi": "क्या आपने अपनी जीवनशैली में कोई बदलाव महसूस किया है, जैसे तनाव में वृद्धि, खराब आहार, या व्यायाम की कमी?",
+    "en": "Have you noticed any changes in your lifestyle, such as increased stress, poor diet, or lack of exercise?",
+    "category": "high blood pressure",
+    "symptom": "high blood pressure"
+  },
+  {
+    "hi": "क्या आप वर्तमान में उच्च रक्तचाप या अन्य स्वास्थ्य समस्याओं के लिए कोई दवाएं ले रहे हैं?",
+    "en": "Are you currently taking any medications for high blood pressure or other health conditions?",
+    "category": "high blood pressure",
+    "symptom": "high blood pressure"
+  },
+  {
+    "hi": "क्या आप शराब, कैफीन, या तंबाकू का सेवन करते हैं, और यदि हां, तो कितनी मात्रा में?",
+    "en": "Do you consume alcohol, caffeine, or tobacco, and if so, how much?",
+    "category": "high blood pressure",
+    "symptom": "high blood pressure"
+  },
+  {
+    "hi": "क्या आपने हाल ही में वजन बढ़ाया है या अपने आहार या शारीरिक गतिविधि स्तर में बदलाव महसूस किया है?",
+    "en": "Have you recently gained weight or experienced changes in your diet or physical activity levels?",
+    "category": "high blood pressure",
+    "symptom": "high blood pressure"
+  },
+  {
+    "hi": "क्या आपको ऐसी कोई अन्य स्वास्थ्य समस्याएं हैं, जैसे मधुमेह, गुर्दे की बीमारी, या स्लीप एपनिया, जो उच्च रक्तचाप में योगदान कर सकती हैं?",
+    "en": "Do you have any other health conditions, such as diabetes, kidney disease, or sleep apnea, that might contribute to high blood pressure?",
+    "category": "high blood pressure",
+    "symptom": "high blood pressure"
+  }
+],
+    "low blood pressure": [
+  {
+    "hi": "क्या आप चक्कर, हल्कापन, थकान, या धुंधली दृष्टि जैसे विशिष्ट लक्षण महसूस कर रहे हैं?",
+    "en": "Are you experiencing any specific symptoms like dizziness, lightheadedness, fatigue, or blurred vision?",
+    "category": "low blood pressure",
+    "symptom": "low blood pressure"
+  },
+  {
+    "hi": "क्या आपको जल्दी खड़ा होने पर या कुछ समय तक लेटे रहने के बाद हल्का चक्कर या बेहोशी का एहसास होता है?",
+    "en": "Do you feel lightheaded or faint when standing up quickly or after lying down for a while?",
+    "category": "low blood pressure",
+    "symptom": "low blood pressure"
+  },
+  {
+    "hi": "क्या आपने हाल ही में कोई बीमारी, संक्रमण, या स्वास्थ्य में कोई बदलाव अनुभव किया है जो आपके रक्तचाप को प्रभावित कर सकता है?",
+    "en": "Have you had any recent illnesses, infections, or changes in your health that could affect your blood pressure?",
+    "category": "low blood pressure",
+    "symptom": "low blood pressure"
+  },
+  {
+    "hi": "क्या आप वर्तमान में कोई दवाएं ले रहे हैं, जैसे डाययुरेटिक्स, एंटीडिप्रेसेंट्स, या रक्तचाप की दवाएं, जो निम्न रक्तचाप का कारण बन सकती हैं?",
+    "en": "Are you currently taking any medications, such as diuretics, antidepressants, or blood pressure medications, that could cause low blood pressure?",
+    "category": "low blood pressure",
+    "symptom": "low blood pressure"
+  },
+  {
+    "hi": "क्या आपने हाल ही में अपने आहार, तरल पदार्थों का सेवन, या शारीरिक गतिविधि स्तर में कोई महत्वपूर्ण बदलाव महसूस किया है?",
+    "en": "Have you experienced any significant changes in your diet, fluid intake, or activity level recently?",
+    "category": "low blood pressure",
+    "symptom": "low blood pressure"
+  },
+  {
+    "hi": "क्या आपको ऐसी कोई स्वास्थ्य समस्याएं हैं, जैसे हृदय संबंधी समस्याएं, अंतःस्रावी विकार, या निर्जलीकरण, जो निम्न रक्तचाप में योगदान कर सकती हैं?",
+    "en": "Do you have any medical conditions, such as heart problems, endocrine disorders, or dehydration, that could contribute to low blood pressure?",
+    "category": "low blood pressure",
+    "symptom": "low blood pressure"
+  },
+  {
+    "hi": "क्या आपने हाल ही में किसी तनाव का अनुभव किया है या खून की महत्वपूर्ण हानि (जैसे चोट या सर्जरी से) हुई है?",
+    "en": "Have you been under any recent stress or experienced a significant loss of blood (e.g., from an injury or surgery)?",
+    "category": "low blood pressure",
+    "symptom": "low blood pressure"
+  }
+],
 
-  "low blood pressure": [
-    {
-      "hi": "क्या आपको चक्कर आ रहे हैं या आप चकरा रहे हैं?",
-      "en": "Are you feeling dizzy or faint?",
-      "category": "dizziness_fainting",
-      "symptom": "dizziness",
-    },
-    {
-      "hi": "क्या आपको कमजोरी महसूस हो रही है?",
-      "en": "Are you feeling weak?",
-      "category": "weakness",
-      "symptom": "weakness",
-    },
-    {
-      "hi": "क्या आपको धुंधली दृष्टि हो रही है?",
-      "en": "Are you experiencing blurred vision?",
-      "category": "blurred_vision",
-      "symptom": "blurred vision",
-    },
-    {
-      "hi": "क्या आपको सांस लेने में कठिनाई हो रही है?",
-      "en": "Are you having difficulty breathing?",
-      "category": "breathing_difficulty",
-      "symptom": "shortness of breath",
-    },
-    {
-      "hi": "क्या आपको थकान हो रही है?",
-      "en": "Are you feeling fatigued?",
-      "category": "fatigue",
-      "symptom": "fatigue",
-    },
-    {
-      "hi": "क्या आपको पेट में दर्द हो रहा है?",
-      "en": "Are you experiencing abdominal pain?",
-      "category": "abdominal_pain",
-      "symptom": "abdominal pain",
-    },
-    {
-      "hi": "क्या आपकी त्वचा ठंडी और पसीनी है?",
-      "en": "Is your skin cold and clammy?",
-      "category": "skin_cold_clammy",
-      "symptom": "sweating",
-    },
-  ],
-  "cramps": [
+  "cramp": [
     {
       "hi": "क्या आपको क्रैम्प्स लगातार हो रहे हैं या कभी-कभी?",
       "en": "Are you experiencing cramps continuously or intermittently?",
@@ -2228,7 +2234,7 @@ symptom_followup_questions = {
     },
   ],
 
-  "hiccups": [
+  "hiccup": [
     {
       "hi": "क्या आपके सिकुड़न लगातार हो रही है या आती-जाती हैं?",
       "en": "Are your hiccups continuous or intermittent?",
@@ -5574,12 +5580,7 @@ symptom_followup_questions = {
   ],
 
   "gout": [
-    {
-      "hi": "आपको गाउट के लक्षणों का अनुभव कितने समय से हो रहा है?",
-      "en": "How long have you been experiencing symptoms of gout?",
-      "category": "gout",
-      "symptom": "duration of symptoms",
-    },
+    
     {
       "hi": "कौन सा जोड़ा प्रभावित है, और क्या वह सूजा हुआ, लाल, या छूने पर गर्म है?",
       "en": "Which joint is affected, and is it swollen, red, or warm to the touch?",
@@ -6820,6 +6821,144 @@ symptom_followup_questions = {
       "symptom": "infection symptoms",
     },
   ],
+
+    "migraine": [
+  {
+    "hi": "आपको माइग्रेन कब पहली बार शुरू हुआ था?",
+    "en": "When did your migraines first start?",
+    "category": "migraine",
+    "symptom": "migraine"
+  },
+  {
+    "hi": "आपको माइग्रेन कितनी बार होते हैं, और ये कितने समय तक रहते हैं?",
+    "en": "How often do you experience migraines, and how long do they last?",
+    "category": "migraine",
+    "symptom": "migraine"
+  },
+  {
+    "hi": "क्या आप दर्द का प्रकार वर्णित कर सकते हैं? (जैसे की धड़कता, पल्सिंग, चुभने वाला)",
+    "en": "Can you describe the type of pain (e.g., throbbing, pulsating, stabbing)?",
+    "category": "migraine",
+    "symptom": "migraine"
+  },
+  {
+    "hi": "क्या माइग्रेन से पहले कोई चेतावनी संकेत या लक्षण होते हैं? (जैसे की आरा, दृश्य समस्याएं)",
+    "en": "Do you experience any warning signs or symptoms before the migraine (e.g., aura, visual disturbances)?",
+    "category": "migraine",
+    "symptom": "migraine"
+  },
+  {
+    "hi": "क्या कुछ विशिष्ट कारक होते हैं जो आपके माइग्रेन को उत्तेजित करते हैं? (जैसे की तनाव, कुछ खाद्य पदार्थ, नींद की कमी)",
+    "en": "Are there specific triggers that seem to bring on your migraines (e.g., stress, certain foods, lack of sleep)?",
+    "category": "migraine",
+    "symptom": "migraine"
+  },
+  {
+    "hi": "क्या आपको माइग्रेन के साथ कोई अन्य लक्षण होते हैं जैसे की मितली, उल्टी, या प्रकाश और ध्वनि के प्रति संवेदनशीलता?",
+    "en": "Do you experience any associated symptoms like nausea, vomiting, or sensitivity to light and sound?",
+    "category": "migraine",
+    "symptom": "migraine"
+  },
+  {
+    "hi": "आपके माइग्रेन आपके दैनिक जीवन या गतिविधियों को कैसे प्रभावित करते हैं?",
+    "en": "How do your migraines affect your daily life or activities?",
+    "category": "migraine",
+    "symptom": "migraine"
+  }
+],
+
+    "swollen lymph nodes": [
+  {
+    "hi": "सूजे हुए लिम्फ नोड्स कहां स्थित हैं? (जैसे गर्दन, बगल, कमर)",
+    "en": "Where exactly are the swollen lymph nodes located? (e.g., neck, underarms, groin)",
+    "category": "swollen lymph nodes",
+    "symptom": "swollen lymph nodes"
+  },
+  {
+    "hi": "क्या लिम्फ नोड्स दबाने पर दर्दनाक या कोमल हैं?",
+    "en": "Are the lymph nodes painful or tender to the touch?",
+    "category": "swollen lymph nodes",
+    "symptom": "swollen lymph nodes"
+  },
+  {
+    "hi": "क्या सूजे हुए लिम्फ नोड्स के आकार या स्थिरता में पहले देखे गए लक्षणों से कोई बदलाव हुआ है?",
+    "en": "Have the swollen lymph nodes changed in size or consistency since you first noticed them?",
+    "category": "swollen lymph nodes",
+    "symptom": "swollen lymph nodes"
+  },
+  {
+    "hi": "क्या आपको बुखार, रात को पसीना आना, बिना किसी कारण के वजन घटना, या थकावट जैसे अन्य लक्षण महसूस हो रहे हैं?",
+    "en": "Do you have any other symptoms like fever, night sweats, unexplained weight loss, or fatigue?",
+    "category": "swollen lymph nodes",
+    "symptom": "swollen lymph nodes"
+  },
+  {
+    "hi": "क्या आपने हाल ही में किसी संक्रमण का अनुभव किया है? (जैसे गले का दर्द, सर्दी, या श्वसन संक्रमण)",
+    "en": "Have you had any recent infections (e.g., sore throat, cold, or respiratory infection)?",
+    "category": "swollen lymph nodes",
+    "symptom": "swollen lymph nodes"
+  },
+  {
+    "hi": "क्या आपको ऐसी कोई बीमारी का इतिहास है जो इम्यून सिस्टम या लिम्फैटिक सिस्टम को प्रभावित करती है? (जैसे ऑटोइम्यून बीमारियां, कैंसर, एचआईवी)",
+    "en": "Do you have a history of conditions that affect the immune system or lymphatic system (e.g., autoimmune diseases, cancer, HIV)?",
+    "category": "swollen lymph nodes",
+    "symptom": "swollen lymph nodes"
+  },
+  {
+    "hi": "क्या आपको संक्रमण के संभावित स्रोतों का सामना हुआ है? (जैसे बीमार संपर्क, ऐसी जगहों पर यात्रा जहां एंडेमिक बीमारियां हैं)",
+    "en": "Have you been exposed to any potential sources of infection (e.g., sick contacts, travel to areas with endemic diseases)?",
+    "category": "swollen lymph nodes",
+    "symptom": "swollen lymph nodes"
+  }
+],
+
+    "skin burning": [
+  {
+    "hi": "क्या जलन का एहसास लगातार है, या यह कभी-कभी होता है?",
+    "en": "Is the burning sensation constant, or does it come and go?",
+    "category": "skin burning",
+    "symptom": "skin burning"
+  },
+  {
+    "hi": "आपकी त्वचा के कौन से हिस्से जलन से प्रभावित हैं?",
+    "en": "Which areas of your skin are affected by the burning sensation?",
+    "category": "skin burning",
+    "symptom": "skin burning"
+  },
+  {
+    "hi": "क्या जलन के साथ कोई लाली, सूजन, या दाने हैं?",
+    "en": "Is the burning accompanied by any redness, swelling, or rashes?",
+    "category": "skin burning",
+    "symptom": "skin burning"
+  },
+  {
+    "hi": "क्या आपने हाल ही में किसी चोट, जलन, या त्वचा पर उत्तेजक पदार्थों के संपर्क का अनुभव किया है?",
+    "en": "Have you experienced any recent injuries, burns, or exposure to irritating substances on the skin?",
+    "category": "skin burning",
+    "symptom": "skin burning"
+  },
+  {
+    "hi": "क्या आप किसी अन्य लक्षणों का अनुभव कर रहे हैं, जैसे सुन्नता, झुनझुनी, या दर्द?",
+    "en": "Are you experiencing any other symptoms, such as numbness, tingling, or pain?",
+    "category": "skin burning",
+    "symptom": "skin burning"
+  },
+  {
+    "hi": "क्या आपको ऐसी कोई बीमारी है जो आपके तंत्रिका या त्वचा को प्रभावित कर सकती है? (जैसे मधुमेह, शिंगल्स, न्यूरोपैथी)",
+    "en": "Do you have any medical conditions that could affect your nerves or skin (e.g., diabetes, shingles, neuropathy)?",
+    "category": "skin burning",
+    "symptom": "skin burning"
+  },
+  {
+    "hi": "क्या आपने हाल ही में कोई नई दवाइयां या उपचार शुरू किया है जो त्वचा की जलन या संवेदनशीलता का कारण बन सकते हैं?",
+    "en": "Have you recently started any new medications or treatments that could cause skin irritation or sensitivity?",
+    "category": "skin burning",
+    "symptom": "skin burning"
+  }
+],
+
+
+
 }
 # ------------------------------------------------------------------ #
 # --------------------- Additional Question ------------------------ #
