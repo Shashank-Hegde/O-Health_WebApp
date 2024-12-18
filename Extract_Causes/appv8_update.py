@@ -7264,6 +7264,107 @@ symptom_followup_questions = {
       "symptom": "tooth pain"
     }
 ],
+"fainting": [
+    {
+      "hi": "आपने आखिरी बार बेहोशी या बेहोशी के निकट अनुभव कब किया था?",
+      "en": "When did you last experience fainting or a near-fainting episode?",
+      "category": "fainting",
+      "symptom": "fainting"
+    },
+    {
+      "hi": "क्या बेहोश होने से पहले कोई विशिष्ट उत्तेजक या चेतावनी संकेत थे (जैसे चक्कर आना, मितली)?",
+      "en": "Were there any specific triggers or warning signs before you fainted (e.g., dizziness, nausea)?",
+      "category": "fainting",
+      "symptom": "fainting"
+    },
+    {
+      "hi": "क्या आपने पूरी तरह से चेतना खो दी थी, या आपको बस हल्का महसूस हो रहा था?",
+      "en": "Did you lose consciousness completely, or were you just lightheaded?",
+      "category": "fainting",
+      "symptom": "fainting"
+    },
+    {
+      "hi": "बेहोशी का अनुभव कितना समय चला?",
+      "en": "How long did the fainting episode last?",
+      "category": "fainting",
+      "symptom": "fainting"
+    },
+    {
+      "hi": "क्या आपने हाल ही में कोई बीमारी, निर्जलीकरण, या दवाओं में बदलाव अनुभव किया है?",
+      "en": "Have you had any recent illnesses, dehydration, or changes in medication?",
+      "category": "fainting",
+      "symptom": "fainting"
+    },
+    {
+      "hi": "क्या आप खड़े थे या कोई विशेष स्थिति में थे जब आप बेहोश हुए?",
+      "en": "Were you standing up or in a particular position when you fainted?",
+      "category": "fainting",
+      "symptom": "fainting"
+    },
+    {
+      "hi": "क्या आपको हृदय की समस्याओं, मिर्गी, या कम रक्तचाप का इतिहास है?",
+      "en": "Do you have a history of heart problems, seizures, or low blood pressure?",
+      "category": "fainting",
+      "symptom": "fainting"
+    },
+    {
+      "hi": "क्या आपने कोई सीने में दर्द, सांस लेने में कठिनाई, या अनियमित दिल की धड़कन अनुभव की है?",
+      "en": "Have you experienced any chest pain, shortness of breath, or irregular heartbeat?",
+      "category": "fainting",
+      "symptom": "fainting"
+    }
+],
+  "nervousness": [
+    {
+      "hi": "आप सामान्यतः कब नर्वस या चिंतित महसूस करते हैं?",
+      "en": "When do you typically feel nervous or anxious?",
+      "category": "nervousness",
+      "symptom": "nervousness"
+    },
+    {
+      "hi": "क्या ऐसी कोई विशिष्ट स्थिति या उत्तेजक है जो आपको नर्वस महसूस कराती है?",
+      "en": "Are there specific situations or triggers that make you feel nervous?",
+      "category": "nervousness",
+      "symptom": "nervousness"
+    },
+    {
+      "hi": "यह नर्वसनेस की भावना आमतौर पर कितनी देर तक रहती है?",
+      "en": "How long do these feelings of nervousness usually last?",
+      "category": "nervousness",
+      "symptom": "nervousness"
+    },
+    {
+      "hi": "क्या आप शारीरिक लक्षणों का अनुभव करते हैं, जैसे पसीना, कांपना, या दिल की धड़कन का तेज़ होना?",
+      "en": "Do you experience any physical symptoms, such as sweating, shaking, or a racing heart?",
+      "category": "nervousness",
+      "symptom": "nervousness"
+    },
+    {
+      "hi": "क्या आपको अपनी नर्वसनेस को नियंत्रित या प्रबंधित करने में कठिनाई होती है?",
+      "en": "Do you find it difficult to control or manage your nervousness?",
+      "category": "nervousness",
+      "symptom": "nervousness"
+    },
+    {
+      "hi": "क्या आपने हाल ही में अधिक तनाव महसूस किया है?",
+      "en": "Have you been under increased stress recently?",
+      "category": "nervousness",
+      "symptom": "nervousness"
+    },
+    {
+      "hi": "क्या आप अन्य लक्षणों का अनुभव कर रहे हैं, जैसे नींद में परेशानी या एकाग्रता की कमी?",
+      "en": "Are you experiencing any other symptoms, such as trouble sleeping or concentrating?",
+      "category": "nervousness",
+      "symptom": "nervousness"
+    },
+    {
+      "hi": "क्या आपके पास कोई पिछला अनुभव या घटना है जो आपकी नर्वसनेस की भावना में योगदान करती है?",
+      "en": "Do you have any past experiences or events that contribute to your feelings of nervousness?",
+      "category": "nervousness",
+      "symptom": "nervousness"
+    }
+],
+
 
 
 }
