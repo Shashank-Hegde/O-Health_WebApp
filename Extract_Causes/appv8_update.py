@@ -7496,6 +7496,50 @@ symptom_followup_questions = {
       "symptom": "exhaustion"
     }
 ],
+"difficulty swallowing": [
+    {
+      "hi": "क्या निगलने में कठिनाई ठोस पदार्थों, तरल पदार्थों, या दोनों में है?",
+      "en": "Is the difficulty with swallowing solids, liquids, or both?",
+      "category": "difficulty swallowing",
+      "symptom": "difficulty swallowing"
+    },
+    {
+      "hi": "क्या आपको लगता है कि खाना या तरल पदार्थ आपके गले या सीने में अटक रहे हैं?",
+      "en": "Do you feel like food or liquids are getting stuck in your throat or chest?",
+      "category": "difficulty swallowing",
+      "symptom": "difficulty swallowing"
+    },
+    {
+      "hi": "क्या निगलते समय आपको कोई दर्द या असहजता महसूस हो रही है?",
+      "en": "Are you experiencing any pain or discomfort while swallowing?",
+      "category": "difficulty swallowing",
+      "symptom": "difficulty swallowing"
+    },
+    {
+      "hi": "क्या आपने हाल ही में मुंह या गले में कोई चोट, बीमारी, या बदलाव महसूस किया है?",
+      "en": "Have you had any recent injuries, illnesses, or changes in your mouth or throat?",
+      "category": "difficulty swallowing",
+      "symptom": "difficulty swallowing"
+    },
+    {
+      "hi": "क्या आप खाने या पीने के दौरान अन्य लक्षणों का अनुभव कर रहे हैं, जैसे लार टपकना, खांसी, या घुटना?",
+      "en": "Are you experiencing any other symptoms, such as drooling, coughing, or choking while eating or drinking?",
+      "category": "difficulty swallowing",
+      "symptom": "difficulty swallowing"
+    },
+    {
+      "hi": "क्या आपने अपनी आवाज में कोई बदलाव महसूस किया है, जैसे आवाज बैठना?",
+      "en": "Have you noticed any changes in your voice, such as hoarseness?",
+      "category": "difficulty swallowing",
+      "symptom": "difficulty swallowing"
+    },
+    {
+      "hi": "क्या आपको एसिड रिफ्लक्स, आहार नलिका की समस्याएं, या तंत्रिका संबंधी स्थितियों का इतिहास है?",
+      "en": "Do you have a history of acid reflux, esophageal issues, or neurological conditions?",
+      "category": "difficulty swallowing",
+      "symptom": "difficulty swallowing"
+    }
+],
 
 
 
