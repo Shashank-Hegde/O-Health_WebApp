@@ -7,7 +7,7 @@ symptom_list = [
 'fever', 'cold', 'runny nose', 'sneezing', 'rash', 'back spasm', 'dizziness', 'weakness', 'loss of appetite', 'cough', 'muscle pain', 'joint pain',
 'chest pain', 'back pain', 'constipation', 'throat pain', 'diarrhea', 'flu', 'shortness of breath', 'rapid breathing', 'stomach pain', 'migraine',
 'sore', 'skin burning', 'itching', 'swelling', 'vomiting', 'infection', 'inflammation', 'cramp', 'bleeding', 'irritation', 'anxiety', 'depression',
-'nausea', 'swollen lymph nodes', 'insomnia', 'cancer', 'diabetes', 'allergies', 'weight loss', 'weight gain', 'hair loss', 'blurred vision', 'ear pain',
+'nausea', 'swollen lymph nodes', 'insomnia', 'cancer', 'diabetes', 'allergy', 'weight loss', 'weight gain', 'hair loss', 'blurred vision', 'ear pain',
 'numbness', 'dry mouth', 'frequent urination', 'acne', 'bruising', 'confusion', 'memory loss', 'difficulty swallowing', 'restlessness', 'yellow skin', 
 'yellow eyes', 'bloating', 'gas', 'indigestion', 'heartburn', 'mouth sore', 'nosebleed', 'ear ringing', 'dark urine', 'blood in urine', 'skin itching',
 'blood in stool', 'high blood pressure', 'low blood pressure', 'thirst', 'dehydration', 'skin burning', 'sweating', 'eye pain', 'red eyes', 'eye discharge',
@@ -457,7 +457,7 @@ symptom_synonyms = {
     'vomiting': ['throwing up', 'puking', 'stomach upset'],
     'hearing loss' : ['loss of hearing'],
     'bone pain': ['bone tenderness', 'bone swelling'],
-    'allergies' : ['allergy','allergetic'],
+    'allergy' : ['allergies','allergetic'],
     'weight gain': ['increase in weight', 'gain in body mass'],
     'hearing loss': ['damaging hearing', 'loss in hearing'],
     'skin burning' : ['burning', 'burn'],
@@ -852,39 +852,6 @@ symptom_followup_questions = {
       "symptom": None,
     },
   ],
-
-  "allergies" : [
-    {
-      "hi": "क्या आपकी एलर्जी लगातार या रुक-रुक कर होती है?",
-      "en": "Is your allergy constant or intermittent?",
-      "category": "allergy",
-      "symptom": None,
-    },
-    {
-      "hi": "क्या आपको ठंड लग रही है?",
-      "en": "Are you experiencing any chills?",
-      "category": "chills",
-      "symptom": "Chills",
-    },
-    {
-      "hi": "क्या आपने कोई दवा ली है?",
-      "en": "Have you taken any medication?",
-      "category": "medications",
-      "symptom": None,
-    },
-    {
-      "hi": "क्या आपको सिरदर्द है?",
-      "en": "Are you experiencing headaches?",
-      "category": "headache",
-      "symptom": "Headache",
-    },
-    {
-      "hi": "क्या आपको उल्टी जैसा महसूस हो रहा है?",
-      "en": "Are you feeling nauseous?",
-      "category": "nausea",
-      "symptom": "Nausea",
-    },
-    ],
 
   "cough": [
     {
