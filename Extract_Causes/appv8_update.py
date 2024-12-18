@@ -3,42 +3,19 @@
 # ------------------------- Original symptom ----------------------- #
 # ------------------------------------------------------------------ #
 # Original symptom list with potential duplicates
-symptom_list = [
-    'fever', 'cold', 'runny nose', 'sneezing', 'rash', 'dizziness', 'weakness', 'loss of appetite',
-    'cough', 'muscle pain', 'joint pain', 'chest pain', 'back pain', 'constipation', 'throat pain', 'diarrhea',
-    'flu', 'breathlessness', 'stomach pain', 'migraine','sore', 'burning', 'itching', 'swelling','acidity','muscle strain','wrist pain', 'vomiting', 'hip pain',
-    'infection', 'inflammation', 'cramps', 'ulcers', 'bleeding', 'irritation', 'anxiety', 'depression','muscle injury', 'nausea','swollen lymph nodes',
-    'insomnia', 'cancer', 'diabetes', 'hypertension', 'allergies', 'weight loss', 'weight gain', 'hair loss',
-    'blurred vision', 'ear pain', 'palpitations', 'urinary frequency', 'numbness', 'tingling','increased appetite',
-    'dry mouth', 'excessive thirst', 'frequent urination', 'acne', 'bruising', 'confusion', 'memory loss',
-    'hoarseness', 'wheezing', 'itchy eye', 'dry eyes', 'difficulty swallowing', 'restlessness', 'yellow skin',
-    'yellow eyes', 'bloating', 'gas', 'hiccups', 'indigestion', 'heartburn', 'mouth sore', 'nosebleed', 'sore throat',
-    'ear ringing', 'decreased appetite', 'dark urine', 'light colored stool', 'blood in urine','skin itching',
-    'blood in stool', 'delayed healing', 'high temperature', 'low blood pressure', 'thirst','allergy',
-    'dehydration', 'skin burn', 'sweating', 'feeling cold', 'head pressure', 'double vision',
-    'eye pain', 'red eyes', 'eye discharge', 'hearing loss', 'balance problem', 'taste changes', 'smell change','feeling full',
-    'rapid breathing', 'irregular heartbeat', 'chest tightness', 'lightheadedness', 'fainting', 'unsteady gait',
-    'clumsiness', 'loss of coordination', 'seizures', 'tremor', 'shakiness', 'nervousness', 'panic attack','convulsion', 'nose pain',
-    'mood swing', 'agitation', 'difficulty concentrating', 'foggy mind', 'hallucination', 'paranoia','delusion', 'shortness of breath',
-    'euphoria', 'apathy', 'lack of motivation', 'social withdrawal', 'exhaustion', 'muscle weakness', 'muscle cramps','anhedonia',
-    'muscle stiffness', 'joint stiffness', 'bone pain', 'bone fracture', 'sprain', 'strain', 'tendonitis', 'bursitis', 'skin lump','skin lesion',
-    'arthritis', 'gout', 'fibromyalgia', 'sciatica', 'herniated disc', 'spinal stenosis', 'spasm', 'neck pain','skin pain',
-    'whiplash', 'carpal tunnel syndrome', 'sinus pressure', 'headache', 'eczema', 'psoriasis', 'hive', 'impetigo', 'ulcer',
-    'herpes', 'shingle', 'wart', 'mole', 'skin lesions', 'skin bump', 'skin discoloration', 'skin dryness',
-    'skin cracking', 'skin burning', 'skin tenderness', 'skin redness', 'skin swelling', 'skin blisters', 'hair thinning', 'injury',
-    'hair texture changes', 'hair growth abnormalities',
-    'nail splitting','fatigue',
-    'nail melanonychia', 'nail leukonychia','dermatitis',
-    'nail onychomycosis',
-    'nail ridges', 'joint instability','cellulitis',
-    'muscle atrophy', 'joint dislocation', 'joint deformity', 'bone deformity', 'bone tenderness', 'bone swelling', 'bone redness',
-    'joint locking', 'joint clicking', 'joint popping', 'muscle atrophy due to disuse', 'skin dryness due to weather', 'high blood pressure',
-    'eye dryness', 'eye irritation', 'eye redness', 'eye swelling', 'eye tearing', 'eye strain', 'eye sensitivity to light', 'eye watering',
-    'ear dryness', 'ear fullness', 'congestion', 'ear fluid', 'ear wax buildup', 'ear infection', 'tinnitus', 'balance disorder','chills',
-    'taste distortion', 'taste change', 'smell distortion', 'ear ache',
-    'reduced smell', 'increased smell', 'loss of smell', 'rapid breaths', 'heavy breathing', 'shallow breathing', 'uneven heart rate','smell change',
-    'heart skipping beats','leg pain', 'eye pain', 'hand pain', 'arm pain', 'foot pain', 'knee pain', 'shoulder pain', 'neck pain'
+symptom_list = [ 
+'fever', 'cold', 'runny nose', 'sneezing', 'rash', 'back spasm', 'dizziness', 'weakness', 'loss of appetite', 'cough', 'muscle pain', 'joint pain',
+'chest pain', 'back pain', 'constipation', 'throat pain', 'diarrhea', 'flu', 'shortness of breath', 'rapid breathing', 'stomach pain', 'migraine',
+'sore', 'skin burning', 'itching', 'swelling', 'vomiting', 'infection', 'inflammation', 'cramp', 'bleeding', 'irritation', 'anxiety', 'depression',
+'nausea', 'swollen lymph nodes', 'insomnia', 'cancer', 'diabetes', 'allergies', 'weight loss', 'weight gain', 'hair loss', 'blurred vision', 'ear pain',
+'numbness', 'dry mouth', 'frequent urination', 'acne', 'bruising', 'confusion', 'memory loss', 'difficulty swallowing', 'restlessness', 'yellow skin', 
+'yellow eyes', 'bloating', 'gas', 'indigestion', 'heartburn', 'mouth sore', 'nosebleed', 'ear ringing', 'dark urine', 'blood in urine', 'skin itching',
+'blood in stool', 'high blood pressure', 'low blood pressure', 'thirst', 'dehydration', 'skin burning', 'sweating', 'eye pain', 'red eyes', 'eye discharge',
+'hearing loss', 'balance problem', 'irregular heartbeat', 'fainting', 'tremor', 'shakiness', 'nervousness', 'panic attack', 'mood swing', 'difficulty concentrating',
+'hallucination', 'lack of motivation', 'exhaustion', 'bone pain', 'sprain', 'strain', 'arthritis', 'gout', 'headache', 'injury', 'chills', 'leg pain', 'hand pain',
+'arm pain', 'foot pain', 'knee pain', 'shoulder pain', 'hip pain', 'jaw pain', 'tooth pain'   
 ]
+
 # Remove duplicates by converting the list to a set and back to a list
 symptom_list = list(set(symptom_list))
 # ------------------------------------------------------------------ #
