@@ -7628,6 +7628,50 @@ symptom_followup_questions = {
       "symptom": "flu"
     }
 ],
+"confusion": [
+    {
+      "hi": "क्या भ्रम लगातार है, या यह आता जाता है?",
+      "en": "Is the confusion constant, or does it come and go?",
+      "category": "confusion",
+      "symptom": "confusion"
+    },
+    {
+      "hi": "क्या आपको हाल की घटनाओं या विवरणों को याद रखने में समस्या हो रही है?",
+      "en": "Are you having trouble remembering recent events or details?",
+      "category": "confusion",
+      "symptom": "confusion"
+    },
+    {
+      "hi": "क्या आप परिचित लोगों और स्थानों को पहचानने में सक्षम हैं?",
+      "en": "Are you able to recognize familiar people and places?",
+      "category": "confusion",
+      "symptom": "confusion"
+    },
+    {
+      "hi": "क्या आपने हाल ही में कोई सिर की चोट, गिरने या आघात का अनुभव किया है?",
+      "en": "Have you experienced any recent head injuries, falls, or trauma?",
+      "category": "confusion",
+      "symptom": "confusion"
+    },
+    {
+      "hi": "क्या आप भाषण, दृष्टि, या समन्वय में किसी परिवर्तन का अनुभव कर रहे हैं?",
+      "en": "Are you experiencing any changes in speech, vision, or coordination?",
+      "category": "confusion",
+      "symptom": "confusion"
+    },
+    {
+      "hi": "क्या आपको किसी चिकित्सीय स्थिति का इतिहास है, जैसे डिमेंशिया, स्ट्रोक, या संक्रमण?",
+      "en": "Do you have any history of medical conditions, such as dementia, stroke, or infections?",
+      "category": "confusion",
+      "symptom": "confusion"
+    },
+    {
+      "hi": "क्या आपने हाल ही में कोई नई दवाएं शुरू की हैं या अपने दिनचर्या में कोई बदलाव महसूस किया है?",
+      "en": "Have you started any new medications or experienced any changes in your routine recently?",
+      "category": "confusion",
+      "symptom": "confusion"
+    }
+],
 
 
 
