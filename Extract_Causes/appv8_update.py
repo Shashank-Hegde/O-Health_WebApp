@@ -668,7 +668,7 @@ symptom_followup_questions = {
       "hi": "क्या आपको पेट में दर्द हो रहा है साथ ही मतली?",
       "en": "Are you experiencing abdominal pain along with nausea?",
       "category": "abdominal_pain_nausea",
-      "symptom": ",
+      "symptom": "abdominal_pain_nausea",
     },
     {
       "hi": "क्या आपको सिरदर्द है साथ ही मतली?",
