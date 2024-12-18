@@ -7452,6 +7452,50 @@ symptom_followup_questions = {
       "symptom": "restlessness"
     }
 ],
+"exhaustion": [
+    {
+      "hi": "क्या आप थकान को कितनी देर तक महसूस करते हैं, और क्या यह आराम करने से बेहतर हो जाता है?",
+      "en": "How long does the exhaustion last, and does it improve with rest?",
+      "category": "exhaustion",
+      "symptom": "exhaustion"
+    },
+    {
+      "hi": "क्या आप अन्य लक्षणों का अनुभव कर रहे हैं, जैसे मांसपेशियों में कमजोरी, सिरदर्द, या चक्कर आना?",
+      "en": "Are you experiencing any other symptoms, such as muscle weakness, headaches, or dizziness?",
+      "category": "exhaustion",
+      "symptom": "exhaustion"
+    },
+    {
+      "hi": "क्या आप हाल ही में तनाव, चिंता, या भावनात्मक दबाव का अनुभव कर रहे हैं?",
+      "en": "Have you been under increased stress, anxiety, or emotional strain recently?",
+      "category": "exhaustion",
+      "symptom": "exhaustion"
+    },
+    {
+      "hi": "क्या आप पर्याप्त नींद ले रहे हैं, और क्या आपकी नींद की गुणवत्ता अच्छी है?",
+      "en": "Are you getting enough sleep, and is the quality of your sleep good?",
+      "category": "exhaustion",
+      "symptom": "exhaustion"
+    },
+    {
+      "hi": "क्या आपने अपनी आहार, व्यायाम दिनचर्या, या दवाइयों में कोई बदलाव किया है?",
+      "en": "Have you made any changes to your diet, exercise routine, or medications?",
+      "category": "exhaustion",
+      "symptom": "exhaustion"
+    },
+    {
+      "hi": "क्या आप भूख, वजन, या मूड में कोई बदलाव महसूस कर रहे हैं?",
+      "en": "Are you experiencing any changes in appetite, weight, or mood?",
+      "category": "exhaustion",
+      "symptom": "exhaustion"
+    },
+    {
+      "hi": "क्या आपके पास कोई अंतर्निहित स्वास्थ्य समस्याएं हैं, जैसे थायरॉयड की समस्याएं, एनीमिया, या मधुमेह?",
+      "en": "Do you have any underlying health conditions, such as thyroid issues, anemia, or diabetes?",
+      "category": "exhaustion",
+      "symptom": "exhaustion"
+    }
+],
 
 
 
