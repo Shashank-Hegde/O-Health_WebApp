@@ -9,7 +9,7 @@ symptom_list = [
 'sore', 'skin burning', 'itching', 'swelling', 'vomiting', 'infection', 'inflammation', 'cramp', 'bleeding', 'irritation', 'anxiety', 'depression',
 'nausea', 'swollen lymph nodes', 'insomnia', 'cancer', 'diabetes', 'allergy', 'weight loss', 'weight gain', 'hair loss', 'blurred vision', 'ear pain',
 'numbness', 'dry mouth', 'frequent urination', 'acne', 'bruising', 'confusion', 'memory loss', 'difficulty swallowing', 'restlessness', 'yellow skin', 
-'yellow eyes', 'bloating', 'gas', 'indigestion', 'heartburn', 'mouth sore', 'nosebleed', 'ear ringing', 'dark urine', 'blood in urine', 'skin itching',
+'yellow eyes', 'bloating', 'gas', 'indigestion', 'heartburn', 'mouth sore', 'nosebleed', 'ear ringing', 'dark urine', 'blood in urine',
 'blood in stool', 'high blood pressure', 'low blood pressure', 'thirst', 'dehydration', 'skin burning', 'sweating', 'eye pain', 'red eyes', 'eye discharge',
 'hearing loss', 'balance problem', 'irregular heartbeat', 'fainting', 'tremor', 'nervousness', 'panic attack', 'mood swing', 'difficulty concentrating',
 'hallucination', 'lack of motivation', 'exhaustion', 'bone pain', 'sprain', 'strain', 'arthritis', 'gout', 'headache', 'injury', 'chills', 'leg pain', 'hand pain',
