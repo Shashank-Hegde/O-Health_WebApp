@@ -7408,6 +7408,50 @@ symptom_followup_questions = {
       "symptom": "blurred vision"
     }
 ],
+"restlessness": [
+    {
+      "hi": "क्या कोई विशेष परिस्थितियाँ या उत्तेजक हैं जो आपको अधिक बेचैन महसूस कराते हैं?",
+      "en": "Are there specific situations or triggers that make you feel more restless?",
+      "category": "restlessness",
+      "symptom": "restlessness"
+    },
+    {
+      "hi": "क्या आप शारीरिक लक्षणों का अनुभव करते हैं, जैसे फidgeting, घूमना, या स्थिर बैठने में असमर्थता?",
+      "en": "Do you experience physical symptoms, such as fidgeting, pacing, or an inability to sit still?",
+      "category": "restlessness",
+      "symptom": "restlessness"
+    },
+    {
+      "hi": "यह बेचैनी की भावना आमतौर पर कितनी देर तक रहती है?",
+      "en": "How long do these feelings of restlessness usually last?",
+      "category": "restlessness",
+      "symptom": "restlessness"
+    },
+    {
+      "hi": "क्या आप हाल ही में कोई तनाव, चिंता, या भावनात्मक बदलाव महसूस कर रहे हैं?",
+      "en": "Have you been experiencing any stress, anxiety, or emotional changes recently?",
+      "category": "restlessness",
+      "symptom": "restlessness"
+    },
+    {
+      "hi": "क्या आप आराम करने या शांत होने में सक्षम हैं, या यह बेचैनी बनी रहती है?",
+      "en": "Are you able to relax or calm down, or does the restlessness persist?",
+      "category": "restlessness",
+      "symptom": "restlessness"
+    },
+    {
+      "hi": "क्या आपको सोने में या सोकर बने रहने में कठिनाई हो रही है?",
+      "en": "Do you have trouble sleeping or staying asleep?",
+      "category": "restlessness",
+      "symptom": "restlessness"
+    },
+    {
+      "hi": "क्या आपने हाल ही में अपनी दिनचर्या, आहार, या दवाइयों में कोई बदलाव किया है?",
+      "en": "Have you had any changes in your routine, diet, or medications recently?",
+      "category": "restlessness",
+      "symptom": "restlessness"
+    }
+],
 
 
 
