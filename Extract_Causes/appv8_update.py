@@ -6955,8 +6955,385 @@ symptom_followup_questions = {
     "category": "skin burning",
     "symptom": "skin burning"
   }
-],
+    ],
+"bleeding": [
+    {
+      "hi": "खून कहां से बह रहा है?",
+      "en": "Where is the bleeding coming from?",
+      "category": "bleeding",
+      "symptom": "bleeding"
+    },
+    {
+      "hi": "आप कितनी मात्रा में खून खो रहे हैं?",
+      "en": "How much blood are you losing?",
+      "category": "bleeding",
+      "symptom": "bleeding"
+    },
+    {
+      "hi": "क्या खून बहना लगातार है या यह कभी-कभी होता है?",
+      "en": "Is the bleeding continuous or intermittent?",
+      "category": "bleeding",
+      "symptom": "bleeding"
+    },
+    {
+      "hi": "क्या आपने कोई आघात या चोट महसूस की है?",
+      "en": "Have you experienced any trauma or injury?",
+      "category": "bleeding",
+      "symptom": "bleeding"
+    },
+    {
+      "hi": "क्या आपको खून बहने की कोई पुरानी समस्या है?",
+      "en": "Do you have any history of bleeding disorders?",
+      "category": "bleeding",
+      "symptom": "bleeding"
+    },
+    {
+      "hi": "क्या आप कोई दवाइयां ले रहे हैं, विशेष रूप से रक्त पतला करने वाली दवाइयां?",
+      "en": "Are you taking any medications, particularly blood thinners?",
+      "category": "bleeding",
+      "symptom": "bleeding"
+    },
+    {
+      "hi": "क्या आपने कोई अन्य लक्षण अनुभव किए हैं (जैसे चक्कर आना, कमजोरी, दर्द, या चोट)?",
+      "en": "Have you experienced any other symptoms (e.g., dizziness, weakness, pain, or bruising)?",
+      "category": "bleeding",
+      "symptom": "bleeding"
+    }
 
+
+],
+"anxiety": [
+    {
+      "hi": "क्या आपकी चिंता के कारण विशेष परिस्थितियाँ, विचार, या घटनाएँ हैं?",
+      "en": "What triggers your anxiety (specific situations, thoughts, or events)?",
+      "category": "anxiety",
+      "symptom": "anxiety"
+    },
+    {
+      "hi": "आप कितनी बार चिंता महसूस करते हैं?",
+      "en": "How often do you experience anxiety?",
+      "category": "anxiety",
+      "symptom": "anxiety"
+    },
+    {
+      "hi": "जब आप चिंतित होते हैं तो आप शारीरिक लक्षणों का अनुभव करते हैं (जैसे पसीना आना, दिल की धड़कन तेज होना, कांपना)?",
+      "en": "What physical symptoms do you experience when you're anxious (e.g., sweating, heart racing, shaking)?",
+      "category": "anxiety",
+      "symptom": "anxiety"
+    },
+    {
+      "hi": "क्या आप अपनी चिंता के कारण कुछ विशेष परिस्थितियों से बचते हैं?",
+      "en": "Do you avoid certain situations because of your anxiety?",
+      "category": "anxiety",
+      "symptom": "anxiety"
+    },
+    {
+      "hi": "आप अपनी चिंता से निपटने या उसे प्रबंधित करने के लिए क्या उपाय करते हैं?",
+      "en": "How do you cope with or manage your anxiety?",
+      "category": "anxiety",
+      "symptom": "anxiety"
+    },
+    {
+      "hi": "क्या आपने हाल ही में कोई महत्वपूर्ण जीवन परिवर्तन या तनाव महसूस किया है?",
+      "en": "Have you experienced any major life changes or stress recently?",
+      "category": "anxiety",
+      "symptom": "anxiety"
+    },
+    {
+      "hi": "क्या आपके परिवार में चिंता या अन्य मानसिक स्वास्थ्य समस्याओं का इतिहास है?",
+      "en": "Do you have a history of anxiety or other mental health conditions in your family?",
+      "category": "anxiety",
+      "symptom": "anxiety"
+    }
+],
+    "cancer": [
+    {
+      "hi": "क्या आपने कोई अप्रत्याशित वजन घटने का अनुभव किया है?",
+      "en": "Have you noticed any unexplained weight loss?",
+      "category": "cancer",
+      "symptom": "cancer"
+    },
+    {
+      "hi": "क्या आपको कोई लगातार दर्द या असुविधा महसूस हो रही है?",
+      "en": "Do you have any persistent pain or discomfort?",
+      "category": "cancer",
+      "symptom": "cancer"
+    },
+    {
+      "hi": "क्या आपने अपनी त्वचा में कोई बदलाव महसूस किया है, जैसे नए मस्से या वृद्धि?",
+      "en": "Have you experienced any changes in your skin, such as new moles or growths?",
+      "category": "cancer",
+      "symptom": "cancer"
+    },
+    {
+      "hi": "क्या आप किसी असामान्य रक्तस्राव या स्राव का अनुभव कर रहे हैं?",
+      "en": "Are you experiencing any unusual bleeding or discharge?",
+      "category": "cancer",
+      "symptom": "cancer"
+    },
+    {
+      "hi": "क्या आपको निगलने में कोई कठिनाई या लगातार खांसी का अनुभव हुआ है?",
+      "en": "Have you had any difficulty swallowing or persistent cough?",
+      "category": "cancer",
+      "symptom": "cancer"
+    },
+    {
+      "hi": "क्या आपको आंत्र या मूत्र संबंधी आदतों में कोई बदलाव महसूस हुआ है (जैसे, मल में खून, बार-बार पेशाब आना)?",
+      "en": "Do you have any changes in bowel or urinary habits (e.g., blood in stool, frequent urination)?",
+      "category": "cancer",
+      "symptom": "cancer"
+    },
+    {
+      "hi": "क्या आपको कोई असामान्य थकान या कमजोरी महसूस हो रही है जो आराम करने से ठीक नहीं होती?",
+      "en": "Have you had any unusual fatigue or weakness that doesn’t improve with rest?",
+      "category": "cancer",
+      "symptom": "cancer"
+    },
+    {
+      "hi": "क्या आपके परिवार में कैंसर या आनुवंशिक प्रवृत्तियाँ हैं?",
+      "en": "Do you have a family history of cancer or genetic predispositions?",
+      "category": "cancer",
+      "symptom": "cancer"
+    }
+],
+    "weight loss": [
+    {
+      "hi": "आपने कितनी वजन कम की है, और यह कितने समय में हुआ है?",
+      "en": "How much weight have you lost, and over what period of time?",
+      "category": "weight loss",
+      "symptom": "weight loss"
+    },
+    {
+      "hi": "क्या आपने अपनी भूख में कोई बदलाव महसूस किया है?",
+      "en": "Have you noticed any changes in your appetite?",
+      "category": "weight loss",
+      "symptom": "weight loss"
+    },
+    {
+      "hi": "क्या आपको खाने या निगलने में कोई कठिनाई हो रही है?",
+      "en": "Are you experiencing any difficulty eating or swallowing?",
+      "category": "weight loss",
+      "symptom": "weight loss"
+    },
+    {
+      "hi": "क्या आपने हाल ही में कोई बीमारी, संक्रमण या स्वास्थ्य समस्याएँ अनुभव की हैं?",
+      "en": "Have you had any recent illnesses, infections, or health conditions?",
+      "category": "weight loss",
+      "symptom": "weight loss"
+    },
+    {
+      "hi": "क्या आप गैस्ट्रोइंटेस्टाइनल लक्षणों का अनुभव कर रहे हैं, जैसे दस्त, मतली, या उल्टी?",
+      "en": "Are you experiencing any gastrointestinal symptoms, like diarrhea, nausea, or vomiting?",
+      "category": "weight loss",
+      "symptom": "weight loss"
+    },
+    {
+      "hi": "क्या आप पहले से अधिक थका हुआ या कमजोर महसूस कर रहे हैं?",
+      "en": "Do you feel more fatigued or weak than usual?",
+      "category": "weight loss",
+      "symptom": "weight loss"
+    },
+    {
+      "hi": "क्या आप हाल ही में कोई महत्वपूर्ण तनाव महसूस कर रहे हैं?",
+      "en": "Have you been under significant stress recently?",
+      "category": "weight loss",
+      "symptom": "weight loss"
+    },
+    {
+      "hi": "क्या आपको थायरॉयड समस्याएँ, डायबिटीज़, या अन्य चयापचय विकारों का इतिहास है?",
+      "en": "Do you have a history of thyroid problems, diabetes, or other metabolic disorders?",
+      "category": "weight loss",
+      "symptom": "weight loss"
+    }
+],
+    "frequent urination": [
+    {
+      "hi": "आपको दिन और रात में कितनी बार पेशाब करने की आवश्यकता होती है?",
+      "en": "How often do you need to urinate during the day and night?",
+      "category": "frequent urination",
+      "symptom": "frequent urination"
+    },
+    {
+      "hi": "क्या पेशाब करते समय कोई दर्द या असुविधा हो रही है?",
+      "en": "Is there any pain or discomfort when urinating?",
+      "category": "frequent urination",
+      "symptom": "frequent urination"
+    },
+    {
+      "hi": "क्या आपने पेशाब के रंग, गंध, या रूप में कोई बदलाव देखा है?",
+      "en": "Have you noticed any changes in the color, odor, or appearance of your urine?",
+      "category": "frequent urination",
+      "symptom": "frequent urination"
+    },
+    {
+      "hi": "क्या आपको पेशाब करने की अत्यधिक आवश्यकता या तात्कालिकता महसूस हो रही है?",
+      "en": "Are you experiencing any urgency or a strong need to urinate?",
+      "category": "frequent urination",
+      "symptom": "frequent urination"
+    },
+    {
+      "hi": "क्या आपने हाल ही में कोई मूत्र मार्ग संक्रमण (UTIs) या मूत्राशय की समस्याएं अनुभव की हैं?",
+      "en": "Have you had any recent urinary tract infections (UTIs) or bladder issues?",
+      "category": "frequent urination",
+      "symptom": "frequent urination"
+    },
+    {
+      "hi": "क्या आप सामान्य से अधिक तरल पदार्थ पी रहे हैं, या आपके आहार में कोई बदलाव हुआ है?",
+      "en": "Are you drinking more fluids than usual, or have there been any changes to your diet?",
+      "category": "frequent urination",
+      "symptom": "frequent urination"
+    },
+    {
+      "hi": "क्या आपको डायबिटीज़ या गुर्दे या मूत्राशय से संबंधित अन्य चिकित्सा समस्याओं का इतिहास है?",
+      "en": "Do you have a history of diabetes or any other medical conditions affecting the kidneys or bladder?",
+      "category": "frequent urination",
+      "symptom": "frequent urination"
+    },
+    {
+      "hi": "क्या आपने कोई अन्य लक्षण अनुभव किए हैं, जैसे बुखार, सूजन, या पेट के निचले हिस्से में दर्द?",
+      "en": "Have you experienced any other symptoms, such as fever, swelling, or pelvic pain?",
+      "category": "frequent urination",
+      "symptom": "frequent urination"
+    }
+],
+    "strain": [
+    {
+      "hi": "चोट कैसे लगी? (जैसे, अचानक हरकत, उठाना, या व्यायाम)",
+      "en": "How did the injury occur? (e.g., sudden movement, lifting, or exercise)",
+      "category": "strain",
+      "symptom": "strain"
+    },
+    {
+      "hi": "शरीर का कौन सा हिस्सा प्रभावित है?",
+      "en": "Which part of the body is affected?",
+      "category": "strain",
+      "symptom": "strain"
+    },
+    {
+      "hi": "आपने सबसे पहले कब दर्द या असुविधा महसूस की?",
+      "en": "When did you first notice the pain or discomfort?",
+      "category": "strain",
+      "symptom": "strain"
+    },
+    {
+      "hi": "क्या आप दर्द का वर्णन कर सकते हैं? (तेज, हल्का, धड़कता हुआ, आदि)",
+      "en": "Can you describe the pain (sharp, dull, throbbing, etc.)?",
+      "category": "strain",
+      "symptom": "strain"
+    },
+    {
+      "hi": "क्या आपने उस क्षेत्र में सूजन, चोट, या लालिमा महसूस की है?",
+      "en": "Have you experienced any swelling, bruising, or redness in the area?",
+      "category": "strain",
+      "symptom": "strain"
+    },
+    {
+      "hi": "क्या आप प्रभावित मांसपेशी या जोड़ी को हिला सकते हैं, या गति की सीमा सीमित है?",
+      "en": "Are you able to move the affected muscle or joint, or is there limited range of motion?",
+      "category": "strain",
+      "symptom": "strain"
+    },
+    {
+      "hi": "क्या आपको इस क्षेत्र में पहले कोई चोट या खिंचाव हुआ है?",
+      "en": "Have you had any previous injuries or strains in this area?",
+      "category": "strain",
+      "symptom": "strain"
+    },
+    {
+      "hi": "क्या आपने किसी उपचार की कोशिश की है (जैसे, विश्राम, बर्फ, गर्मी, या दवा), और यदि हां, तो क्या उन्होंने मदद की?",
+      "en": "Have you tried any treatments (e.g., rest, ice, heat, or medication), and if so, did they help?",
+      "category": "strain",
+      "symptom": "strain"
+    }
+],
+    "jaw pain": [
+    {
+      "hi": "क्या आप दर्द का वर्णन कर सकते हैं? (तेज, हल्का, धड़कता हुआ, या पीड़ा)?",
+      "en": "Can you describe the pain (sharp, dull, throbbing, or aching)?",
+      "category": "jaw pain",
+      "symptom": "jaw pain"
+    },
+    {
+      "hi": "क्या दर्द लगातार है, या यह कभी-कभी होता है?",
+      "en": "Is the pain constant, or does it come and go?",
+      "category": "jaw pain",
+      "symptom": "jaw pain"
+    },
+    {
+      "hi": "क्या दर्द चबाने, बोलने, या मुँह खोलने से बढ़ जाता है?",
+      "en": "Does the pain worsen with chewing, speaking, or opening your mouth wide?",
+      "category": "jaw pain",
+      "symptom": "jaw pain"
+    },
+    {
+      "hi": "क्या आपने हाल ही में जबड़े में किसी प्रकार की चोट या आघात का अनुभव किया है?",
+      "en": "Have you experienced any recent trauma or injury to the jaw?",
+      "category": "jaw pain",
+      "symptom": "jaw pain"
+    },
+    {
+      "hi": "क्या आपको अपने काटने या जबड़े की गति में कोई कठिनाई हो रही है?",
+      "en": "Are you having any difficulty with your bite or jaw movement?",
+      "category": "jaw pain",
+      "symptom": "jaw pain"
+    },
+    {
+      "hi": "क्या आप रात में अपने दांतों को पीसते हैं या जबड़े को दबाते हैं?",
+      "en": "Do you grind your teeth or clench your jaw, especially at night?",
+      "category": "jaw pain",
+      "symptom": "jaw pain"
+    },
+    {
+      "hi": "क्या आपने अपने जबड़े में सूजन, कोमलता, या क्लिक की आवाज सुनी है?",
+      "en": "Have you noticed any swelling, tenderness, or clicking sounds in your jaw?",
+      "category": "jaw pain",
+      "symptom": "jaw pain"
+    }
+],
+    "tooth pain": [
+    {
+      "hi": "क्या आप दर्द का वर्णन कर सकते हैं? (तेज, धड़कता हुआ, स्थायी, या आवधिक)?",
+      "en": "Can you describe the pain (sharp, throbbing, constant, or intermittent)?",
+      "category": "tooth pain",
+      "symptom": "tooth pain"
+    },
+    {
+      "hi": "क्या यह दर्द गर्म, ठंडा, या मीठे खाद्य या पेय पदार्थों से उत्तेजित होता है?",
+      "en": "Is the pain triggered by hot, cold, or sweet foods or drinks?",
+      "category": "tooth pain",
+      "symptom": "tooth pain"
+    },
+    {
+      "hi": "क्या आपको प्रभावित दांत के आसपास सूजन या कोमलता महसूस हो रही है?",
+      "en": "Are you experiencing any swelling or tenderness around the affected tooth?",
+      "category": "tooth pain",
+      "symptom": "tooth pain"
+    },
+    {
+      "hi": "क्या आपने हाल ही में दंत चिकित्सा कार्य या दांत में किसी प्रकार का आघात अनुभव किया है?",
+      "en": "Have you had any recent dental work or trauma to the tooth?",
+      "category": "tooth pain",
+      "symptom": "tooth pain"
+    },
+    {
+      "hi": "क्या आपको चबाने या काटने में कोई कठिनाई हो रही है?",
+      "en": "Are you having difficulty chewing or biting down?",
+      "category": "tooth pain",
+      "symptom": "tooth pain"
+    },
+    {
+      "hi": "क्या आपको कोई अन्य लक्षण जैसे बुखार या मुँह में बुरी स्वाद महसूस हो रहा है?",
+      "en": "Do you have any other symptoms like fever or a bad taste in your mouth?",
+      "category": "tooth pain",
+      "symptom": "tooth pain"
+    },
+    {
+      "hi": "क्या आपको कीड़े, मसूड़ों की बीमारी, या अन्य दंत समस्याओं का इतिहास है?",
+      "en": "Have you had a history of cavities, gum disease, or other dental issues?",
+      "category": "tooth pain",
+      "symptom": "tooth pain"
+    }
+],
 
 
 }
