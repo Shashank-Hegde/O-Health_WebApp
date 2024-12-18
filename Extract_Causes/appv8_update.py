@@ -3778,7 +3778,7 @@ symptom_followup_questions = {
     },
   ],
 
-  "skin rash": [
+  "rash": [
     {
       "hi": "क्या आपके शरीर पर कोई दाने या चकत्ते हैं?",
       "en": "Do you have any bumps or spots on your skin?",
