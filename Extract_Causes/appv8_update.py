@@ -7540,6 +7540,50 @@ symptom_followup_questions = {
       "symptom": "difficulty swallowing"
     }
 ],
+"dry mouth": [
+    {
+      "hi": "क्या मुंह में सूखापन लगातार है, या यह कभी-कभी होता है?",
+      "en": "Is the dryness constant, or does it come and go?",
+      "category": "dry mouth",
+      "symptom": "dry mouth"
+    },
+    {
+      "hi": "क्या आपको सूखापन के कारण बोलने, निगलने, या चबाने में कठिनाई हो रही है?",
+      "en": "Are you experiencing difficulty speaking, swallowing, or chewing due to the dryness?",
+      "category": "dry mouth",
+      "symptom": "dry mouth"
+    },
+    {
+      "hi": "क्या आपने दिनभर में पर्याप्त मात्रा में तरल पदार्थ पिए हैं?",
+      "en": "Have you been drinking enough fluids throughout the day?",
+      "category": "dry mouth",
+      "symptom": "dry mouth"
+    },
+    {
+      "hi": "क्या आप वर्तमान में किसी दवा का सेवन कर रहे हैं, जैसे एंटीहिस्टामिन या एंटीडिप्रेसेंट, जो मुंह के सूखने का कारण बन सकती है?",
+      "en": "Are you currently taking any medications, such as antihistamines or antidepressants, that could cause dry mouth?",
+      "category": "dry mouth",
+      "symptom": "dry mouth"
+    },
+    {
+      "hi": "क्या आपने हाल ही में अपनी आहार, जीवनशैली, या स्वास्थ्य में कोई बदलाव महसूस किया है?",
+      "en": "Have you experienced any changes in your diet, lifestyle, or health recently?",
+      "category": "dry mouth",
+      "symptom": "dry mouth"
+    },
+    {
+      "hi": "क्या आप तंबाकू उत्पादों या शराब का सेवन करते हैं, जो मुंह के सूखने का कारण बन सकते हैं?",
+      "en": "Are you using any tobacco products or alcohol, which may contribute to dry mouth?",
+      "category": "dry mouth",
+      "symptom": "dry mouth"
+    },
+    {
+      "hi": "क्या आपको कोई अंतर्निहित स्वास्थ्य स्थितियां हैं, जैसे मधुमेह, शोज़ग्रेन सिंड्रोम, या ऑटोइम्यून विकार?",
+      "en": "Do you have any underlying health conditions, such as diabetes, Sjögren's syndrome, or autoimmune disorders?",
+      "category": "dry mouth",
+      "symptom": "dry mouth"
+    }
+],
 
 
 
