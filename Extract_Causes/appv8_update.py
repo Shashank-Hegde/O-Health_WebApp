@@ -126,7 +126,7 @@ symptom_synonyms = {
     ],
 
     'shortness of breath': [
-        'Shortness of breath', 'breathlessness', 'difficulty breathing', 'feeling air hunger', 'rapid breathing', 'fast breathing', 'shallow breathing', 'gasping for air',
+        'Shortness of breath', 'breathlessness', 'difficulty breathing', 'feeling air hunger', 'fast breathing', 'shallow breathing', 'gasping for air',
         'labored breathing', 'struggling to breathe', 'tightness in chest while inhaling', 'feeling suffocated', 'can’t catch my breath', 'panting heavily', 'air feeling thin',
         'lungs working overtime', 'chest feels restricted', 'fighting for each breath', 'wheezing for air', 'strained respiration', 'feeling smothered', 'desperate for oxygen',
         'winded easily', 'constant puffing', 'breathing feels blocked', 'inhaling with effort', 'forced breathing', 'constant need to gulp air', 'sensation of drowning in open air',
@@ -136,6 +136,9 @@ symptom_synonyms = {
         'breathing feels like pushing through a straw', 'air-starved lungs', 'cannot take a deep breath', 'strained oxygen intake', 'feeling like each breath is a struggle',
         'never fully satisfied inhalation', 'gasping between words', 'needy breathing pattern', 'barely pulling in enough air', 'lungs working at half capacity', 'respiratory distress',
         'continuous short-windedness', 'feeling I can’t fully inflate lungs'
+    ],
+   'rapid breathing': [
+         'heavy breathing', 'shallow breathing', 'heart skipping beats'
     ],
     'chest pain': [
         'chest discomfort', 'sharp chest pain', 'tightness in chest', 'aching chest', 'burning chest', 'soreness in chest', 'chest pressure', 'tight chest', 'chest heaviness',
@@ -211,7 +214,8 @@ symptom_synonyms = {
         'popping joints', 'clicking joints', 'cracking joints', 'sore knees', 'joint inflammation in fingers', 'inflamed joints', 'stiffened knee joints', 'swollen ankles', 'excessive joint pain',
         'joint tenderness', 'joint soreness from strain', 'arthralgia', 'aching knees', 'hip pain', 'painful wrists', 'sharp joint pain', 'stabbing joint pain', 'chronic joint ache', 'inflamed elbow joints',
         'chronic knee pain', 'joint damage', 'strained joint', 'degenerative joint disease', 'discomfort in joints', 'dull joint ache', 'acute joint pain', 'swollen hands', 'weakening joint flexibility',
-        'muscle and joint discomfort', 'continuous joint pain', 'painful back joints', 'arthritic inflammation'
+        'muscle and joint discomfort', 'continuous joint pain', 'painful back joints', 'arthritic inflammation', 'joint locking', 'joint clicking', 'joint popping', 'joint dislocation'
+
     ],
    'diarrhea': [
         'loose stools', 'frequent bowel movements', 'watery stools', 'runny stools', 'loose bowels', 'urgent need to defecate', 'watery bowel movements', 'explosive diarrhea',
@@ -230,18 +234,9 @@ symptom_synonyms = {
         'nauseated vomiting', 'vomit-induced gagging', 'stomach-purging sensation', 'retching uncontrollably', 'throwing up after eating', 'puking episodes', 'sick and throwing up',
         'puking from irritation', 'regurgitating food', 'empty stomach vomiting', 'morning sickness vomiting', 'nausea attacks with vomiting', 'emesis due to motion sickness', 'heaving up'
     ],
-    'wheezing': [
-        'Wheezy breathing', 'whistling sound in chest', 'squeaky breath sounds', 'airway constriction noise', 'raspy inhalation/exhalation', 'high-pitched airway noise', 'strained breathing sounds',
-        'pipe-like whistling in lungs', 'shrill breathing tone', 'whistle-like wheeze', 'tight-sounding inhalation', 'air squeaking through narrow passages', 'wheezy rasp', 'reedy airway noise',
-        'restricted airflow whistling', 'hissing breath', 'airy shrillness', 'squealing lung sounds', 'sinusoidal airway noise', 'faint whistling undertone', 'discordant breathing note',
-        'squeaky bronchial sound', 'flute-like chest murmur', 'feeble airy gasp', 'throttled breathing noise', 'subtle wind-through-a-pipe sound', 'frictional wheeze', 'squealing inhalation',
-        'musical chest sound', 'constricted airway melody', 'tiny whistle at exhale', 'squeaking lung pipes', 'scratchy internal whistle', 'hush-like squeal inside chest', 'low whistling hum',
-        'piping chest note', 'shrilling lung friction', 'wind instrument-like breath', 'wheezy hum inside', 'squeaky balloon-like noise', 'shrill bronchial constriction', 'pinched airway sounds',
-        'skinny-tube breathing noise', 'fragile airway tone', 'forced narrow-bore breath', 'tight-lung whistle', 'faint flute-like exhale', 'windy squeak in lungs', 'diminished airway diameter sound',
-        'toy whistle breathing', 'compressed bronchial passage tune'
-    ],
-    'ear ache': [
-        'ear pain', 'pain in the ear', 'ear discomfort', 'ear irritation', 'painful ear', 'throbbing ear ache', 'sharp ear pain', 'dull ear pain', 'stabbing pain in ear', 'ringing ear pain',
+    
+    'ear pain': [
+        'ear ache', 'pain in the ear', 'ear discomfort', 'ear irritation', 'painful ear', 'throbbing ear ache', 'sharp ear pain', 'dull ear pain', 'stabbing pain in ear', 'ringing ear pain',
         'pressure in ear', 'ear sensitivity', 'intense ear discomfort', 'itchy ear', 'swollen ear', 'ear tenderness', 'ear pulsations', 'persistent ear pain', 'ear infection pain',
         'ear tenderness', 'pain behind ear', 'soreness in ear', 'ear pressure', 'ear inflammation', 'ear ache from cold', 'stuffy ear pain', 'pain in ear canal', 'ear ache when swallowing',
         'painful inner ear', 'hearing sensitivity with pain', 'fluid in ear causing pain', 'acute ear pain', 'chronic ear ache', 'pain after water exposure', 'ear infection causing pain',
@@ -263,9 +258,9 @@ symptom_synonyms = {
         'runny nose cold', 'sneezing with cold', 'mild chest congestion', 'low-grade cold infection', 'itchy throat cold', 'general cold symptoms', 'nasal congestion from cold',
         'watery eyes with cold', 'mild head congestion', 'cold-related fatigue', 'chilly viral infection', 'upper respiratory cold', 'typical cold symptoms', 'stuffy feeling from cold',
         'cough and cold', 'runny nose from cold', 'frequent sneezing cold', 'cold-related chills', 'feeling chilled from cold', 'aching muscles with cold', 'minor fever with cold',
-        'slight cold discomfort', 'cold-induced sore throat'
+        'slight cold discomfort', 'cold-induced sore throat' ,'feeling cold'
     ],
-    'sweat': [
+    'sweating': [
         'sweat', 'sweating', 'excessive sweating', 'unusual sweating', 'profuse sweating', 'drenched in sweat', 'perspiring heavily', 'sweating buckets', 'clammy sweating', 'dripping perspiration',
         'bead-like sweat on skin', 'moisture streaming down face', 'uncontrollable sweating', 'soaked in sweat', 'overactive sweat glands', 'sweaty and damp skin', 'sweat-soaked clothes',
         'constant perspiration', 'sticky sweat', 'salty perspiration', 'glistening with sweat', 'sweat trickling down spine', 'nervous sweating', 'stress-induced sweat', 'drenching perspiration',
@@ -294,14 +289,7 @@ symptom_synonyms = {
         'rattled by chill', 'shudders running down spine', 'uncontrollable cold tremors', 'shaky fingers and toes', 'rattling teeth', 'jittering from cold', 'frigid trembles',
         'cold-induced shaking', 'body frozen in chills', 'deep chills', 'numbing cold'
     ],
-    'dry skin': [
-        'skin dryness', 'rough skin', 'scaly skin', 'flaky skin', 'cracked skin', 'itchy dry skin', 'chapped skin', 'parched skin', 'dry patches', 'tight skin',
-        'dry flaky patches', 'irritated dry skin', 'dehydrated skin', 'unhealthy skin texture', 'dull dry skin', 'dryness around elbows', 'rough patches on skin', 'rough and irritated skin',
-        'dry skin flakes', 'flaky arms and legs', 'dry skin feeling', 'peeling skin', 'scaly patches', 'dryness on face', 'brittle skin', 'skin with visible dryness', 'dry skin redness',
-        'skin looking parched', 'skin dehydration', 'skin feeling tight', 'extremely dry skin', 'skin patches drying out', 'rough hands', 'cracked hands', 'flaky fingers', 'dry lips',
-        'dryness on feet', 'cracked heels', 'flaky scalp', 'dry patches around mouth', 'dry skin sensitivity', 'rough elbows and knees', 'desquamation', 'skin rough to touch', 'dry skin irritation',
-        'dryness causing redness', 'thin and cracked skin'
-    ],
+ 
     'eye pain': [
         'ocular pain', 'eye discomfort', 'pain in the eye', 'eye ache', 'sore eye', 'sharp pain in the eye', 'pain around the eyes', 'painful vision', 'pain behind the eye',
         'irritation in the eye', 'burning sensation in the eye', 'dry eye pain', 'stabbing eye pain', 'eye strain', 'pressure in the eye', 'throbbing in the eye',
@@ -309,7 +297,7 @@ symptom_synonyms = {
         'sharp eye ache', 'vision-related pain', 'severe eye pain', 'sharp stabbing pain in the eye', 'pain in the eyeball', 'tired eye pain', 'swollen eye discomfort', 'throbbing behind the eyes',
         'pain from light sensitivity', 'pain after reading', 'pain when blinking', 'gritty feeling in the eyes', 'intense eye pressure', 'pain around the eyelids', 'blurry vision with pain', 'puffy eyes with pain',
         'pain near the cornea', 'stinging pain in the eye', 'pain with redness in the eye', 'ocular discomfort', 'persistent eye pain', 'painful feeling when moving eyes', 'pressure sensation in the eyes',
-        'pain from eye strain', 'pain with dry eyes'
+        'pain from eye strain', 'pain with dry eyes', 'eye irritation', 'eye swelling', 'eye tearing',
     ],
     'ear pain': [
         'ear ache', 'pain in the ear', 'ear discomfort', 'sharp ear pain', 'throbbing ear ache', 'ear irritation', 'pressure in the ear', 'sharp pain in the ear', 'stabbing ear pain',
@@ -359,7 +347,6 @@ symptom_synonyms = {
         'dull aching chest pain', 'pain in the upper left chest', 'pain when lying down', 'sore chest', 'pain from trauma to chest', 'persistent chest pain', 'discomfort after exercise',
         'pain in the center of the chest', 'pain from chest cold', 'pain in the chest while breathing', 'sore chest area', 'pain in the left side of the chest', 'pain from coughing', 'pain from deep breathing'
     ],
-    'itching': ['skin itching'],
    
     'knee pain': [
         'knee discomfort', 'pain in the knee', 'joint pain in the knee', 'knee ache', 'sharp knee pain', 'throbbing knee pain', 'stabbing pain in the knee', 'pain in the knee joint',
@@ -429,7 +416,6 @@ symptom_synonyms = {
         'pain in the front of the hip', 'pain from sciatica', 'sharp hip joint pain', 'pain from hip flexor strain', 'deep hip pain', 'pain from hip dislocation', 'aching hip pain',
         'pain from muscle strain around the hip'
     ],
-    'skin burning' : ['burning', 'burn'],
     'back pain': [
         'lower back pain', 'upper back pain', 'spinal pain', 'pain in the back', 'back discomfort', 'sharp back pain', 'muscle pain in the back', 'pain in the lumbar region', 'pain in the thoracic region',
         'pain in the back muscles', 'dull back pain', 'throbbing back pain', 'pain when bending over', 'pain when standing', 'pain from sciatica', 'pain from a herniated disc', 'pain from poor posture',
@@ -458,8 +444,7 @@ symptom_synonyms = {
         'rattled mental library', 'concept slip-through', 'flickering data in mind', 'barren mental shelves', 'no retrieval of recent facts', 'thinking it’s on the tip of my tongue but never surfacing',
         'losing track of recent conversations', 'difficulty holding new info', 'memory short-circuits frequently', 'mental vacancy', 'ephemeral recollections', 'passing mental clouds with no retention',
         'drifting away from details', 'no anchor to past events'
-    ],
-      'hearing loss': ['damaging hearing', 'loss in hearing'],
+    ],  
    'hallucination': [
         'visual disturbance', 'illusion', 'seeing things', 'auditory hallucinations', 'sensory distortion', 'false perception', 'psychotic episode', 'delusion', 'perceptual misinterpretation', 'false vision',
         'seeing unreal things', 'hearing voices', 'mind tricks', 'imagined sights', 'fictitious perception', 'phantom sensations', 'visual or auditory illusion', 'perceptual disorder', 'seeing illusions',
@@ -470,12 +455,13 @@ symptom_synonyms = {
         'falsified sensory experience', 'experiencing the non existent'
     ],
     'vomiting': ['throwing up', 'puking', 'stomach upset'],
-    'ear ache': ['ear pain', 'otalgia', 'ear discomfort', 'pain in the ear', 'ear pressure'],
     'hearing loss' : ['loss of hearing'],
-    'taste change' : ['taste distortion'],
+    'bone pain': ['bone tenderness', 'bone swelling'],
     'allergies' : ['allergy','allergetic'],
     'weight gain': ['increase in weight', 'gain in body mass'],
-
+    'hearing loss': ['damaging hearing', 'loss in hearing'],
+    'skin burning' : ['burning', 'burn'],
+    'itching': ['skin itching'],
    }
 # ------------------------------------------------------------------ #
 # ----------------------- Followup Question ------------------------ #
