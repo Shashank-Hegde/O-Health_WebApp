@@ -7584,6 +7584,50 @@ symptom_followup_questions = {
       "symptom": "dry mouth"
     }
 ],
+"flu": [
+    {
+      "hi": "क्या आपको बुखार हो रहा है, और अगर हां, तो यह कितने उच्च स्तर का रहा है?",
+      "en": "Are you experiencing a fever, and if so, how high has it been?",
+      "category": "flu",
+      "symptom": "flu"
+    },
+    {
+      "hi": "क्या आपको खांसी, गले में खराश, या नाक बंद/बहना हो रहा है?",
+      "en": "Do you have a cough, sore throat, or runny/stuffy nose?",
+      "category": "flu",
+      "symptom": "flu"
+    },
+    {
+      "hi": "क्या आप थका हुआ या कमजोर महसूस कर रहे हैं?",
+      "en": "Are you feeling fatigued or weak?",
+      "category": "flu",
+      "symptom": "flu"
+    },
+    {
+      "hi": "क्या आपने शरीर में दर्द, कंपकंपी, या सिरदर्द का अनुभव किया है?",
+      "en": "Have you experienced body aches, chills, or headaches?",
+      "category": "flu",
+      "symptom": "flu"
+    },
+    {
+      "hi": "क्या आपको पाचन संबंधित लक्षण हो रहे हैं, जैसे मतली, उल्टी, या दस्त?",
+      "en": "Do you have any gastrointestinal symptoms, such as nausea, vomiting, or diarrhea?",
+      "category": "flu",
+      "symptom": "flu"
+    },
+    {
+      "hi": "क्या आपने हाल ही में किसी ऐसे व्यक्ति के संपर्क में आया है जिसे फ्लू या सर्दी जैसे लक्षण हो?",
+      "en": "Have you been in contact with anyone who has recently had the flu or cold-like symptoms?",
+      "category": "flu",
+      "symptom": "flu"
+    },
+    {
+      "hi": "क्या आपको सांस लेने में कठिनाई हो रही है या छाती में दर्द महसूस हो रहा है?",
+      "en": "Are you experiencing any difficulty breathing or chest pain?",
+      "category": "flu",
+      "symptom": "flu"
+    }
+],
 
 
 
