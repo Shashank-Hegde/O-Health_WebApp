@@ -11,7 +11,7 @@ symptom_list = [
 'numbness', 'dry mouth', 'frequent urination', 'acne', 'bruising', 'confusion', 'memory loss', 'difficulty swallowing', 'restlessness', 'yellow skin', 
 'yellow eyes', 'bloating', 'gas', 'indigestion', 'heartburn', 'mouth sore', 'nosebleed', 'ear ringing', 'dark urine', 'blood in urine', 'skin itching',
 'blood in stool', 'high blood pressure', 'low blood pressure', 'thirst', 'dehydration', 'skin burning', 'sweating', 'eye pain', 'red eyes', 'eye discharge',
-'hearing loss', 'balance problem', 'irregular heartbeat', 'fainting', 'tremor', 'shakiness', 'nervousness', 'panic attack', 'mood swing', 'difficulty concentrating',
+'hearing loss', 'balance problem', 'irregular heartbeat', 'fainting', 'tremor', 'nervousness', 'panic attack', 'mood swing', 'difficulty concentrating',
 'hallucination', 'lack of motivation', 'exhaustion', 'bone pain', 'sprain', 'strain', 'arthritis', 'gout', 'headache', 'injury', 'chills', 'leg pain', 'hand pain',
 'arm pain', 'foot pain', 'knee pain', 'shoulder pain', 'hip pain', 'jaw pain', 'tooth pain'   
 ]
