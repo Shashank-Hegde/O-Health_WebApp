@@ -8,7 +8,7 @@ symptom_list = [
 'chest pain', 'back pain', 'constipation', 'throat pain', 'diarrhea', 'flu', 'shortness of breath', 'rapid breathing', 'stomach pain', 'migraine',
 'sore', 'skin burning', 'itching', 'swelling', 'vomiting', 'infection', 'inflammation', 'cramp', 'bleeding', 'irritation', 'anxiety', 'depression',
 'nausea', 'swollen lymph nodes', 'insomnia', 'cancer', 'diabetes', 'allergy', 'weight loss', 'weight gain', 'hair loss', 'blurred vision', 'ear pain',
-'numbness', 'dry mouth', 'frequent urination', 'acne', 'bruising', 'confusion', 'memory loss', 'difficulty swallowing', 'restlessness', 'yellow skin', 
+'numbness', 'dry mouth', 'frequent urination', 'acne', 'confusion', 'memory loss', 'difficulty swallowing', 'restlessness', 'yellow skin', 
 'yellow eyes', 'bloating', 'gas', 'indigestion', 'heartburn', 'mouth sore', 'nosebleed', 'ear ringing', 'dark urine', 'blood in urine',
 'blood in stool', 'high blood pressure', 'low blood pressure', 'thirst', 'dehydration', 'skin burning', 'sweating', 'eye pain', 'red eyes', 'eye discharge',
 'hearing loss', 'balance problem', 'irregular heartbeat', 'fainting', 'tremor', 'nervousness', 'panic attack', 'mood swing', 'difficulty concentrating',
@@ -273,7 +273,7 @@ symptom_synonyms = {
         'swollen joints', 'swollen ankle', 'swollen hands', 'swollen feet', 'localized swelling', 'bloating', 'swollen skin', 'swelling in legs', 'swelling due to injury', 'swollen belly',
         'swollen face', 'swollen knees', 'edematous swelling', 'painful swelling', 'swollen extremities', 'swelling from infection', 'swelling from trauma', 'swelling after surgery',
         'swelling of the face', 'swelling under the skin', 'swollen throat', 'swelling with discomfort', 'puffy hands', 'swelling after a fall', 'generalized swelling', 'swelling in eyes',
-        'swelling from arthritis', 'swelling around wounds', 'enlarged tissue area', 'swelling from allergic reaction', 'swelling in body cavity', 'swelling around the joints'
+        'swelling from arthritis', 'swelling around wounds', 'enlarged tissue area', 'swelling from allergic reaction', 'swelling in body cavity', 'swelling around the joints','bruising'
     ],
     'tremors': [
         'shaking', 'shivering', 'twitching', 'involuntary movements', 'nervous shaking', 'muscle tremors', 'rhythmic shaking', 'trembling hands', 'uncontrolled muscle movement',
