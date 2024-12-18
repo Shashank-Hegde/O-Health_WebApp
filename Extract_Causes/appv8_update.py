@@ -7364,6 +7364,50 @@ symptom_followup_questions = {
       "symptom": "nervousness"
     }
 ],
+"blurred vision": [
+    {
+      "hi": "क्या धुंधली दृष्टि एक आंख में है या दोनों आंखों में?",
+      "en": "Is the blurred vision in one eye or both eyes?",
+      "category": "blurred vision",
+      "symptom": "blurred vision"
+    },
+    {
+      "hi": "क्या धुंधलापन आता-जाता है, या यह निरंतर है?",
+      "en": "Does the blurriness come and go, or is it constant?",
+      "category": "blurred vision",
+      "symptom": "blurred vision"
+    },
+    {
+      "hi": "क्या आप अन्य लक्षणों का अनुभव कर रहे हैं, जैसे आंखों में दर्द, सिरदर्द, या चक्कर?",
+      "en": "Are you experiencing any other symptoms, such as eye pain, headaches, or dizziness?",
+      "category": "blurred vision",
+      "symptom": "blurred vision"
+    },
+    {
+      "hi": "क्या आपने हाल ही में अपनी आंखों में कोई चोट या आघात अनुभव किया है?",
+      "en": "Have you had any recent injuries or trauma to your eyes?",
+      "category": "blurred vision",
+      "symptom": "blurred vision"
+    },
+    {
+      "hi": "क्या आपको रात के समय या कुछ विशेष रोशनी की परिस्थितियों में देखने में कठिनाई हो रही है?",
+      "en": "Are you experiencing any difficulty seeing at night or in certain lighting conditions?",
+      "category": "blurred vision",
+      "symptom": "blurred vision"
+    },
+    {
+      "hi": "क्या आपको आंखों से संबंधित कोई पुरानी समस्या है, जैसे मोतियाबिंद, ग्लूकोमा, या मॅक्यूलर डिजेनेरेशन?",
+      "en": "Do you have a history of eye conditions, such as cataracts, glaucoma, or macular degeneration?",
+      "category": "blurred vision",
+      "symptom": "blurred vision"
+    },
+    {
+      "hi": "क्या आप वर्तमान में कोई दवाइयाँ ले रहे हैं या कोई अंतर्निहित स्वास्थ्य समस्याएँ हैं (जैसे, मधुमेह या उच्च रक्तचाप)?",
+      "en": "Are you currently taking any medications or have any underlying health conditions (e.g., diabetes or hypertension)?",
+      "category": "blurred vision",
+      "symptom": "blurred vision"
+    }
+],
 
 
 
