@@ -653,12 +653,6 @@ symptom_followup_questions = {
       "symptom": "Constant nausea",
     },
     {
-      "hi": "क्या मतली के साथ कोई अन्य लक्षण हैं?",
-      "en": "Are there any other symptoms along with nausea?",
-      "category": "other_symptoms",
-      "symptom": None,
-    },
-    {
       "hi": "क्या आपको खाने के बाद मतली होती है?",
       "en": "Do you feel nauseous after eating?",
       "category": "postprandial_nausea",
@@ -677,12 +671,6 @@ symptom_followup_questions = {
       "symptom": "Headache",
     },
     {
-      "hi": "क्या आपके मूत्र में कोई परिवर्तन आया है?",
-      "en": "Have you noticed any changes in your urine?",
-      "category": "urinary_changes",
-      "symptom": None,
-    },
-    {
       "hi": "क्या आपको कोई चक्कर आ रहे हैं साथ ही मतली?",
       "en": "Are you feeling dizzy along with nausea?",
       "category": "dizziness_nausea",
@@ -693,12 +681,6 @@ symptom_followup_questions = {
       "en": "Are you having trouble sleeping along with nausea?",
       "category": "sleep_disturbance",
       "symptom": "Sleep disturbance",
-    },
-    {
-      "hi": "क्या आपकी त्वचा पीलिया हो रही है साथ ही मतली?",
-      "en": "Is your skin turning yellow along with nausea?",
-      "category": "jaundice_nausea",
-      "symptom": "Jaundice",
     },
   ],
   "dizziness": [
@@ -731,12 +713,6 @@ symptom_followup_questions = {
       "en": "Are you having headaches along with dizziness?",
       "category": "headache_dizziness",
       "symptom": "Headache",
-    },
-    {
-      "hi": "क्या आपके आसपास की चीजें घूमती हुई दिख रही हैं?",
-      "en": "Are objects around you spinning?",
-      "category": "visual_dizziness",
-      "symptom": "Visual dizziness",
     },
     {
       "hi": "क्या आपको संतुलन बिगड़ रहा है?",
@@ -781,12 +757,6 @@ symptom_followup_questions = {
       "en": "Are your eyes feeling itchy along with yellowing?",
       "category": "itchy_eyes",
       "symptom": "Itchy eyes",
-    },
-    {
-      "hi": "क्या आपके मुँह से पीली लार निकल रही है?",
-      "en": "Is yellow saliva coming from your mouth?",
-      "category": "yellow_saliva",
-      "symptom": "Yellow saliva",
     },
   ],
 
@@ -1199,12 +1169,6 @@ symptom_followup_questions = {
       "en": "Is your chest pain radiating to your arms, neck, or back?",
       "category": "radiating_pain",
       "symptom": None,
-    },
-    {
-      "hi": "क्या छाती में दर्द के साथ पसीना आना शुरू हुआ है?",
-      "en": "Have you started sweating along with chest pain?",
-      "category": "sweating_with_pain",
-      "symptom": "sweating",
     },
   ],
 
