@@ -4383,12 +4383,6 @@ symptom_followup_questions = {
       "symptom": "substance use",
     },
     {
-      "hi": "क्या आप कोई दवाइयाँ ले रहे हैं (प्रिस्क्रिप्शन, ओवर-द-काउंटर, या हर्बल)?",
-      "en": "Are you taking any medications (prescription, over-the-counter, or herbal)?",
-      "category": "medication",
-      "symptom": "medication",
-    },
-    {
       "hi": "क्या आपको कोई अन्य चिकित्सा समस्याएँ हैं (जैसे दर्द, सांस लेने में समस्या, मानसिक स्वास्थ्य समस्याएँ)?",
       "en": "Do you have any other medical conditions (e.g., pain, breathing problems, mental health conditions)?",
       "category": "medical conditions",
