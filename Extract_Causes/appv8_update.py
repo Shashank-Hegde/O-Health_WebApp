@@ -1890,12 +1890,6 @@ symptom_followup_questions = {
       "symptom": "weight gain",
     },
     {
-      "hi": "क्या वजन बढ़ने के साथ आपके कपड़ों में कसाव आ रहा है?",
-      "en": "Is your clothing feeling tighter due to weight gain?",
-      "category": "clothing_tightness",
-      "symptom": None,
-    },
-    {
       "hi": "क्या वजन बढ़ने के कारण आपको थकान महसूस हो रही है?",
       "en": "Are you feeling fatigued due to weight gain?",
       "category": "fatigue_with_weight_gain",
@@ -1958,12 +1952,7 @@ symptom_followup_questions = {
       "category": "slowed_hair_growth",
       "symptom": None,
     },
-    {
-      "hi": "क्या बालों का झड़ना के कारण आपकी आत्म-सम्मान प्रभावित हो रहा है?",
-      "en": "Is your self-esteem being affected due to hair loss?",
-      "category": "self_esteem_impact",
-      "symptom": None,
-    },
+
     {
       "hi": "क्या आपके बालों का रंग बदल रहा है?",
       "en": "Are you noticing any changes in your hair color?",
