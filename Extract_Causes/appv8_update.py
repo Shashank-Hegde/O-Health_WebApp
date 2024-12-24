@@ -7701,50 +7701,7 @@ symptom_followup_questions = {
       "symptom": "sneezing"
     }
 ],
-  "confusion": [
-    {
-      "hi": "क्या आप अन्य लक्षणों का अनुभव कर रहे हैं, जैसे चक्कर आना, याददाश्त में कमी, या बोलने में कठिनाई?",
-      "en": "Are you experiencing any other symptoms, such as dizziness, memory loss, or difficulty speaking?",
-      "category": "confusion",
-      "symptom": "confusion"
-    },
-    {
-      "hi": "क्या हाल ही में आपको सिर की चोट या गिरने का सामना करना पड़ा है?",
-      "en": "Have you recently had a head injury or fall?",
-      "category": "confusion",
-      "symptom": "confusion"
-    },
-    {
-      "hi": "क्या आपको मधुमेह, उच्च रक्तचाप, या दिल की समस्याओं जैसी चिकित्सा स्थितियों का इतिहास है?",
-      "en": "Do you have a history of medical conditions such as diabetes, high blood pressure, or heart problems?",
-      "category": "confusion",
-      "symptom": "confusion"
-    },
-    {
-      "hi": "क्या आप कोई दवाइयाँ ले रहे हैं, जिसमें ओवर-द-काउंटर दवाएँ या सप्लीमेंट्स भी शामिल हैं?",
-      "en": "Are you taking any medications, including over-the-counter drugs or supplements?",
-      "category": "confusion",
-      "symptom": "confusion"
-    },
-    {
-      "hi": "क्या आपने अपनी नींद के पैटर्न में कोई बदलाव महसूस किया है, जैसे अत्यधिक नींद आना या अनिद्रा?",
-      "en": "Have you experienced any changes in your sleep patterns, such as excessive sleepiness or insomnia?",
-      "category": "confusion",
-      "symptom": "confusion"
-    },
-    {
-      "hi": "क्या आपने हाल ही में कोई संक्रमण अनुभव किया है, जैसे मूत्र मार्ग संक्रमण या श्वसन रोग?",
-      "en": "Have you had any recent infections, such as a urinary tract infection or respiratory illness?",
-      "category": "confusion",
-      "symptom": "confusion"
-    },
-    {
-      "hi": "क्या आपने हाल ही में शराब, दवाइयों, या विषाक्त पदार्थों का सेवन किया है?",
-      "en": "Have you been exposed to alcohol, drugs, or toxins recently?",
-      "category": "confusion",
-      "symptom": "confusion"
-    }
-],
+ 
   "throat pain": [
     {
       "hi": "क्या आपको निगलने में कठिनाई या निगलते समय दर्द हो रहा है?",
