@@ -4260,12 +4260,6 @@ symptom_followup_questions = {
 
   "delusion": [
     {
-      "hi": "आपको कितने समय से भ्रांतियाँ हो रही हैं?",
-      "en": "How long have you been experiencing delusions?",
-      "category": "delusions",
-      "symptom": "duration of delusions",
-    },
-    {
       "hi": "आप किस प्रकार की भ्रांतियाँ अनुभव कर रहे हैं (जैसे, संदेहवादी, महानता, विचित्र)?",
       "en": "What kind of delusions are you experiencing (e.g., paranoid, grandiose, bizarre)?",
       "category": "delusions",
@@ -4323,12 +4317,6 @@ symptom_followup_questions = {
 
   "paranoia": [
     {
-      "hi": "आपको कितने समय से दूसरों के प्रति संदेह या भय महसूस हो रहा है?",
-      "en": "How long have you been feeling paranoid or suspicious of others?",
-      "category": "paranoia",
-      "symptom": "duration of paranoia",
-    },
-    {
       "hi": "आपके पास लोगों के बारे में क्या विशिष्ट डर या चिंता हैं (जैसे, यह मानना कि लोग आपके खिलाफ साजिश कर रहे हैं या आपकी जासूसी कर रहे हैं)?",
       "en": "What specific fears or concerns do you have about people (e.g., believing others are plotting against you or spying on you)?",
       "category": "paranoia",
@@ -4359,18 +4347,6 @@ symptom_followup_questions = {
       "symptom": "difficulty trusting others",
     },
     {
-      "hi": "क्या आप अन्य कोई लक्षण अनुभव कर रहे हैं, जैसे चिंता, मूड स्विंग्स, या नींद में कठिनाई?",
-      "en": "Are you experiencing any other symptoms, such as anxiety, mood swings, or difficulty sleeping?",
-      "category": "paranoia",
-      "symptom": "other symptoms (e.g., anxiety, sleep problems)",
-    },
-    {
-      "hi": "क्या आपने हाल ही में कोई महत्वपूर्ण तनाव, आघातपूर्ण घटनाएँ, या जीवन में कोई बड़ा परिवर्तन अनुभव किया है?",
-      "en": "Have you experienced any major stressors, traumatic events, or significant life changes recently?",
-      "category": "paranoia",
-      "symptom": "recent stressors or life changes",
-    },
-    {
       "hi": "क्या आप कोई दवाइयाँ, ओवर-द-काउंटर दवाइयाँ, या अवैध नशीली दवाएँ ले रहे हैं?",
       "en": "Are you taking any medications, including prescription, over-the-counter, or recreational drugs?",
       "category": "paranoia",
@@ -4386,12 +4362,6 @@ symptom_followup_questions = {
 
   "euphoria": [
     {
-      "hi": "आपको कितने समय से उत्साह (अत्यधिक खुशी या खुशी का अनुभव) हो रहा है?",
-      "en": "How long have you been experiencing euphoria (feeling unusually happy or elated)?",
-      "category": "euphoria",
-      "symptom": "duration of euphoria",
-    },
-    {
       "hi": "इन उत्साही भावनाओं की तीव्रता कितनी है?",
       "en": "How intense are these feelings of euphoria?",
       "category": "euphoria",
@@ -4402,12 +4372,6 @@ symptom_followup_questions = {
       "en": "Do you feel that the euphoria is out of proportion to the situation or events around you?",
       "category": "euphoria",
       "symptom": "disproportionate euphoria",
-    },
-    {
-      "hi": "क्या आप अन्य कोई लक्षण अनुभव कर रहे हैं, जैसे दौड़ते विचार, अत्यधिक ऊर्जा, या आवेगी व्यवहार?",
-      "en": "Are you experiencing any other symptoms, such as racing thoughts, excessive energy, or impulsive behavior?",
-      "category": "euphoria",
-      "symptom": "associated symptoms (e.g., racing thoughts, impulsivity)",
     },
     {
       "hi": "क्या आपको असामान्य रूप से आत्मविश्वासी, ऊर्जावान, या 'दुनिया के शीर्ष पर' जैसा महसूस हो रहा है?",
@@ -4439,21 +4403,9 @@ symptom_followup_questions = {
       "category": "euphoria",
       "symptom": "history of mental health conditions",
     },
-    {
-      "hi": "क्या आपके परिवार में मानसिक स्वास्थ्य विकारों का इतिहास है, विशेष रूप से मूड विकारों जैसे बाइपोलर डिसऑर्डर या स्किजोफ्रेनिया?",
-      "en": "Do you have a family history of mental health disorders, particularly mood disorders like bipolar disorder or schizophrenia?",
-      "category": "euphoria",
-      "symptom": "family history of mood disorders",
-    },
   ],
 
   "lack of motivation": [
-    {
-      "hi": "आपको कितने समय से प्रेरणा की कमी महसूस हो रही है?",
-      "en": "How long have you been feeling a lack of motivation?",
-      "category": "lack_of_motivation",
-      "symptom": "duration of lack of motivation",
-    },
     {
       "hi": "क्या प्रेरणा की कमी लगातार है, या यह आती-जाती रहती है?",
       "en": "Is the lack of motivation constant, or does it come and go?",
@@ -4471,12 +4423,6 @@ symptom_followup_questions = {
       "en": "Have you noticed any changes in your energy levels or ability to focus?",
       "category": "lack_of_motivation",
       "symptom": "changes in energy and focus",
-    },
-    {
-      "hi": "क्या आप अन्य कोई लक्षण अनुभव कर रहे हैं, जैसे उदासी, चिंता, या चिड़चिड़ापन?",
-      "en": "Are you experiencing any other symptoms, such as sadness, anxiety, or irritability?",
-      "category": "lack_of_motivation",
-      "symptom": "associated symptoms (e.g., sadness, anxiety, irritability)",
     },
     {
       "hi": "क्या आपको ऐसा महसूस हो रहा है कि आप कार्य शुरू करने में असमर्थ हैं, यहां तक कि वे कार्य जिन्हें आप पहले पसंद करते थे?",
@@ -4523,23 +4469,12 @@ symptom_followup_questions = {
       "category": "bone_fracture",
       "symptom": "location and type of fracture",
     },
-    {
-      "hi": "चोट कब लगी थी?",
-      "en": "When did the injury happen?",
-      "category": "bone_fracture",
-      "symptom": "timing of injury",
-    },
+      
     {
       "hi": "क्या आपको चोट लगते समय कोई पॉपिंग या क्रैकिंग की आवाज़ सुनाई दी थी?",
       "en": "Did you hear a popping or cracking sound when the injury occurred?",
       "category": "bone_fracture",
       "symptom": "sound during injury",
-    },
-    {
-      "hi": "क्या आपको घायल क्षेत्र के आसपास सूजन, चोट, या विकृति का अनुभव हो रहा है?",
-      "en": "Are you experiencing any swelling, bruising, or deformity around the injured area?",
-      "category": "bone_fracture",
-      "symptom": "swelling, bruising, or deformity",
     },
     {
       "hi": "क्या आपको प्रभावित अंग या जोड़ों को हिलाने में कठिनाई हो रही है?",
@@ -4552,12 +4487,6 @@ symptom_followup_questions = {
       "en": "Have you had any previous fractures or bone injuries?",
       "category": "bone_fracture",
       "symptom": "history of fractures or bone injuries",
-    },
-    {
-      "hi": "क्या आपके पास कोई मेडिकल स्थितियाँ हैं जो हड्डी स्वास्थ्य को प्रभावित करती हैं (जैसे, ऑस्टियोपोरोसिस, हड्डी का कैंसर)?",
-      "en": "Do you have any medical conditions that affect bone health (e.g., osteoporosis, bone cancer)?",
-      "category": "bone_fracture",
-      "symptom": "underlying medical conditions affecting bone health",
     },
     {
       "hi": "क्या आप कोई दवाइयाँ ले रहे हैं, जिसमें कैल्शियम या विटामिन D जैसे सप्लीमेंट शामिल हैं?",
@@ -4579,12 +4508,6 @@ symptom_followup_questions = {
       "en": "Where exactly is the bone pain located?",
       "category": "bone_pain",
       "symptom": "location of bone pain",
-    },
-    {
-      "hi": "आपको यह दर्द कब से हो रहा है?",
-      "en": "How long have you been experiencing the pain?",
-      "category": "bone_pain",
-      "symptom": "duration of bone pain",
     },
     {
       "hi": "क्या यह दर्द लगातार है, या यह आता-जाता रहता है?",
@@ -4623,12 +4546,6 @@ symptom_followup_questions = {
       "symptom": "weakness or difficulty moving",
     },
     {
-      "hi": "क्या आपके पास कोई ऐसी मेडिकल स्थितियाँ हैं जो आपकी हड्डियों को प्रभावित करती हैं, जैसे कि ऑस्टियोपोरोसिस, आर्थ्राइटिस या कैंसर?",
-      "en": "Do you have any medical conditions that might affect your bones, such as osteoporosis, arthritis, or cancer?",
-      "category": "bone_pain",
-      "symptom": "underlying conditions affecting bones",
-    },
-    {
       "hi": "क्या आप कोई दवाइयाँ या सप्लीमेंट्स ले रहे हैं, जैसे कि कैल्शियम या विटामिन D?",
       "en": "Are you taking any medications or supplements, including calcium or vitamin D?",
       "category": "bone_pain",
@@ -4650,12 +4567,6 @@ symptom_followup_questions = {
       "symptom": "injured joint or ligament",
     },
     {
-      "hi": "चोट कब लगी थी?",
-      "en": "When did the injury happen?",
-      "category": "sprain",
-      "symptom": "time of injury",
-    },
-    {
       "hi": "क्या दर्द लगातार है, या यह हलचल या दबाव से बदलता है?",
       "en": "Is the pain constant, or does it vary with movement or pressure?",
       "category": "sprain",
@@ -4669,15 +4580,9 @@ symptom_followup_questions = {
     },
     {
       "hi": "क्या आप प्रभावित जोड़े को हिला सकते हैं, या यह हिलाने में बहुत दर्द होता है?",
-      "en": "Can you move the affected joint, or is it too painful to move?",
+      "en": "Can you move the affected joint, or is it too painful tomove?",
       "category": "sprain",
       "symptom": "joint movement",
-    },
-    {
-      "hi": "क्या चोट के बाद प्रभावित जोड़े में कमजोरी या अस्थिरता महसूस हो रही है?",
-      "en": "Have you experienced any weakness or instability in the affected joint since the injury?",
-      "category": "sprain",
-      "symptom": "weakness or instability",
     },
     {
       "hi": "क्या चोट लगने के समय कोई पॉपिंग या स्नैपिंग की आवाज आई थी?",
@@ -4713,12 +4618,6 @@ symptom_followup_questions = {
       "symptom": "injured joint or area",
     },
     {
-      "hi": "चोट कब लगी थी, और क्या उस समय तुरंत दर्द या सूजन हुई थी?",
-      "en": "When did the injury happen, and was there any immediate pain or swelling?",
-      "category": "ligament injury",
-      "symptom": "pain and swelling onset",
-    },
-    {
       "hi": "क्या चोट के समय कोई पॉपिंग या स्नैपिंग की आवाज आई थी?",
       "en": "Did you hear a popping or snapping sound when the injury occurred?",
       "category": "ligament injury",
@@ -4731,22 +4630,10 @@ symptom_followup_questions = {
       "symptom": "pain variation with movement",
     },
     {
-      "hi": "क्या घायल जोड़े के आसपास सूजन, चोट या लाली है?",
-      "en": "Are you experiencing swelling, bruising, or redness around the injured joint?",
-      "category": "ligament injury",
-      "symptom": "swelling, bruising, or redness",
-    },
-    {
       "hi": "क्या आप प्रभावित जोड़े को हिला सकते हैं, या यह हिलाने में बहुत दर्दनाक या अस्थिर है?",
       "en": "Can you move the affected joint, or is it too painful or unstable to do so?",
       "category": "ligament injury",
       "symptom": "joint movement",
-    },
-    {
-      "hi": "क्या आपने कमजोर, अस्थिरता या वजन उठाने में कठिनाई महसूस की है?",
-      "en": "Have you noticed any weakness, instability, or difficulty bearing weight on the injured limb?",
-      "category": "ligament injury",
-      "symptom": "weakness or instability",
     },
     {
       "hi": "क्या आपने पहले कभी लिगामेंट की चोट या उसी जोड़े में बार-बार समस्याएँ महसूस की हैं?",
@@ -4769,12 +4656,6 @@ symptom_followup_questions = {
       "en": "Which joint is affected, and is it swollen, red, or warm to the touch?",
       "category": "gout",
       "symptom": "affected joint and signs",
-    },
-    {
-      "hi": "आपने पहले कब दर्द महसूस किया था, और क्या यह अचानक था या धीरे-धीरे बढ़ा?",
-      "en": "When did you first notice the pain, and was it sudden or gradual?",
-      "category": "gout",
-      "symptom": "onset of pain",
     },
     {
       "hi": "क्या आपको पहले कभी इसी तरह के लक्षण हुए थे, या यह गाउट का पहला दौरा है?",
@@ -4806,27 +4687,10 @@ symptom_followup_questions = {
       "category": "gout",
       "symptom": "medications",
     },
-    {
-      "hi": "क्या आपको कोई अन्य स्वास्थ्य समस्याएँ हैं, जैसे मोटापा, मधुमेह, या गुर्दे की बीमारी?",
-      "en": "Do you have any other health conditions, such as obesity, diabetes, or kidney disease?",
-      "category": "gout",
-      "symptom": "underlying health conditions",
-    },
-    {
-      "hi": "क्या आपको जोड़ों के दर्द के साथ बुखार या ठंड लगने जैसे लक्षण हो रहे हैं?",
-      "en": "Are you experiencing any symptoms like fever or chills along with the joint pain?",
-      "category": "gout",
-      "symptom": "associated symptoms",
-    },
+      
   ],
 
   "sciatica": [
-    {
-      "hi": "आपको साइटिका के लक्षणों (जैसे दर्द, सुन्नता, या झुनझुनी) का अनुभव कितने समय से हो रहा है?",
-      "en": "How long have you been experiencing sciatica symptoms (e.g., pain, numbness, or tingling)?",
-      "category": "sciatica",
-      "symptom": "duration of symptoms",
-    },
     {
       "hi": "दर्द कहाँ स्थित है (जैसे निचला पीठ, कूल्हे, पैर, पैरों के अंगूठे)?",
       "en": "Where is the pain located (e.g., lower back, buttocks, legs, feet)?",
@@ -4858,18 +4722,6 @@ symptom_followup_questions = {
       "symptom": "pain triggers",
     },
     {
-      "hi": "क्या आपको प्रभावित पैर में कमजोरी महसूस होती है या पैर उठाने या हिलाने में कठिनाई हो रही है?",
-      "en": "Do you have any weakness in the affected leg or difficulty moving or lifting your foot?",
-      "category": "sciatica",
-      "symptom": "leg weakness or mobility issues",
-    },
-    {
-      "hi": "क्या आपको हाल ही में कोई चोट, गिरावट, या दुर्घटना हुई है जो आपकी निचली पीठ या रीढ़ को प्रभावित कर सकती है?",
-      "en": "Have you had any recent injuries, falls, or accidents that might have affected your lower back or spine?",
-      "category": "sciatica",
-      "symptom": "recent injuries",
-    },
-    {
       "hi": "क्या आपको कोई अन्य चिकित्सीय स्थिति है, जैसे हर्नियेटेड डिस्क, डीजनरेटिव डिस्क रोग, या स्पाइनल स्टेनोसिस?",
       "en": "Do you have any other medical conditions, such as herniated discs, degenerative disc disease, or spinal stenosis?",
       "category": "sciatica",
@@ -4884,12 +4736,6 @@ symptom_followup_questions = {
   ],
 
   "herniated disc": [
-    {
-      "hi": "आपको अपनी पीठ या गर्दन से संबंधित लक्षणों का अनुभव कितने समय से हो रहा है?",
-      "en": "How long have you been experiencing symptoms related to your back or neck?",
-      "category": "herniated_disc",
-      "symptom": "duration of symptoms",
-    },
     {
       "hi": "दर्द कहाँ स्थित है (जैसे निचला पीठ, गर्दन, हाथ, पैर)?",
       "en": "Where is the pain located (e.g., lower back, neck, arms, legs)?",
@@ -4933,12 +4779,6 @@ symptom_followup_questions = {
       "symptom": "mobility difficulties",
     },
     {
-      "hi": "क्या आपको पीठ से संबंधित कोई पिछला इतिहास है, जैसे पिछले हर्नियेटेड डिस्क, स्पाइनल स्टेनोसिस, या डीजनरेटिव डिस्क रोग?",
-      "en": "Do you have a history of back problems, such as previous herniated discs, spinal stenosis, or degenerative disc disease?",
-      "category": "herniated_disc",
-      "symptom": "history of back problems",
-    },
-    {
       "hi": "क्या आप वर्तमान में कोई दवाइयाँ ले रहे हैं, और क्या आपने फिजिकल थेरेपी, विश्राम, या दर्द निवारण जैसे उपचार किए हैं?",
       "en": "Are you currently taking any medications, and have you tried treatments like physical therapy, rest, or pain relief?",
       "category": "herniated_disc",
@@ -4947,12 +4787,6 @@ symptom_followup_questions = {
   ],
 
   "back spasm": [
-    {
-      "hi": "आपको पीठ में ऐंठन का अनुभव कितने समय से हो रहा है?",
-      "en": "How long have you been experiencing back spasms?",
-      "category": "back_spasms",
-      "symptom": "duration of spasms",
-    },
     {
       "hi": "ऐंठन कहाँ स्थित है (जैसे निचली पीठ, ऊपरी पीठ, या गर्दन)?",
       "en": "Where is the spasm located (e.g., lower back, upper back, or neck)?",
@@ -4984,18 +4818,6 @@ symptom_followup_questions = {
       "symptom": "recent injury or strain",
     },
     {
-      "hi": "क्या आपको किसी अन्य लक्षण का अनुभव हो रहा है, जैसे सुन्नता, झुनझुनी, या पैरों या हाथों में कमजोरी?",
-      "en": "Do you experience any other symptoms, such as numbness, tingling, or weakness in your legs or arms?",
-      "category": "back_spasms",
-      "symptom": "numbness, tingling, or weakness",
-    },
-    {
-      "hi": "क्या ऐंठन के बाद आपको कोई कठोरता या चलने में कठिनाई हो रही है?",
-      "en": "Are you experiencing any stiffness or difficulty moving after the spasms?",
-      "category": "back_spasms",
-      "symptom": "stiffness or movement difficulty",
-    },
-    {
       "hi": "क्या आपको पीठ से संबंधित कोई पिछला इतिहास है, जैसे हर्नियेटेड डिस्क, गठिया, या डीजनरेटिव डिस्क रोग?",
       "en": "Do you have a history of back problems, such as herniated discs, arthritis, or degenerative disc disease?",
       "category": "back_spasms",
@@ -5010,12 +4832,6 @@ symptom_followup_questions = {
   ],
 
   "whiplash": [
-    {
-      "hi": "चोट कब हुई थी, और क्या कारण था (जैसे कार दुर्घटना, गिरना, खेल की चोट)?",
-      "en": "How long ago did the injury occur, and what caused the whiplash (e.g., car accident, fall, sports injury)?",
-      "category": "whiplash",
-      "symptom": "cause and timing of injury",
-    },
     {
       "hi": "आपको कहाँ दर्द महसूस हो रहा है (जैसे गर्दन, कंधे, ऊपरी पीठ)?",
       "en": "Where exactly do you feel pain (e.g., neck, shoulders, upper back)?",
@@ -5041,22 +4857,10 @@ symptom_followup_questions = {
       "symptom": "headaches, dizziness, or tinnitus",
     },
     {
-      "hi": "क्या आपको हाथों या बाहों में सुन्नता, झुनझुनी, या कमजोरी महसूस हो रही है?",
-      "en": "Are you experiencing numbness, tingling, or weakness in your arms or hands?",
-      "category": "whiplash",
-      "symptom": "numbness, tingling, or weakness",
-    },
-    {
       "hi": "क्या आपने अन्य कोई चोटें खाई हैं, जैसे मस्तिष्क concussion या पीठ की चोटें, साथ में whiplash के?",
       "en": "Have you had any other injuries, such as a concussion or back injuries, along with the whiplash?",
       "category": "whiplash",
       "symptom": "other injuries",
-    },
-    {
-      "hi": "क्या आपको दर्द या असहजता के कारण सोने में कठिनाई हो रही है?",
-      "en": "Are you experiencing any difficulty sleeping due to the pain or discomfort?",
-      "category": "whiplash",
-      "symptom": "sleep disturbances",
     },
     {
       "hi": "क्या आपने किसी उपचार का प्रयास किया है (जैसे आराम, बर्फ, हीट, दर्द निवारक), और क्या उससे राहत मिली?",
@@ -5072,76 +4876,7 @@ symptom_followup_questions = {
     },
   ],
 
-  "fibromyalgia": [
-    {
-      "hi": "आपको अपने मांसपेशियों और जोड़ो में व्यापक दर्द या कोमलता का अनुभव कब से हो रहा है?",
-      "en": "How long have you been experiencing widespread pain or tenderness in your muscles and joints?",
-      "category": "fibromyalgia",
-      "symptom": "pain and tenderness",
-    },
-    {
-      "hi": "आपको कहाँ दर्द महसूस हो रहा है, और क्या यह शरीर के दोनों तरफ समान रूप से प्रभावित होता है?",
-      "en": "Where do you feel the pain, and does it affect both sides of your body equally?",
-      "category": "fibromyalgia",
-      "symptom": "location and symmetry of pain",
-    },
-    {
-      "hi": "क्या दर्द लगातार है, या यह आता-जाता रहता है?",
-      "en": "Is the pain constant, or does it come and go?",
-      "category": "fibromyalgia",
-      "symptom": "pain pattern",
-    },
-    {
-      "hi": "क्या आपको अन्य लक्षण महसूस हो रहे हैं, जैसे थकान, नींद में गड़बड़ी, सिरदर्द, या याददाश्त की समस्याएँ (जो अक्सर 'फाइब्रो फॉग' के नाम से जानी जाती हैं)?",
-      "en": "Do you experience other symptoms, such as fatigue, sleep disturbances, headaches, or memory problems (often called 'fibro fog')?",
-      "category": "fibromyalgia",
-      "symptom": "other symptoms",
-    },
-    {
-      "hi": "क्या आपको कोई आघात, बीमारी, या संक्रमण हुआ है जो आपके लक्षणों को उत्तेजित कर सकता है?",
-      "en": "Do you have any history of trauma, illness, or infections that might have triggered your symptoms?",
-      "category": "fibromyalgia",
-      "symptom": "history of trauma or illness",
-    },
-    {
-      "hi": "क्या आपको ध्यान केंद्रित करने, सतर्क रहने, या चीजों को याद रखने में कोई कठिनाई हो रही है?",
-      "en": "Are you experiencing any difficulty concentrating, staying alert, or remembering things?",
-      "category": "fibromyalgia",
-      "symptom": "concentration and memory problems",
-    },
-    {
-      "hi": "क्या आपके लक्षण किसी विशेष समय पर बढ़ जाते हैं (जैसे तनाव के दौरान, शारीरिक गतिविधि के बाद, या मौसम में बदलाव के साथ)?",
-      "en": "Do your symptoms worsen at certain times (e.g., during stress, after physical activity, or with changes in the weather)?",
-      "category": "fibromyalgia",
-      "symptom": "symptom triggers",
-    },
-    {
-      "hi": "क्या आपकी नींद की आदतों में कोई महत्वपूर्ण परिवर्तन हुआ है, जैसे सोने में कठिनाई, या नींद से उठने के बाद थका हुआ महसूस करना?",
-      "en": "Have you had any significant changes in your sleep patterns, such as trouble falling or staying asleep, or waking up feeling unrefreshed?",
-      "category": "fibromyalgia",
-      "symptom": "sleep disturbances",
-    },
-    {
-      "hi": "क्या आपके परिवार में फाइब्रोमायल्गिया या अन्य पुरानी दर्द की स्थितियाँ, जैसे रुमेटोइड आर्थराइटिस या ल्यूपस का इतिहास है?",
-      "en": "Do you have a family history of fibromyalgia or other chronic pain conditions, such as rheumatoid arthritis or lupus?",
-      "category": "fibromyalgia",
-      "symptom": "family history",
-    },
-    {
-      "hi": "क्या आपने अपने लक्षणों के लिए कोई उपचार (जैसे दवाइयाँ, शारीरिक चिकित्सा, तनाव प्रबंधन) किया है, और यदि किया है, तो क्या वे मददगार रहे हैं?",
-      "en": "Have you tried any treatments (e.g., medications, physical therapy, stress management) for your symptoms, and if so, did they help?",
-      "category": "fibromyalgia",
-      "symptom": "treatment history",
-    },
-  ],
-
   "arthritis": [
-    {
-      "hi": "आपको जोड़ों में दर्द या जकड़न कब से हो रही है?",
-      "en": "How long have you been experiencing joint pain or stiffness?",
-      "category": "arthritis",
-      "symptom": "joint pain and stiffness",
-    },
     {
       "hi": "कौन से जोड़ों में समस्या है (जैसे घुटने, हाथ, कूल्हे, उंगलियाँ)?",
       "en": "Which joints are affected (e.g., knees, hands, hips, fingers)?",
@@ -5173,12 +4908,6 @@ symptom_followup_questions = {
       "symptom": "activity-related pain changes",
     },
     {
-      "hi": "क्या आपको प्रभावित जोड़ों में हाल ही में कोई चोट या आघात हुआ है?",
-      "en": "Have you had any recent injuries or trauma to the affected joints?",
-      "category": "arthritis",
-      "symptom": "recent injury or trauma",
-    },
-    {
       "hi": "क्या आपको दैनिक गतिविधियाँ करने में कठिनाई हो रही है, जैसे चलना, टाइप करना, या जार खोलना?",
       "en": "Do you have difficulty performing daily activities, such as walking, typing, or opening jars?",
       "category": "arthritis",
@@ -5195,132 +4924,6 @@ symptom_followup_questions = {
       "en": "Are you currently taking any medications, including pain relievers, or have you tried any treatments (e.g., physical therapy, lifestyle changes)?",
       "category": "arthritis",
       "symptom": "medication and treatment history",
-    },
-  ],
-
-  "anhedonia": [
-    {
-      "hi": "आपको जो गतिविधियाँ पहले आनंददायक लगती थीं, उन्हें अब रुचि या खुशी क्यों नहीं हो रही है?",
-      "en": "How long have you been experiencing a lack of interest or pleasure in activities you used to enjoy?",
-      "category": "anhedonia",
-      "symptom": "loss of interest in enjoyable activities",
-    },
-    {
-      "hi": "कौन सी गतिविधियाँ या शौक अब आपको आनंददायक नहीं लगते (जैसे सामाजिक मेलजोल, शौक, भोजन, या काम)?",
-      "en": "Which activities or hobbies do you no longer find enjoyable (e.g., socializing, hobbies, eating, or work)?",
-      "category": "anhedonia",
-      "symptom": "specific activities no longer enjoyable",
-    },
-    {
-      "hi": "क्या आपको उन चीजों के प्रति उदासीनता या भावनात्मक 'न्यूम्नेस' महसूस हो रही है, जो पहले आपको खुशी देती थीं?",
-      "en": "Do you feel indifferent or emotionally 'numb' toward things that once brought you happiness?",
-      "category": "anhedonia",
-      "symptom": "emotional numbness",
-    },
-    {
-      "hi": "क्या आपने दैनिक गतिविधियों में भाग लेने की प्रेरणा, ऊर्जा, या इच्छा में कमी महसूस की है?",
-      "en": "Have you noticed a decline in motivation, energy, or desire to engage in daily activities?",
-      "category": "anhedonia",
-      "symptom": "decline in motivation and energy",
-    },
-    {
-      "hi": "क्या आप कोई मूड में बदलाव महसूस कर रहे हैं, जैसे उदासी, निराशा, या चिड़चिड़ापन?",
-      "en": "Are you experiencing any changes in mood, such as feelings of sadness, hopelessness, or irritability?",
-      "category": "anhedonia",
-      "symptom": "mood changes",
-    },
-    {
-      "hi": "क्या आपने अपनी भूख, नींद, या समग्र ऊर्जा स्तरों में कोई बदलाव महसूस किया है?",
-      "en": "Have you noticed any changes in your appetite, sleep, or overall energy levels?",
-      "category": "anhedonia",
-      "symptom": "changes in appetite, sleep, or energy",
-    },
-    {
-      "hi": "क्या आप शारीरिक लक्षणों, जैसे थकान, दर्द, या सिरदर्द, का अनुभव कर रहे हैं, जो आपके आनंद लेने की क्षमता को प्रभावित कर सकते हैं?",
-      "en": "Are you experiencing any physical symptoms, such as fatigue, pain, or headaches, that could be contributing to your lack of enjoyment?",
-      "category": "anhedonia",
-      "symptom": "physical symptoms affecting enjoyment",
-    },
-    {
-      "hi": "क्या आपने हाल ही में जीवन में कोई बदलाव, तनाव, या आघात महसूस किया है, जो आपके मानसिक स्वास्थ्य को प्रभावित कर सकता है?",
-      "en": "Have you experienced any recent life changes, stressors, or trauma that might be affecting your mental health?",
-      "category": "anhedonia",
-      "symptom": "life changes or stressors",
-    },
-    {
-      "hi": "क्या आपके पास मानसिक स्वास्थ्य स्थितियों, जैसे अवसाद, चिंता, या द्विध्रुवीय विकार, का इतिहास है?",
-      "en": "Do you have a history of mental health conditions, such as depression, anxiety, or bipolar disorder?",
-      "category": "anhedonia",
-      "symptom": "history of mental health conditions",
-    },
-    {
-      "hi": "क्या आप वर्तमान में कोई दवाइयाँ ले रहे हैं, जैसे एंटीडिप्रेसेंट्स या अन्य उपचार, और क्या उन्होंने आपके आनंद लेने की क्षमता को प्रभावित किया है?",
-      "en": "Are you currently taking any medications, including antidepressants or other treatments, and have they affected your ability to enjoy things?",
-      "category": "anhedonia",
-      "symptom": "effect of medications on enjoyment",
-    },
-  ],
-
-  "agitation": [
-    {
-      "hi": "आप कब से बेचैनी या उत्तेजना महसूस कर रहे हैं?",
-      "en": "How long have you been feeling agitated or restless?",
-      "category": "agitation",
-      "symptom": "feeling restless or agitated",
-    },
-    {
-      "hi": "आप किस प्रकार की भावनाओं या व्यवहारों का अनुभव कर रहे हैं (जैसे चिड़चिड़ापन, चहलकदमी, तेज बोलना, या शांत रहने में कठिनाई)?",
-      "en": "What specific feelings or behaviors are you experiencing (e.g., irritability, pacing, rapid speech, difficulty staying still)?",
-      "category": "agitation",
-      "symptom": "specific behaviors or feelings of agitation",
-    },
-    {
-      "hi": "क्या आप अत्यधिक चिंतित, घबराए हुए या तनावपूर्ण महसूस कर रहे हैं?",
-      "en": "Do you feel excessively anxious, nervous, or on edge?",
-      "category": "agitation",
-      "symptom": "excessive anxiety or nervousness",
-    },
-    {
-      "hi": "क्या उत्तेजना किसी विशेष घटना, स्थिति या विचारों से प्रेरित होती है?",
-      "en": "Is the agitation triggered by specific events, situations, or thoughts?",
-      "category": "agitation",
-      "symptom": "triggers of agitation",
-    },
-    {
-      "hi": "क्या आपको अपनी भावनाओं को नियंत्रित करने में कठिनाई हो रही है, या क्या आप पहले से ज्यादा जल्दी गुस्सा या परेशान हो जाते हैं?",
-      "en": "Do you have difficulty controlling your emotions, or are you more easily frustrated or upset than usual?",
-      "category": "agitation",
-      "symptom": "difficulty controlling emotions or frustration",
-    },
-    {
-      "hi": "क्या आप हाल ही में किसी महत्वपूर्ण तनाव या जीवन में बड़े बदलावों का सामना कर रहे हैं?",
-      "en": "Have you been under significant stress, facing major life changes, or dealing with emotional challenges recently?",
-      "category": "agitation",
-      "symptom": "stress or life changes",
-    },
-    {
-      "hi": "क्या आपको उत्तेजना के साथ कोई शारीरिक लक्षण जैसे बढ़ी हुई हृदय गति, पसीना, कांपना, या सांस लेने में कठिनाई हो रही है?",
-      "en": "Are you experiencing any physical symptoms along with the agitation, such as increased heart rate, sweating, trembling, or difficulty breathing?",
-      "category": "agitation",
-      "symptom": "physical symptoms associated with agitation",
-    },
-    {
-      "hi": "क्या आपको मानसिक स्वास्थ्य स्थितियों, जैसे चिंता, अवसाद, द्विध्रुवीय विकार, या PTSD का इतिहास है?",
-      "en": "Do you have a history of mental health conditions, such as anxiety, depression, bipolar disorder, or PTSD?",
-      "category": "agitation",
-      "symptom": "history of mental health conditions",
-    },
-    {
-      "hi": "क्या आप वर्तमान में कोई दवाइयाँ ले रहे हैं, जैसे प्रिस्क्रिप्शन, ओवर-द-काउंटर, या रिक्रिएशनल ड्रग्स?",
-      "en": "Are you currently taking any medications, including prescription, over-the-counter, or recreational drugs?",
-      "category": "agitation",
-      "symptom": "medications or substance use",
-    },
-    {
-      "hi": "क्या आपको हाल ही में नींद में कोई विघटन, थकान, या भूख में बदलाव महसूस हुआ है?",
-      "en": "Have you experienced any recent sleep disturbances, fatigue, or changes in appetite?",
-      "category": "agitation",
-      "symptom": "sleep disturbances, fatigue, or appetite changes",
     },
   ],
 
