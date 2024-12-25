@@ -1286,12 +1286,6 @@ symptom_followup_questions = {
       "symptom": "abdominal pain",
     },
     {
-      "hi": "क्या आपको उल्टी के साथ दस्त भी हो रहे हैं?",
-      "en": "Are you also experiencing diarrhea along with vomiting?",
-      "category": "diarrhea",
-      "symptom": "diarrhea",
-    },
-    {
       "hi": "क्या उल्टी के कारण आपको शरीर से पानी की कमी हो रही है?",
       "en": "Are you losing water from your body due to vomiting?",
       "category": "dehydration",
@@ -1302,12 +1296,6 @@ symptom_followup_questions = {
       "en": "Is there a fever along with vomiting?",
       "category": "fever",
       "symptom": "fever",
-    },
-    {
-      "hi": "क्या आपको उल्टी के साथ कोई अन्य लक्षण महसूस हो रहे हैं?",
-      "en": "Are you experiencing any other symptoms along with vomiting?",
-      "category": "other_symptoms",
-      "symptom": None,
     },
   ],
 
@@ -1337,12 +1325,6 @@ symptom_followup_questions = {
       "symptom": "weakness",
     },
     {
-      "hi": "क्या आपको ठंडक के साथ कोई अन्य लक्षण भी महसूस हो रहे हैं?",
-      "en": "Are you experiencing any other symptoms along with chills?",
-      "category": "other_symptoms",
-      "symptom": None,
-    },
-    {
       "hi": "क्या ठंडक की अनुभूति किसी विशेष समय पर अधिक होती है?",
       "en": "Do you feel chills more at any specific time?",
       "category": "time_related_chills",
@@ -1355,12 +1337,6 @@ symptom_followup_questions = {
       "hi": "क्या आपको सांस लेने में कठिनाई हो रही है?",
       "en": "Are you having difficulty breathing?",
       "category": "breathing_difficulty",
-      "symptom": None,
-    },
-    {
-      "hi": "क्या सांस लेने में कठिनाई स्थिर है या बढ़ती जा रही है?",
-      "en": "Is your difficulty in breathing constant or worsening?",
-      "category": "intermittent_difficulty",
       "symptom": None,
     },
     {
@@ -1379,12 +1355,6 @@ symptom_followup_questions = {
       "hi": "क्या आपको सांस लेने में दर्द भी हो रहा है?",
       "en": "Are you experiencing pain while breathing?",
       "category": "breathing_pain",
-      "symptom": None,
-    },
-    {
-      "hi": "क्या सांस लेने में कठिनाई के साथ कोई अन्य लक्षण भी हैं?",
-      "en": "Are there any other symptoms along with difficulty breathing?",
-      "category": "other_symptoms",
       "symptom": None,
     },
   ],
@@ -1429,12 +1399,6 @@ symptom_followup_questions = {
   ],
 
   "infection": [
-    {
-      "hi": "क्या आपको बुखार है?",
-      "en": "Do you have a fever?",
-      "category": "fever",
-      "symptom": "fever",
-    },
     {
       "hi": "क्या संक्रमण के कारण आपको किसी विशेष हिस्से में दर्द हो रहा है?",
       "en": "Are you experiencing pain in any specific area due to the infection?",
@@ -1571,12 +1535,6 @@ symptom_followup_questions = {
       "symptom": "itching",
     },
     {
-      "hi": "क्या आपको सांस लेने में कठिनाई हो रही है?",
-      "en": "Are you experiencing difficulty breathing?",
-      "category": "breathing_difficulty",
-      "symptom": "shortness of breath",
-    },
-    {
       "hi": "क्या आपके आंखों में सूजन या जलन है?",
       "en": "Do you have swelling or irritation in your eyes?",
       "category": "eye_allergy_symptoms",
@@ -1705,12 +1663,6 @@ symptom_followup_questions = {
       "symptom": None,
     },
     {
-      "hi": "क्या क्रैम्प्स के साथ दर्द की तीव्रता बढ़ रही है?",
-      "en": "Is the intensity of your cramps increasing?",
-      "category": "intensity_increase",
-      "symptom": None,
-    },
-    {
       "hi": "क्या क्रैम्प्स के साथ सूजन भी है?",
       "en": "Is there any swelling along with your cramps?",
       "category": "swelling_with_cramps",
@@ -1773,12 +1725,6 @@ symptom_followup_questions = {
       "category": "redness_with_irritation",
       "symptom": "redness",
     },
-    {
-      "hi": "क्या जलन के साथ कोई अन्य लक्षण भी हैं?",
-      "en": "Are there any other symptoms along with the irritation?",
-      "category": "other_symptoms",
-      "symptom": None,
-    },
   ],
 
   "inflammation": [
@@ -1804,13 +1750,7 @@ symptom_followup_questions = {
       "hi": "क्या सूजन के कारण त्वचा में लालिमा या गर्मी महसूस हो रही है?",
       "en": "Is there any redness or warmth in the skin due to inflammation?",
       "category": "skin_changes_with_inflammation",
-      "symptom": "redness",
-    },
-    {
-      "hi": "क्या सूजन के साथ कोई अन्य लक्षण भी हैं?",
-      "en": "Are there any other symptoms along with the inflammation?",
-      "category": "other_symptoms",
-      "symptom": None,
+      "symptom: "redness",
     },
     {
       "hi": "क्या सूजन किसी विशेष समय पर अधिक होती है?",
@@ -1838,12 +1778,6 @@ symptom_followup_questions = {
       "en": "Are you feeling fatigued due to weight gain?",
       "category": "fatigue_with_weight_gain",
       "symptom": "fatigue",
-    },
-    {
-      "hi": "क्या वजन बढ़ने के साथ आपको सांस लेने में कठिनाई हो रही है?",
-      "en": "Are you experiencing difficulty breathing due to weight gain?",
-      "category": "breathing_difficulty_with_weight_gain",
-      "symptom": "shortness of breath",
     },
     {
       "hi": "क्या वजन बढ़ने के साथ आपकी त्वचा पर कोई परिवर्तन आ रहा है?",
@@ -1942,12 +1876,6 @@ symptom_followup_questions = {
       "category": "weakness_with_numbness",
       "symptom": "weakness",
     },
-    {
-      "hi": "क्या सुन्नता के साथ त्वचा में कोई परिवर्तन आ रहा है?",
-      "en": "Are there any changes in your skin due to numbness?",
-      "category": "skin_changes_with_numbness",
-      "symptom": "skin changes",
-    },
   ],
 
   "itchy eye": [
@@ -1996,12 +1924,6 @@ symptom_followup_questions = {
   ],
 
   "bloating": [
-    {
-      "hi": "क्या आपको पेट में सूजन महसूस हो रही है?",
-      "en": "Are you feeling bloated in your abdomen?",
-      "category": "abdominal_bloating",
-      "symptom": None,
-    },
     {
       "hi": "क्या सूजन के साथ पेट में दर्द भी हो रहा है?",
       "en": "Are you experiencing abdominal pain along with bloating?",
@@ -2176,12 +2098,6 @@ symptom_followup_questions = {
       "category": "night_time_heartburn",
       "symptom": None,
     },
-    {
-      "hi": "क्या आपको पेट में भारीपन महसूस हो रहा है?",
-      "en": "Are you feeling a heaviness in your stomach?",
-      "category": "heaviness_with_heartburn",
-      "symptom": None,
-    },
   ],
 
   "mouth sore": [
@@ -2220,12 +2136,6 @@ symptom_followup_questions = {
       "en": "Are your mouth sores causing difficulty in speaking?",
       "category": "speech_difficulty_with_mouth_sores",
       "symptom": "difficulty speaking",
-    },
-    {
-      "hi": "क्या मुंह के घावों के साथ आपको कोई अन्य लक्षण भी हैं?",
-      "en": "Are there any other symptoms along with mouth sores?",
-      "category": "other_symptoms",
-      "symptom": None,
     },
   ],
 
@@ -2321,12 +2231,6 @@ symptom_followup_questions = {
 
   "decreased appetite": [
     {
-      "hi": "क्या आपकी भूख कम हो गई है?",
-      "en": "Has your appetite decreased?",
-      "category": "appetite_decrease",
-      "symptom": "decreased appetite",
-    },
-    {
       "hi": "क्या भूख में कमी के साथ वजन घट रहा है?",
       "en": "Are you losing weight along with decreased appetite?",
       "category": "weight_loss_with_decreased_appetite",
@@ -2343,12 +2247,6 @@ symptom_followup_questions = {
       "en": "Are you experiencing abdominal pain along with decreased appetite?",
       "category": "abdominal_pain_with_decreased_appetite",
       "symptom": "abdominal pain",
-    },
-    {
-      "hi": "क्या आपको भूख में कमी के साथ कोई अन्य लक्षण भी महसूस हो रहे हैं?",
-      "en": "Are you experiencing any other symptoms along with decreased appetite?",
-      "category": "other_symptoms",
-      "symptom": None,
     },
     {
       "hi": "क्या भूख में कमी के कारण आपको थकान महसूस हो रही है?",
@@ -2388,12 +2286,6 @@ symptom_followup_questions = {
       "en": "Are you feeling fatigued along with increased appetite?",
       "category": "fatigue_with_increased_appetite",
       "symptom": "fatigue",
-    },
-    {
-      "hi": "क्या आपको भूख में वृद्धि के साथ कोई अन्य लक्षण भी महसूस हो रहे हैं?",
-      "en": "Are you experiencing any other symptoms along with increased appetite?",
-      "category": "other_symptoms",
-      "symptom": None,
     },
     {
       "hi": "क्या आपकी भूख में वृद्धि के कारण आपकी नींद प्रभावित हो रही है?",
@@ -2491,21 +2383,9 @@ symptom_followup_questions = {
       "category": "skin_changes_with_dark_urine",
       "symptom": "skin discoloration",
     },
-    {
-      "hi": "क्या आपका पेशाब गहरा रंग होने के कारण आपको थकान महसूस हो रही है?",
-      "en": "Are you feeling fatigued due to dark-colored urine?",
-      "category": "fatigue_with_dark_urine",
-      "symptom": "fatigue",
-    },
   ],
 
   "light colored stool": [
-    {
-      "hi": "क्या आपके मल का रंग हल्का हो गया है?",
-      "en": "Has your stool become light-colored?",
-      "category": "light_colored_stools",
-      "symptom": "light-colored stools",
-    },
     {
       "hi": "क्या हल्के रंग के मल के साथ आपको पेट में दर्द भी हो रहा है?",
       "en": "Are you experiencing abdominal pain along with light-colored stools?",
@@ -2546,12 +2426,6 @@ symptom_followup_questions = {
 
   "blood in urine": [
     {
-      "hi": "क्या आपको पेशाब में खून दिखाई दे रहा है?",
-      "en": "Are you noticing blood in your urine?",
-      "category": "blood_in_urine",
-      "symptom": "blood in urine",
-    },
-    {
       "hi": "क्या खून की मात्रा बढ़ रही है?",
       "en": "Is the amount of blood in your urine increasing?",
       "category": "increasing_blood_in_urine",
@@ -2591,12 +2465,6 @@ symptom_followup_questions = {
 
   "blood in stool": [
     {
-      "hi": "क्या आपके मल में खून दिखाई दे रहा है?",
-      "en": "Are you noticing blood in your stool?",
-      "category": "blood_in_stool",
-      "symptom": "blood in stool",
-    },
-    {
       "hi": "क्या खून का रंग गहरा है या हल्का?",
       "en": "Is the blood in your stool dark or light-colored?",
       "category": "blood_color_in_stool",
@@ -2630,51 +2498,6 @@ symptom_followup_questions = {
       "hi": "क्या खून आने के कारण आपकी त्वचा में कोई परिवर्तन आ रहा है?",
       "en": "Is there any change in your skin due to blood in stool?",
       "category": "skin_changes_with_blood_in_stool",
-      "symptom": "skin discoloration",
-    },
-  ],
-
-  "frequent infection": [
-    {
-      "hi": "क्या आपको बार-बार संक्रमण हो रहे हैं?",
-      "en": "Are you experiencing frequent infections?",
-      "category": "frequent_infections",
-      "symptom": "frequent infections",
-    },
-    {
-      "hi": "क्या बार-बार होने वाले संक्रमणों के साथ आपको कोई अन्य लक्षण भी महसूस हो रहे हैं?",
-      "en": "Are you experiencing any other symptoms along with frequent infections?",
-      "category": "other_symptoms_with_frequent_infections",
-      "symptom": None,
-    },
-    {
-      "hi": "क्या आपको संक्रमण होने के बाद तेजी से ठीक होने में कठिनाई हो रही है?",
-      "en": "Are you having difficulty recovering quickly after infections?",
-      "category": "delayed_recovery_with_infections",
-      "symptom": "delayed healing",
-    },
-    {
-      "hi": "क्या संक्रमण के प्रकार में कोई विशेष बदलाव आया है?",
-      "en": "Has there been any specific change in the types of infections you are getting?",
-      "category": "change_in_infection_types",
-      "symptom": None,
-    },
-    {
-      "hi": "क्या आपको बार-बार होने वाले संक्रमणों के कारण थकान महसूस हो रही है?",
-      "en": "Are you feeling fatigued due to frequent infections?",
-      "category": "fatigue_with_frequent_infections",
-      "symptom": "fatigue",
-    },
-    {
-      "hi": "क्या आपको संक्रमण के साथ सूजन भी हो रही है?",
-      "en": "Are you experiencing any swelling along with infections?",
-      "category": "swelling_with_infections",
-      "symptom": "swelling",
-    },
-    {
-      "hi": "क्या आपको संक्रमण के कारण त्वचा में कोई परिवर्तन आ रहा है?",
-      "en": "Are there any changes in your skin due to infections?",
-      "category": "skin_changes_with_infections",
       "symptom": "skin discoloration",
     },
   ],
