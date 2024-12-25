@@ -6085,6 +6085,44 @@ symptom_followup_questions = {
     "symptom": "jaundice"
   },
 ],
+"exhaustion": [
+  {
+    "hi": "क्या थकान लगातार है, या यह आती-जाती रहती है?",
+    "en": "Is the exhaustion constant, or does it come and go?",
+    "category": "exhaustion",
+    "symptom": "exhaustion"
+  },
+  {
+    "hi": "क्या आपने अपनी नींद के पैटर्न में कोई बदलाव महसूस किया है (जैसे, सोने में कठिनाई, बहुत अधिक सोना)?",
+    "en": "Have you noticed any changes in your sleep patterns (e.g., difficulty sleeping, sleeping too much)?",
+    "category": "exhaustion",
+    "symptom": "exhaustion"
+  },
+  {
+    "hi": "क्या आपको पूरी रात की नींद या आराम के बाद भी थकान महसूस होती है?",
+    "en": "Do you feel fatigued even after a full night’s sleep or rest?",
+    "category": "exhaustion",
+    "symptom": "exhaustion"
+  },
+  {
+    "hi": "क्या आपको कोई तनाव, चिंता या भावनात्मक बदलाव महसूस हो रहे हैं?",
+    "en": "Do you have any stress, anxiety, or emotional changes?",
+    "category": "exhaustion",
+    "symptom": "exhaustion"
+  },
+  {
+    "hi": "क्या आपको कोई ज्ञात चिकित्सीय स्थिति है, जैसे एनीमिया, थायरॉयड समस्याएं, या डायबिटीज?",
+    "en": "Do you have a history of any medical conditions, such as anemia, thyroid problems, or diabetes?",
+    "category": "exhaustion",
+    "symptom": "exhaustion"
+  },
+  {
+    "hi": "क्या आपने हाल ही में अपनी आहार, व्यायाम दिनचर्या या जीवनशैली में कोई बदलाव किया है?",
+    "en": "Have you made any recent changes to your diet, exercise routine, or lifestyle?",
+    "category": "exhaustion",
+    "symptom": "exhaustion"
+  },
+],
 
 
 }
