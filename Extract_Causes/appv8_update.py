@@ -500,12 +500,7 @@ symptom_followup_questions = {
     },
   ],
   "acidity": [
-    {
-      "hi": "आपको लक्षणों का अनुभव कब पहली बार हुआ?",
-      "en": "When did you first start experiencing symptoms?",
-      "category": "heartburn",
-      "symptom": "acidity",
-    },
+    
     {
       "hi": "आपको हार्टबर्न या अम्लीय पुन: प्रवाह (acid reflux) कितनी बार होता है?",
       "en": "How often do you experience heartburn or acid reflux?",
@@ -676,20 +671,10 @@ symptom_followup_questions = {
       "category": "dizziness_nausea",
       "symptom": "Dizziness",
     },
-    {
-      "hi": "क्या आपको नींद नहीं आ रही है साथ ही मतली?",
-      "en": "Are you having trouble sleeping along with nausea?",
-      "category": "sleep_disturbance",
-      "symptom": "Sleep disturbance",
-    },
+    
   ],
   "dizziness": [
-    {
-      "hi": "क्या आप चक्कर आ रहे हैं?",
-      "en": "Are you feeling dizzy?",
-      "category": "dizziness_type",
-      "symptom": None,
-    },
+    
     {
       "hi": "क्या चक्कर आना अचानक शुरू हुआ था या धीरे-धीरे?",
       "en": "Did the dizziness start suddenly or gradually?",
@@ -808,12 +793,6 @@ symptom_followup_questions = {
       "en": "Are you experiencing loss of appetite?",
       "category": "loss_of_appetite",
       "symptom": "Loss of appetite",
-    },
-    {
-      "hi": "क्या आपको सांस लेने में कठिनाई हो रही है?",
-      "en": "Are you having difficulty breathing?",
-      "category": "breathing_difficulty",
-      "symptom": "Difficulty breathing",
     },
     {
       "hi": "क्या आपके शरीर में कोई अन्य दर्द महसूस हो रहा है?",
@@ -953,12 +932,6 @@ symptom_followup_questions = {
   ],
   "knee pain": [
     {
-      "hi": "दर्द कब शुरू हुआ, और यह कितनी देर से हो रहा है?",
-      "en": "When did you first start experiencing knee pain?",
-      "category": "knee pain",
-      "symptom": "knee pain",
-    },
-    {
       "hi": "क्या दर्द किसी विशेष घटना या चोट के कारण हुआ था?",
       "en": "Was there any specific injury or event that triggered the pain?",
       "category": "knee pain",
@@ -1001,12 +974,6 @@ symptom_followup_questions = {
       "symptom": "knee pain",
     },
     {
-      "hi": "क्या आपने पहले घुटने की किसी चोट या सर्जरी का अनुभव किया है?",
-      "en": "Have you had any previous knee injuries or surgeries?",
-      "category": "knee pain",
-      "symptom": "knee pain",
-    },
-    {
       "hi": "क्या आपको घुटने में अस्थिरता या ऐसा लगता है जैसे घुटना 'गिर' रहा हो?",
       "en": "Do you feel any instability or like your knee is 'giving way'?",
       "category": "knee pain",
@@ -1014,12 +981,7 @@ symptom_followup_questions = {
     },
   ],
   "wrist pain": [
-    {
-      "hi": "दर्द कब शुरू हुआ?",
-      "en": "When did the pain start?",
-      "category": "wrist pain",
-      "symptom": "wrist pain",
-    },
+    
     {
       "hi": "क्या आप दर्द का वर्णन कर सकते हैं? (तेज, हल्का, ऐंठन, जलन आदि)",
       "en": "Can you describe the pain? (Sharp, dull, aching, etc.)",
@@ -1068,21 +1030,9 @@ symptom_followup_questions = {
       "category": "wrist pain",
       "symptom": "wrist pain",
     },
-    {
-      "hi": "क्या दर्द के साथ कोई अन्य लक्षण हैं? (जैसे बुखार, जकड़न आदि)",
-      "en": "Are there any other symptoms associated with the pain? (e.g., fever, stiffness)",
-      "category": "wrist pain",
-      "symptom": "wrist pain",
-    },
   ],
 
   "leg pain": [
-    {
-      "hi": "दर्द कब शुरू हुआ, और यह कितनी देर से हो रहा है?",
-      "en": "When did you first start experiencing leg pain?",
-      "category": "leg pain",
-      "symptom": "leg pain",
-    },
     {
       "hi": "क्या दर्द किसी विशेष घटना या चोट के कारण हुआ था?",
       "en": "Was there any specific injury or event that triggered the pain?",
@@ -1212,12 +1162,6 @@ symptom_followup_questions = {
   ],
 
   "constipation": [
-    {
-      "hi": "क्या आपको कब्ज की समस्या कितने दिनों से है?",
-      "en": "How many days have you been experiencing constipation?",
-      "category": "duration",
-      "symptom": None,
-    },
     {
       "hi": "क्या कब्ज के साथ पेट में दर्द है?",
       "en": "Are you experiencing abdominal pain along with constipation?",
