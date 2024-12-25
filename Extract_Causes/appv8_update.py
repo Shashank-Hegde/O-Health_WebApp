@@ -6047,6 +6047,44 @@ symptom_followup_questions = {
       "symptom": "hip pain"
     },
 ],
+"jaundice": [
+  {
+    "hi": "क्या आपने अपनी त्वचा या आंखों के पीले होने को महसूस किया है?",
+    "en": "Have you noticed the yellowing of your skin or eyes?",
+    "category": "jaundice",
+    "symptom": "jaundice"
+  },
+  {
+    "hi": "क्या आपने अपनी मूत्र या मल के रंग में कोई बदलाव महसूस किया है?",
+    "en": "Have you noticed any changes in the color of your urine or stool?",
+    "category": "jaundice",
+    "symptom": "jaundice"
+  },
+  {
+    "hi": "क्या आपको पेट में कोई दर्द है, विशेष रूप से दाहिने ऊपरी हिस्से में?",
+    "en": "Do you have any pain in your abdomen, especially in the upper right side?",
+    "category": "jaundice",
+    "symptom": "jaundice"
+  },
+  {
+    "hi": "क्या आपने हाल ही में वजन घटने या भूख में कमी महसूस की है?",
+    "en": "Have you experienced any recent weight loss or loss of appetite?",
+    "category": "jaundice",
+    "symptom": "jaundice"
+  },
+  {
+    "hi": "क्या आपको हेपेटाइटिस या किसी संक्रामक रोग से संक्रमित किसी व्यक्ति के संपर्क में आने का कोई इतिहास है?",
+    "en": "Have you been exposed to anyone with hepatitis or any infectious diseases?",
+    "category": "jaundice",
+    "symptom": "jaundice"
+  },
+  {
+    "hi": "क्या आप शराब का सेवन करते हैं या किसी प्रकार की दवाइयां लेते हैं?",
+    "en": "Do you have a history of alcohol use or take any medications?",
+    "category": "jaundice",
+    "symptom": "jaundice"
+  },
+],
 
 
 }
