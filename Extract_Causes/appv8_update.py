@@ -104,7 +104,7 @@ symptom_synonyms = {
         'drained', 'feeling wiped out', 'feeling run down', 'fatigue','low energy', 'total exhaustion', 'severe fatigue', 'feeling sluggish', 'morning fatigue', 'fatigue after exertion',
         'debilitating tiredness', 'drowsiness', 'chronic fatigue syndrome', 'feeling lethargic', 'mental sluggishness', 'physical tiredness', 'difficulty keeping eyes open',
         'lack of vitality', 'energy depletion', 'feeling drained', 'listlessness', 'burned out', 'exhausted state', 'feeling zoned out', 'tired all the time', 'fatigued state',
-        'mental exhaustion', 'constant tiredness', 'feeling sleepy', 'no motivation', 'fatigued muscles', 'endless tiredness', 'exhaustion after minimal effort', 'lethargic movements',
+        'mental exhaustion', 'constant tiredness', 'no motivation', 'fatigued muscles', 'endless tiredness', 'exhaustion after minimal effort', 'lethargic movements',
         'lacking strength', 'body fatigue', 'complete exhaustion', 'feeling disconnected'
     ],
     'nausea': [
