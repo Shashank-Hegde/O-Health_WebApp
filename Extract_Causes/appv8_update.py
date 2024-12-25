@@ -6132,9 +6132,9 @@ symptom_followup_questions = {
 # --------------------- Additional Question ------------------------ #
 # ------------------------------------------------------------------ #
 additional_followup_questions = [
-    {"hi": "तुम्हारी उम्र क्या है?", "en": "What is your age?", "category": "age", "symptom": None},
+    {"hi": "आपकी उम्र क्या है?", "en": "What is your age?", "category": "age", "symptom": None},
     {"hi": "आपका लिंग क्या है?", "en": "What is your gender?", "category": "gender", "symptom": None},
-    {"hi": "तुम वर्तमान में कहाँ स्थित हो?", "en": "Where are you currently located?", "category": "location", "symptom": None},
+    {"hi": "आप वर्तमान में कहाँ स्थित हो?", "en": "Where are you currently located?", "category": "location", "symptom": None},
     {"hi": "आपको ये लक्षण कितने समय से हैं?", "en": "How long have you had these symptoms?", "category": "duration", "symptom": None},
     {"hi": "क्या आप किसी अन्य लक्षण का अनुभव कर रहे हैं?", "en": "Are you experiencing any other symptoms?", "category": "other_symptoms", "symptom": None}
 ]
