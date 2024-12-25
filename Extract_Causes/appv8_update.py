@@ -5692,30 +5692,6 @@ symptom_followup_questions = {
       "symptom": "difficulty swallowing"
     },
     {
-      "hi": "क्या निगलते समय आपको कोई दर्द या असहजता महसूस हो रही है?",
-      "en": "Are you experiencing any pain or discomfort while swallowing?",
-      "category": "difficulty swallowing",
-      "symptom": "difficulty swallowing"
-    },
-    {
-      "hi": "क्या आपने हाल ही में मुंह या गले में कोई चोट, बीमारी, या बदलाव महसूस किया है?",
-      "en": "Have you had any recent injuries, illnesses, or changes in your mouth or throat?",
-      "category": "difficulty swallowing",
-      "symptom": "difficulty swallowing"
-    },
-    {
-      "hi": "क्या आप खाने या पीने के दौरान अन्य लक्षणों का अनुभव कर रहे हैं, जैसे लार टपकना, खांसी, या घुटना?",
-      "en": "Are you experiencing any other symptoms, such as drooling, coughing, or choking while eating or drinking?",
-      "category": "difficulty swallowing",
-      "symptom": "difficulty swallowing"
-    },
-    {
-      "hi": "क्या आपने अपनी आवाज में कोई बदलाव महसूस किया है, जैसे आवाज बैठना?",
-      "en": "Have you noticed any changes in your voice, such as hoarseness?",
-      "category": "difficulty swallowing",
-      "symptom": "difficulty swallowing"
-    },
-    {
       "hi": "क्या आपको एसिड रिफ्लक्स, आहार नलिका की समस्याएं, या तंत्रिका संबंधी स्थितियों का इतिहास है?",
       "en": "Do you have a history of acid reflux, esophageal issues, or neurological conditions?",
       "category": "difficulty swallowing",
@@ -5730,12 +5706,6 @@ symptom_followup_questions = {
       "symptom": "dry mouth"
     },
     {
-      "hi": "क्या आपको सूखापन के कारण बोलने, निगलने, या चबाने में कठिनाई हो रही है?",
-      "en": "Are you experiencing difficulty speaking, swallowing, or chewing due to the dryness?",
-      "category": "dry mouth",
-      "symptom": "dry mouth"
-    },
-    {
       "hi": "क्या आपने दिनभर में पर्याप्त मात्रा में तरल पदार्थ पिए हैं?",
       "en": "Have you been drinking enough fluids throughout the day?",
       "category": "dry mouth",
@@ -5744,12 +5714,6 @@ symptom_followup_questions = {
     {
       "hi": "क्या आप वर्तमान में किसी दवा का सेवन कर रहे हैं, जैसे एंटीहिस्टामिन या एंटीडिप्रेसेंट, जो मुंह के सूखने का कारण बन सकती है?",
       "en": "Are you currently taking any medications, such as antihistamines or antidepressants, that could cause dry mouth?",
-      "category": "dry mouth",
-      "symptom": "dry mouth"
-    },
-    {
-      "hi": "क्या आपने हाल ही में अपनी आहार, जीवनशैली, या स्वास्थ्य में कोई बदलाव महसूस किया है?",
-      "en": "Have you experienced any changes in your diet, lifestyle, or health recently?",
       "category": "dry mouth",
       "symptom": "dry mouth"
     },
@@ -5786,29 +5750,11 @@ symptom_followup_questions = {
       "symptom": "flu"
     },
     {
-      "hi": "क्या आपने शरीर में दर्द, कंपकंपी, या सिरदर्द का अनुभव किया है?",
-      "en": "Have you experienced body aches, chills, or headaches?",
-      "category": "flu",
-      "symptom": "flu"
-    },
-    {
-      "hi": "क्या आपको पाचन संबंधित लक्षण हो रहे हैं, जैसे मतली, उल्टी, या दस्त?",
-      "en": "Do you have any gastrointestinal symptoms, such as nausea, vomiting, or diarrhea?",
-      "category": "flu",
-      "symptom": "flu"
-    },
-    {
       "hi": "क्या आपने हाल ही में किसी ऐसे व्यक्ति के संपर्क में आया है जिसे फ्लू या सर्दी जैसे लक्षण हो?",
       "en": "Have you been in contact with anyone who has recently had the flu or cold-like symptoms?",
       "category": "flu",
       "symptom": "flu"
     },
-    {
-      "hi": "क्या आपको सांस लेने में कठिनाई हो रही है या छाती में दर्द महसूस हो रहा है?",
-      "en": "Are you experiencing any difficulty breathing or chest pain?",
-      "category": "flu",
-      "symptom": "flu"
-    }
 ],
 "confusion": [
     {
@@ -5826,18 +5772,6 @@ symptom_followup_questions = {
     {
       "hi": "क्या आप परिचित लोगों और स्थानों को पहचानने में सक्षम हैं?",
       "en": "Are you able to recognize familiar people and places?",
-      "category": "confusion",
-      "symptom": "confusion"
-    },
-    {
-      "hi": "क्या आपने हाल ही में कोई सिर की चोट, गिरने या आघात का अनुभव किया है?",
-      "en": "Have you experienced any recent head injuries, falls, or trauma?",
-      "category": "confusion",
-      "symptom": "confusion"
-    },
-    {
-      "hi": "क्या आप भाषण, दृष्टि, या समन्वय में किसी परिवर्तन का अनुभव कर रहे हैं?",
-      "en": "Are you experiencing any changes in speech, vision, or coordination?",
       "category": "confusion",
       "symptom": "confusion"
     },
@@ -5868,24 +5802,6 @@ symptom_followup_questions = {
       "symptom": "runny nose"
     },
     {
-      "hi": "क्या आपने हाल ही में किसी ऐसे व्यक्ति से संपर्क किया है जिसमें समान लक्षण (जैसे सर्दी या फ्लू) हों?",
-      "en": "Have you been exposed to anyone with similar symptoms, like a cold or flu?",
-      "category": "runny nose",
-      "symptom": "runny nose"
-    },
-    {
-      "hi": "क्या आपको अपने चेहरे में कोई दर्द या दबाव महसूस हो रहा है, खासकर अपनी नाक या आँखों के आस-पास?",
-      "en": "Do you have any pain or pressure in your face, especially around your nose or eyes?",
-      "category": "runny nose",
-      "symptom": "runny nose"
-    },
-    {
-      "hi": "क्या आपको सांस लेने में कोई कठिनाई या नाक की जकड़न महसूस हो रही है?",
-      "en": "Are you experiencing any difficulty breathing or nasal congestion?",
-      "category": "runny nose",
-      "symptom": "runny nose"
-    },
-    {
       "hi": "क्या आपने हाल ही में यात्रा की है या पर्यावरणीय उत्तेजकों (जैसे धूल, धुंआ, प्रदूषण) से संपर्क किया है?",
       "en": "Have you recently traveled or been in contact with environmental irritants (e.g., dust, smoke, pollution)?",
       "category": "runny nose",
@@ -5900,20 +5816,8 @@ symptom_followup_questions = {
       "symptom": "sneezing"
     },
     {
-      "hi": "क्या आप छींकने के साथ नाक बहने या जकड़न का अनुभव कर रहे हैं?",
-      "en": "Are you experiencing a runny nose or nasal congestion along with the sneezing?",
-      "category": "sneezing",
-      "symptom": "sneezing"
-    },
-    {
       "hi": "क्या आपने किसी एलर्जी उत्पन्न करने वाले तत्वों (जैसे पराग, धूल, या पालतू जानवरों की रूसी) से संपर्क किया है?",
       "en": "Have you been exposed to any allergens, such as pollen, dust, or pet dander?",
-      "category": "sneezing",
-      "symptom": "sneezing"
-    },
-    {
-      "hi": "क्या आपको अपनी आँखों, गले, या नाक में खुजली महसूस हो रही है?",
-      "en": "Are you experiencing any itching in your eyes, throat, or nose?",
       "category": "sneezing",
       "symptom": "sneezing"
     },
@@ -5945,12 +5849,6 @@ symptom_followup_questions = {
       "symptom": "throat pain"
     },
     {
-      "hi": "क्या आपको कोई अन्य लक्षण हो रहे हैं, जैसे बुखार, खांसी, या नाक बहना?",
-      "en": "Do you have any other symptoms, such as a fever, cough, or runny nose?",
-      "category": "throat pain",
-      "symptom": "throat pain"
-    },
-    {
       "hi": "क्या आपने हाल ही में किसी ऐसे व्यक्ति से संपर्क किया है जिसे गले में दर्द या सर्दी हो?",
       "en": "Have you been exposed to anyone with a sore throat or cold recently?",
       "category": "throat pain",
@@ -5962,35 +5860,11 @@ symptom_followup_questions = {
       "category": "throat pain",
       "symptom": "throat pain"
     },
-    {
-      "hi": "क्या दर्द आपके गले के एक हिस्से में केंद्रित है या यह ज्यादा विस्तृत है?",
-      "en": "Is the pain localized to one side of your throat or is it more widespread?",
-      "category": "throat pain",
-      "symptom": "throat pain"
-    },
-    {
-      "hi": "क्या आपने अपनी आवाज में कोई बदलाव या खराश महसूस की है?",
-      "en": "Have you noticed any changes in your voice or hoarseness?",
-      "category": "throat pain",
-      "symptom": "throat pain"
-    },
-    {
-      "hi": "क्या आपको एसिड रिफ्लक्स या हार्टबर्न का अनुभव हो रहा है?",
-      "en": "Have you been experiencing acid reflux or heartburn?",
-      "category": "throat pain",
-      "symptom": "throat pain"
-    }
 ],
   "eye pain": [
     {
       "hi": "क्या दर्द एक आंख में है या दोनों आंखों में?",
       "en": "Is the pain in one eye or both eyes?",
-      "category": "eye pain",
-      "symptom": "eye pain"
-    },
-    {
-      "hi": "क्या आपको अन्य लक्षण हो रहे हैं, जैसे आंखों में लाली, सूजन, या स्राव?",
-      "en": "Are you experiencing any other symptoms, such as redness, swelling, or discharge from the eye?",
       "category": "eye pain",
       "symptom": "eye pain"
     },
@@ -6007,23 +5881,11 @@ symptom_followup_questions = {
       "symptom": "eye pain"
     },
     {
-      "hi": "क्या आपको कोई दृष्टि परिवर्तन हो रहा है, जैसे धुंधली दृष्टि या प्रकाश के प्रति संवेदनशीलता?",
-      "en": "Are you experiencing any visual changes, such as blurred vision or sensitivity to light?",
-      "category": "eye pain",
-      "symptom": "eye pain"
-    },
-    {
       "hi": "क्या आपको धुंआ, रसायन, या अन्य उत्तेजकों का संपर्क हुआ है?",
       "en": "Have you been exposed to smoke, chemicals, or other irritants?",
       "category": "eye pain",
       "symptom": "eye pain"
     },
-    {
-      "hi": "क्या आपको कोई अन्य लक्षण महसूस हो रहे हैं, जैसे सिरदर्द या साइनस दबाव?",
-      "en": "Are you experiencing any other symptoms, like headaches or sinus pressure?",
-      "category": "eye pain",
-      "symptom": "eye pain"
-    }
 ],
   "hand pain": [
     {
@@ -6062,12 +5924,6 @@ symptom_followup_questions = {
       "category": "hand pain",
       "symptom": "hand pain"
     },
-    {
-      "hi": "क्या आपको कोई अंतर्निहित समस्याएँ हैं, जैसे आर्थराइटिस या कार्पल टनल सिंड्रोम?",
-      "en": "Do you have any underlying conditions, such as arthritis or carpal tunnel syndrome?",
-      "category": "hand pain",
-      "symptom": "hand pain"
-    }
 ],
   "arm pain": [
     {
@@ -6089,12 +5945,6 @@ symptom_followup_questions = {
       "symptom": "arm pain"
     },
     {
-      "hi": "क्या आपको हाथ में सूजन, नीला या लालपन महसूस हो रहा है?",
-      "en": "Are you experiencing any swelling, bruising, or redness in the arm?",
-      "category": "arm pain",
-      "symptom": "arm pain"
-    },
-    {
       "hi": "क्या आपको अपने हाथ या कंधे को हिलाने में कठिनाई हो रही है?",
       "en": "Do you have difficulty moving your arm or shoulder?",
       "category": "arm pain",
@@ -6106,12 +5956,6 @@ symptom_followup_questions = {
       "category": "arm pain",
       "symptom": "arm pain"
     },
-    {
-      "hi": "क्या आपको कोई अंतर्निहित समस्याएँ हैं, जैसे आर्थराइटिस, हृदय रोग, या तंत्रिका संबंधित समस्याएँ?",
-      "en": "Do you have any underlying conditions, such as arthritis, heart disease, or nerve issues?",
-      "category": "arm pain",
-      "symptom": "arm pain"
-    }
 ],
   "foot pain": [
     {
@@ -6144,18 +5988,6 @@ symptom_followup_questions = {
       "category": "foot pain",
       "symptom": "foot pain"
     },
-    {
-      "hi": "क्या आपको पैर या अंगुलियों में सुन्नता, झनझनाहट, या कमजोरी का अनुभव हो रहा है?",
-      "en": "Are you experiencing any numbness, tingling, or weakness in the foot or toes?",
-      "category": "foot pain",
-      "symptom": "foot pain"
-    },
-    {
-      "hi": "क्या आपको कोई अंतर्निहित समस्याएँ हैं, जैसे मधुमेह, आर्थराइटिस, या फ्लैट फीट?",
-      "en": "Do you have any underlying conditions, such as diabetes, arthritis, or flat feet?",
-      "category": "foot pain",
-      "symptom": "foot pain"
-    }
 ],
   "shoulder pain": [
     {
@@ -6183,23 +6015,11 @@ symptom_followup_questions = {
       "symptom": "shoulder pain"
     },
     {
-      "hi": "क्या आपको अपने हाथ या उंगलियों में कमजोरी, सुन्नता, या झनझनाहट का अनुभव हो रहा है?",
-      "en": "Are you experiencing any weakness, numbness, or tingling in your arm or hand?",
-      "category": "shoulder pain",
-      "symptom": "shoulder pain"
-    },
-    {
       "hi": "क्या आपने कंधे में सूजन, चोट या गति सीमा में प्रतिबंध महसूस किया है?",
       "en": "Have you noticed any swelling, bruising, or restricted range of motion in the shoulder?",
       "category": "shoulder pain",
       "symptom": "shoulder pain"
     },
-    {
-      "hi": "क्या आपको कोई अंतर्निहित समस्याएँ हैं, जैसे आर्थराइटिस, रोटेटर कफ की चोटें, या पिछले कंधे के ऑपरेशन?",
-      "en": "Do you have any underlying conditions, such as arthritis, rotator cuff injuries, or previous shoulder surgeries?",
-      "category": "shoulder pain",
-      "symptom": "shoulder pain"
-    }
 ],
   "hip pain": [
     {
@@ -6226,24 +6046,6 @@ symptom_followup_questions = {
       "category": "hip pain",
       "symptom": "hip pain"
     },
-    {
-      "hi": "क्या आपको कूल्हे के आसपास सूजन, चोट या जकड़न का अनुभव हो रहा है?",
-      "en": "Are you experiencing any swelling, bruising, or stiffness around the hip?",
-      "category": "hip pain",
-      "symptom": "hip pain"
-    },
-    {
-      "hi": "क्या आपको अपने पैर या पैर की अंगुलियों में सुन्नता, झनझनाहट, या कमजोरी का अनुभव हो रहा है?",
-      "en": "Do you have any numbness, tingling, or weakness in your leg or foot?",
-      "category": "hip pain",
-      "symptom": "hip pain"
-    },
-    {
-      "hi": "क्या आपको कोई अंतर्निहित समस्याएँ हैं, जैसे आर्थराइटिस, बर्साइटिस, या पिछले कूल्हे के ऑपरेशन?",
-      "en": "Do you have any underlying conditions, such as arthritis, bursitis, or previous hip surgeries?",
-      "category": "hip pain",
-      "symptom": "hip pain"
-    }
 ],
 
 
