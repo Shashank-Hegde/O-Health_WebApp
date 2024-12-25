@@ -3132,61 +3132,10 @@ symptom_followup_questions = {
       "symptom": None,
     },
     {
-      "hi": "क्या गर्दन में दर्द के साथ किसी विशेष प्रकार का दर्द हो रहा है?",
-      "en": "Are you experiencing any specific type of pain in your neck?",
-      "category": "specific_pain_with_neck_pain",
-      "symptom": "pain",
-    },
-    {
       "hi": "क्या गर्दन का दर्द अचानक शुरू हुआ है या धीरे-धीरे?",
       "en": "Did your neck pain start suddenly or gradually?",
       "category": "sudden_graduate_neck_pain",
       "symptom": None,
-    },
-  ],
-
-  "sinus pressure": [
-    {
-      "hi": "क्या आपको साइनस में दबाव महसूस हो रहा है?",
-      "en": "Are you feeling pressure in your sinuses?",
-      "category": "sinus_pressure",
-      "symptom": "sinus pressure",
-    },
-    {
-      "hi": "क्या साइनस दबाव के साथ सिरदर्द भी हो रहा है?",
-      "en": "Are you experiencing headaches along with sinus pressure?",
-      "category": "headache_with_sinus_pressure",
-      "symptom": "headache",
-    },
-    {
-      "hi": "क्या साइनस दबाव के साथ आपको नाक बंद होना भी हो रहा है?",
-      "en": "Are you also experiencing a blocked nose along with sinus pressure?",
-      "category": "blocked_nose_with_sinus_pressure",
-      "symptom": "nasal congestion",
-    },
-    {
-      "hi": "क्या साइनस दबाव के कारण आपकी आँखों में सूजन हो रही है?",
-      "en": "Is sinus pressure causing swelling in your eyes?",
-      "category": "eye_swelling_with_sinus_pressure",
-      "symptom": "swelling",
-    },
-    {
-      "hi": "क्या साइनस दबाव के साथ आपकी आवाज़ में परिवर्तन आया है?",
-      "en": "Has your voice changed along with sinus pressure?",
-      "category": "voice_changes_with_sinus_pressure",
-      "symptom": "voice changes",
-    },
-    {
-      "hi": "क्या साइनस दबाव के कारण आपको सांस लेने में कठिनाई हो रही है?",
-      "en": "Are you having difficulty breathing due to sinus pressure?",
-      "category": "breathing_difficulty_with_sinus_pressure",
-      "symptom": "shortness of breath",
-    },
-    {
-      "hi": "क्या साइनस दबाव के साथ आपको चक्कर आ रहे हैं?",
-      "en": "Are you experiencing dizziness along with sinus pressure?",
-      "category": "dizziness_with_sinus_pressure",
-      "symptom": "dizziness",
     },
   ],
 
@@ -3227,12 +3176,7 @@ symptom_followup_questions = {
       "category": "swelling_with_muscle_spasms",
       "symptom": "swelling",
     },
-    {
-      "hi": "क्या स्पैसम्स के साथ आपको कोई अन्य लक्षण भी महसूस हो रहे हैं?",
-      "en": "Are you experiencing any other symptoms along with muscle spasms?",
-      "category": "other_symptoms_with_muscle_spasms",
-      "symptom": None,
-    },
+      
   ],
 
   "spasm": [
@@ -3278,21 +3222,11 @@ symptom_followup_questions = {
       "category": "swelling_with_muscle_spasms",
       "symptom": "swelling",
     },
-    {
-      "hi": "क्या स्पैसम्स के साथ आपको कोई अन्य लक्षण भी महसूस हो रहे हैं?",
-      "en": "Are you experiencing any other symptoms along with muscle spasms?",
-      "category": "other_symptoms_with_muscle_spasms",
-      "symptom": None,
-    },
+      
   ],
 
   "muscle strain": [
-    {
-      "hi": "क्या आपको मांसपेशियों में खिंचाव या तनाव महसूस हो रहा है?",
-      "en": "Are you feeling any muscle strain or tension?",
-      "category": "muscle_strain",
-      "symptom": "muscle strains",
-    },
+    
     {
       "hi": "क्या मांसपेशियों में तनाव के साथ दर्द भी हो रहा है?",
       "en": "Are you experiencing pain along with muscle strain?",
@@ -3318,12 +3252,6 @@ symptom_followup_questions = {
       "symptom": "swelling",
     },
     {
-      "hi": "क्या मांसपेशियों में तनाव के साथ कोई अन्य लक्षण भी हैं?",
-      "en": "Are there any other symptoms along with muscle strain?",
-      "category": "other_symptoms_with_muscle_strain",
-      "symptom": None,
-    },
-    {
       "hi": "क्या मांसपेशियों में तनाव अचानक शुरू हुआ है या धीरे-धीरे?",
       "en": "Did your muscle strain start suddenly or gradually?",
       "category": "sudden_graduate_muscle_strain",
@@ -3332,12 +3260,6 @@ symptom_followup_questions = {
   ],
 
   "muscle injury": [
-    {
-      "hi": "क्या आपको किसी मांसपेशी में चोट लगी है?",
-      "en": "Have you injured any muscle?",
-      "category": "muscle_injury",
-      "symptom": "muscle injuries",
-    },
     {
       "hi": "क्या मांसपेशी में चोट के साथ दर्द भी हो रहा है?",
       "en": "Are you experiencing pain along with the muscle injury?",
@@ -3361,12 +3283,6 @@ symptom_followup_questions = {
       "en": "Are you feeling weak due to the muscle injury?",
       "category": "weakness_with_muscle_injury",
       "symptom": "weakness",
-    },
-    {
-      "hi": "क्या मांसपेशी में चोट के साथ कोई अन्य लक्षण भी हैं?",
-      "en": "Are there any other symptoms along with the muscle injury?",
-      "category": "other_symptoms_with_muscle_injury",
-      "symptom": None,
     },
     {
       "hi": "क्या मांसपेशी में चोट अचानक हुई है या किसी दुर्घटना के बाद?",
@@ -3421,140 +3337,7 @@ symptom_followup_questions = {
     },
   ],
 
-  "herpes": [
-    {
-      "hi": "क्या आपको मुंह या होंठों पर छाले हैं?",
-      "en": "Do you have sores on your mouth or lips?",
-      "category": "mouth_lips_sores_with_herpes",
-      "symptom": "mouth sores",
-    },
-    {
-      "hi": "क्या हर्पीज़ के साथ आपके होंठों में सूजन भी है?",
-      "en": "Is there any swelling in your lips along with herpes?",
-      "category": "lip_swelling_with_herpes",
-      "symptom": "swelling",
-    },
-    {
-      "hi": "क्या हर्पीज़ के कारण आपकी त्वचा में कोई परिवर्तन हो रहा है?",
-      "en": "Are there any changes in your skin due to herpes?",
-      "category": "skin_changes_with_herpes",
-      "symptom": "skin discoloration",
-    },
-    {
-      "hi": "क्या हर्पीज़ के साथ आपको दर्द भी हो रहा है?",
-      "en": "Are you experiencing pain along with herpes?",
-      "category": "pain_with_herpes",
-      "symptom": "pain",
-    },
-    {
-      "hi": "क्या हर्पीज़ के कारण आपको किसी विशेष गतिविधि में कठिनाई हो रही है?",
-      "en": "Are you having difficulty in any specific activity due to herpes?",
-      "category": "activity_difficulty_with_herpes",
-      "symptom": None,
-    },
-    {
-      "hi": "क्या हर्पीज़ के साथ आपको कोई अन्य लक्षण भी महसूस हो रहे हैं?",
-      "en": "Are you experiencing any other symptoms along with herpes?",
-      "category": "other_symptoms_with_herpes",
-      "symptom": None,
-    },
-    {
-      "hi": "क्या हर्पीज़ अचानक शुरू हुई है या किसी संक्रमण के बाद?",
-      "en": "Did your herpes start suddenly or after an infection?",
-      "category": "sudden_or_infection_related_herpes",
-      "symptom": None,
-    },
-  ],
-
-  "shingle": [
-    {
-      "hi": "क्या आपको त्वचा पर जलन या दर्द महसूस हो रही है?",
-      "en": "Are you feeling burning sensations or pain on your skin?",
-      "category": "burning_pain_with_shingles",
-      "symptom": "burning",
-    },
-    {
-      "hi": "क्या त्वचा पर पट्टियां या फफोले हो रहे हैं?",
-      "en": "Are you developing blisters or patches on your skin?",
-      "category": "blisters_patches_with_shingles",
-      "symptom": "skin lesions",
-    },
-    {
-      "hi": "क्या दर्द किसी विशेष क्षेत्र में केंद्रित है?",
-      "en": "Is the pain concentrated in any specific area?",
-      "category": "localized_pain_with_shingles",
-      "symptom": None,
-    },
-    {
-      "hi": "क्या आपको कमजोरी महसूस हो रही है?",
-      "en": "Are you feeling weak?",
-      "category": "weakness_with_shingles",
-      "symptom": "weakness",
-    },
-    {
-      "hi": "क्या दर्द के साथ आपको सूजन भी हो रही है?",
-      "en": "Is there any swelling along with the pain?",
-      "category": "swelling_with_shingles",
-      "symptom": "swelling",
-    },
-    {
-      "hi": "क्या आपको सिरदर्द या बुखार हो रहा है?",
-      "en": "Are you experiencing headaches or fever?",
-      "category": "headache_fever_with_shingles",
-      "symptom": "headache",
-    },
-    {
-      "hi": "क्या दर्द से आपकी नींद प्रभावित हो रही है?",
-      "en": "Is the pain affecting your sleep?",
-      "category": "sleep_disturbance_with_shingles",
-      "symptom": "insomnia",
-    },
-  ],
-
-  "wart": [
-    {
-      "hi": "क्या आपके शरीर पर वर्ट्स हो रहे हैं?",
-      "en": "Are you developing warts on your body?",
-      "category": "warts",
-      "symptom": "warts",
-    },
-    {
-      "hi": "क्या वर्ट्स के साथ कोई दर्द या खुजली हो रही है?",
-      "en": "Are you experiencing any pain or itching along with warts?",
-      "category": "pain_itching_with_warts",
-      "symptom": "itching",
-    },
-    {
-      "hi": "क्या वर्ट्स कहीं फैल रहे हैं या स्थिर हैं?",
-      "en": "Are the warts spreading or remaining static?",
-      "category": "spreading_vs_static_warts",
-      "symptom": None,
-    },
-    {
-      "hi": "क्या वर्ट्स किसी विशेष स्थान पर अधिक हो रहे हैं?",
-      "en": "Are the warts more prevalent in any specific area?",
-      "category": "localized_warts",
-      "symptom": None,
-    },
-    {
-      "hi": "क्या वर्ट्स के कारण आपकी त्वचा में कोई परिवर्तन हो रहा है?",
-      "en": "Are there any changes in your skin due to warts?",
-      "category": "skin_changes_with_warts",
-      "symptom": "skin discoloration",
-    },
-    {
-      "hi": "क्या वर्ट्स के साथ आपको कोई अन्य लक्षण भी महसूस हो रहे हैं?",
-      "en": "Are you experiencing any other symptoms along with warts?",
-      "category": "other_symptoms_with_warts",
-      "symptom": None,
-    },
-    {
-      "hi": "क्या वर्ट्स अचानक शुरू हुए हैं या किसी संक्रमण के बाद?",
-      "en": "Did your warts start suddenly or after an infection?",
-      "category": "sudden_or_infection_related_warts",
-      "symptom": None,
-    },
-  ],
+  
 
   "mole": [
     {
@@ -3591,12 +3374,6 @@ symptom_followup_questions = {
       "hi": "क्या मौल्स अचानक हो गए हैं या धीरे-धीरे?",
       "en": "Did your moles appear suddenly or gradually?",
       "category": "sudden_graduate_moles",
-      "symptom": None,
-    },
-    {
-      "hi": "क्या मौल्स के साथ आपको कोई अन्य लक्षण भी महसूस हो रहे हैं?",
-      "en": "Are you experiencing any other symptoms along with moles?",
-      "category": "other_symptoms_with_moles",
       "symptom": None,
     },
   ],
@@ -3767,12 +3544,7 @@ symptom_followup_questions = {
       "category": "increasing_vs_static_skin_cracking",
       "symptom": None,
     },
-    {
-      "hi": "क्या त्वचा की दरारों के साथ कोई अन्य लक्षण भी हैं?",
-      "en": "Are there any other symptoms along with skin cracking?",
-      "category": "other_symptoms_with_skin_cracking",
-      "symptom": None,
-    },
+      
     {
       "hi": "क्या त्वचा की दरारें अचानक शुरू हुई हैं या धीरे-धीरे?",
       "en": "Did your skin cracks start suddenly or gradually?",
@@ -3897,12 +3669,6 @@ symptom_followup_questions = {
       "symptom": None,
     },
     {
-      "hi": "क्या सूजन के साथ कोई अन्य लक्षण भी हैं?",
-      "en": "Are there any other symptoms along with swelling?",
-      "category": "other_symptoms_with_skin_swelling",
-      "symptom": None,
-    },
-    {
       "hi": "क्या सूजन किसी विशेष समय पर अधिक होती है?",
       "en": "Does the swelling occur more frequently at any specific time?",
       "category": "time_related_skin_swelling",
@@ -3971,12 +3737,6 @@ symptom_followup_questions = {
       "category": "acne triggers",
       "symptom": "acne triggers",
     },
-    {
-      "hi": "क्या आप अत्यधिक तनाव में हैं?",
-      "en": "Are you under a lot of stress?",
-      "category": "stress",
-      "symptom": "stress",
-    },
   ],
 
   "insomnia": [
@@ -4031,12 +3791,6 @@ symptom_followup_questions = {
   ],
 
   "memory loss": [
-    {
-      "hi": "आपको कितने समय से याददाश्त की कमी हो रही है?",
-      "en": "How long have you been experiencing memory loss?",
-      "category": "memory loss",
-      "symptom": "memory loss duration",
-    },
     {
       "hi": "आप किस प्रकार की याददाश्त की समस्याओं का सामना कर रहे हैं?",
       "en": "What type of memory problems are you experiencing?",
@@ -4142,18 +3896,6 @@ symptom_followup_questions = {
       "category": "urinary frequency",
       "symptom": "fluid intake habits",
     },
-    {
-      "hi": "क्या आप अन्य कोई लक्षण अनुभव कर रहे हैं, जैसे तीव्रता, रिसाव, या पेशाब में खून?",
-      "en": "Are you experiencing any other symptoms, such as urgency, leakage, or blood in your urine?",
-      "category": "urinary frequency",
-      "symptom": "other urinary symptoms",
-    },
-    {
-      "hi": "क्या आपको हाल ही में अपने स्वास्थ्य में कोई बदलाव महसूस हुआ है, जैसे वजन बढ़ना, मधुमेह, या गर्भावस्था?",
-      "en": "Have you had any recent changes in your health, such as weight gain, diabetes, or pregnancy?",
-      "category": "urinary frequency",
-      "symptom": "health changes",
-    },
   ],
 
   "ear pain": [
@@ -4174,12 +3916,6 @@ symptom_followup_questions = {
       "en": "Do you have pain in one ear or both ears?",
       "category": "ear pain",
       "symptom": "ear affected",
-    },
-    {
-      "hi": "क्या आप अन्य लक्षण अनुभव कर रहे हैं, जैसे सुनाई में कमी, कान में घंटी बजने की आवाज (टिनिटस), या चक्कर आना?",
-      "en": "Are you experiencing any other symptoms, such as hearing loss, ringing in the ear (tinnitus), or dizziness?",
-      "category": "ear pain",
-      "symptom": "other symptoms",
     },
     {
       "hi": "क्या दर्द सर्दी, साइनस संक्रमण, या ऊपरी श्वसन संक्रमण के बाद शुरू हुआ था?",
@@ -4211,21 +3947,9 @@ symptom_followup_questions = {
       "category": "ear pain",
       "symptom": "touch pain",
     },
-    {
-      "hi": "क्या आपको कान में संक्रमण या अन्य कान संबंधित समस्याओं का इतिहास है?",
-      "en": "Do you have a history of ear infections or other ear-related issues?",
-      "category": "ear pain",
-      "symptom": "ear infection history",
-    },
   ],
 
   "hypertension": [
-    {
-      "hi": "आपको उच्च रक्तचाप के बारे में कितने समय से पता है?",
-      "en": "How long have you been aware of your high blood pressure?",
-      "category": "hypertension",
-      "symptom": "awareness of hypertension",
-    },
     {
       "hi": "क्या आपके परिवार में उच्च रक्तचाप या हृदय रोग का इतिहास है?",
       "en": "Do you have a family history of high blood pressure or heart disease?",
@@ -4263,12 +3987,6 @@ symptom_followup_questions = {
       "symptom": "physical activity",
     },
     {
-      "hi": "क्या आप सिरदर्द, चक्कर आना, या सीने में दर्द जैसे लक्षण अनुभव कर रहे हैं?",
-      "en": "Are you experiencing any symptoms like headaches, dizziness, or chest pain?",
-      "category": "hypertension",
-      "symptom": "hypertension symptoms",
-    },
-    {
       "hi": "आप अपने दैनिक जीवन में कितना तनाव महसूस कर रहे हैं?",
       "en": "How much stress are you experiencing in your daily life?",
       "category": "hypertension",
@@ -4283,12 +4001,6 @@ symptom_followup_questions = {
   ],
 
   "tremor": [
-    {
-      "hi": "आपको कितने समय से कंपन महसूस हो रहे हैं?",
-      "en": "How long have you been experiencing tremors?",
-      "category": "tremors",
-      "symptom": "duration of tremors",
-    },
     {
       "hi": "क्या कंपन हमेशा होते हैं या यह आते-जाते हैं?",
       "en": "Are the tremors present all the time or do they come and go?",
@@ -4306,12 +4018,6 @@ symptom_followup_questions = {
       "en": "Do the tremors get worse with certain activities, like holding something or moving?",
       "category": "tremors",
       "symptom": "activity-related worsening",
-    },
-    {
-      "hi": "क्या आप कोई अन्य लक्षण अनुभव कर रहे हैं, जैसे कमजोरी, कठोरता, या समन्वय में समस्या?",
-      "en": "Are you experiencing any other symptoms, such as weakness, stiffness, or difficulty with coordination?",
-      "category": "tremors",
-      "symptom": "associated symptoms",
     },
     {
       "hi": "क्या आपके परिवार में कंपन या न्यूरोलॉजिकल स्थितियों का इतिहास है (जैसे, पार्किंसंस रोग)?",
@@ -4347,22 +4053,10 @@ symptom_followup_questions = {
 
   "panic attack": [
     {
-      "hi": "आपको कितने समय से पैनिक अटैक का अनुभव हो रहा है?",
-      "en": "How long have you been experiencing panic attacks?",
-      "category": "panic_attack",
-      "symptom": "duration of panic attacks",
-    },
-    {
       "hi": "आपको कितनी बार पैनिक अटैक होते हैं?",
       "en": "How often do you have panic attacks?",
       "category": "panic_attack",
       "symptom": "frequency of panic attacks",
-    },
-    {
-      "hi": "आप पैनिक अटैक के दौरान कौन-कौन से लक्षण अनुभव करते हैं (जैसे, तेज़ दिल की धड़कन, पसीना, छाती में दर्द, सांस लेने में कठिनाई)?",
-      "en": "What symptoms do you experience during a panic attack (e.g., rapid heartbeat, sweating, chest pain, shortness of breath)?",
-      "category": "panic_attack",
-      "symptom": "symptoms during panic attack",
     },
     {
       "hi": "क्या पैनिक अटैक अचानक होते हैं, या आपको कुछ विशेष उत्तेजक (जैसे, तनावपूर्ण स्थिति, भीड़) का पता चलता है?",
@@ -4400,21 +4094,11 @@ symptom_followup_questions = {
       "category": "panic_attack",
       "symptom": "medication use",
     },
-    {
-      "hi": "क्या आपने पैनिक अटैक के दौरान के अलावा कोई शारीरिक परिवर्तन महसूस किए हैं, जैसे सांस लेने में कठिनाई या छाती में दर्द?",
-      "en": "Have you noticed any physical changes, such as difficulty breathing or chest pain, when you are not having a panic attack?",
-      "category": "panic_attack",
-      "symptom": "physical changes outside of panic attacks",
-    },
+   
   ],
 
   "mood swing": [
-    {
-      "hi": "आपको कितने समय से मूड स्विंग्स का अनुभव हो रहा है?",
-      "en": "How long have you been experiencing mood swings?",
-      "category": "mood_swings",
-      "symptom": "duration of mood swings",
-    },
+      
     {
       "hi": "आपके मूड स्विंग्स कितनी बार होते हैं?",
       "en": "How often do your mood swings occur?",
@@ -4446,12 +4130,6 @@ symptom_followup_questions = {
       "symptom": "patterns of mood changes",
     },
     {
-      "hi": "क्या आप शारीरिक लक्षणों का अनुभव कर रहे हैं, जैसे नींद, भूख, या ऊर्जा स्तर में बदलाव?",
-      "en": "Are you experiencing any physical symptoms, such as changes in sleep, appetite, or energy levels?",
-      "category": "mood_swings",
-      "symptom": "physical symptoms during mood swings",
-    },
-    {
       "hi": "क्या आपने हाल ही में कोई बड़ा जीवन परिवर्तन, तनावपूर्ण घटना या आघातक अनुभव किया है?",
       "en": "Have you experienced any major life stressors, changes, or traumatic events recently?",
       "category": "mood_swings",
@@ -4472,12 +4150,6 @@ symptom_followup_questions = {
   ],
 
   "difficulty concentrating": [
-    {
-      "hi": "आपको कितने समय से एकाग्रता में कठिनाई हो रही है?",
-      "en": "How long have you been experiencing difficulty concentrating?",
-      "category": "difficulty_concentrating",
-      "symptom": "duration of concentration difficulty",
-    },
     {
       "hi": "क्या एकाग्रता में कठिनाई स्थायी है या कभी-कभी होती है?",
       "en": "Is the difficulty with concentration constant or does it come and go?",
@@ -4535,12 +4207,7 @@ symptom_followup_questions = {
   ],
 
   "hallucination": [
-    {
-      "hi": "आपको कितने समय से भ्रांतियाँ हो रही हैं?",
-      "en": "How long have you been experiencing hallucinations?",
-      "category": "hallucinations",
-      "symptom": "duration of hallucinations",
-    },
+    
     {
       "hi": "आप किस प्रकार की भ्रांतियाँ अनुभव कर रहे हैं (जैसे, आवाजें सुनना, चीज़ें देखना, गंध महसूस करना)?",
       "en": "What type of hallucinations are you experiencing (e.g., hearing voices, seeing things, smelling odors)?",
@@ -4588,12 +4255,6 @@ symptom_followup_questions = {
       "en": "Have you had any recent head injuries, infections, or neurological conditions that might affect your brain?",
       "category": "hallucinations",
       "symptom": "head injuries or neurological conditions",
-    },
-    {
-      "hi": "क्या आपके परिवार में मानसिक स्वास्थ्य विकारों का कोई इतिहास है, जैसे मानसिक विकृति या मादक पदार्थों का दुरुपयोग?",
-      "en": "Do you have a family history of mental health disorders, such as psychosis or substance abuse?",
-      "category": "hallucinations",
-      "symptom": "family history of mental health disorders",
     },
   ],
 
