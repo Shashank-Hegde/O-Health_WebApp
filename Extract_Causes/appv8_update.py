@@ -2354,12 +2354,6 @@ symptom_followup_questions = {
       "symptom": "dark urine",
     },
     {
-      "hi": "क्या गहरे पेशाब के साथ आपको कोई अन्य लक्षण भी महसूस हो रहे हैं?",
-      "en": "Are you experiencing any other symptoms along with dark urine?",
-      "category": "other_symptoms_with_dark_urine",
-      "symptom": None,
-    },
-    {
       "hi": "क्या आपका पेशाब सामान्य से अधिक है?",
       "en": "Is your urine output more than usual?",
       "category": "increased_urine_output",
@@ -2548,12 +2542,7 @@ symptom_followup_questions = {
   ],
 
   "excessive thirst": [
-    {
-      "hi": "क्या आपको अत्यधिक प्यास लग रही है?",
-      "en": "Are you feeling excessively thirsty?",
-      "category": "excessive_thirst",
-      "symptom": "excessive thirst",
-    },
+    
     {
       "hi": "क्या अत्यधिक प्यास के साथ आपको बार-बार पेशाब आ रहा है?",
       "en": "Are you urinating frequently along with excessive thirst?",
@@ -2593,12 +2582,6 @@ symptom_followup_questions = {
   ],
 
   "dehydration": [
-    {
-      "hi": "क्या आपको शरीर से पानी की कमी महसूस हो रही है?",
-      "en": "Are you feeling dehydrated?",
-      "category": "dehydration",
-      "symptom": "dehydration",
-    },
     {
       "hi": "क्या आपको प्यास लगी हुई है?",
       "en": "Are you feeling thirsty?",
@@ -2663,12 +2646,6 @@ symptom_followup_questions = {
       "symptom": "redness",
     },
     {
-      "hi": "क्या त्वचा पर जलने के साथ कोई अन्य लक्षण भी हैं?",
-      "en": "Are there any other symptoms along with the skin burn?",
-      "category": "other_symptoms_with_skin_burn",
-      "symptom": None,
-    },
-    {
       "hi": "क्या त्वचा पर जलने के कारण आपको दर्द में वृद्धि हो रही है?",
       "en": "Is the pain increasing due to the skin burn?",
       "category": "pain_increase_with_skin_burn",
@@ -2696,12 +2673,6 @@ symptom_followup_questions = {
       "symptom": None,
     },
     {
-      "hi": "क्या पसीना आना के साथ कोई अन्य लक्षण भी हैं?",
-      "en": "Are there any other symptoms along with sweating?",
-      "category": "other_symptoms_with_sweating",
-      "symptom": None,
-    },
-    {
       "hi": "क्या आपको पसीना आना के कारण किसी विशेष गतिविधि के दौरान कठिनाई हो रही है?",
       "en": "Are you experiencing difficulty during any specific activity due to sweating?",
       "category": "activity_related_sweating",
@@ -2712,18 +2683,6 @@ symptom_followup_questions = {
       "en": "Are you noticing any changes in your skin due to sweating?",
       "category": "skin_changes_with_sweating",
       "symptom": "skin changes",
-    },
-    {
-      "hi": "क्या पसीना आना के कारण आपकी त्वचा सूखी हो गई है?",
-      "en": "Has sweating caused your skin to become dry?",
-      "category": "dry_skin_with_sweating",
-      "symptom": "dry skin",
-    },
-    {
-      "hi": "क्या पसीना आना के साथ आपको कोई अन्य स्वास्थ्य समस्याएँ हो रही हैं?",
-      "en": "Are you experiencing any other health issues due to sweating?",
-      "category": "health_issues_with_sweating",
-      "symptom": None,
     },
   ],
 
@@ -2741,12 +2700,6 @@ symptom_followup_questions = {
       "symptom": "pain",
     },
     {
-      "hi": "क्या ठंड महसूस होने के कारण आपको थकान हो रही है?",
-      "en": "Are you feeling fatigued due to feeling cold?",
-      "category": "fatigue_with_feeling_cold",
-      "symptom": "fatigue",
-    },
-    {
       "hi": "क्या आपको ठंड महसूस होने के साथ त्वचा में कोई परिवर्तन हो रहा है?",
       "en": "Are you noticing any changes in your skin due to feeling cold?",
       "category": "skin_changes_with_feeling_cold",
@@ -2757,12 +2710,6 @@ symptom_followup_questions = {
       "en": "Is feeling cold affecting your sleep?",
       "category": "sleep_disturbance_with_feeling_cold",
       "symptom": "insomnia",
-    },
-    {
-      "hi": "क्या ठंड महसूस होने के साथ आपको कोई अन्य लक्षण भी महसूस हो रहे हैं?",
-      "en": "Are you experiencing any other symptoms along with feeling cold?",
-      "category": "other_symptoms_with_feeling_cold",
-      "symptom": None,
     },
     {
       "hi": "क्या ठंड महसूस होने के कारण आपके शरीर में कोई कमजोरी आ रही है?",
@@ -2789,12 +2736,6 @@ symptom_followup_questions = {
       "hi": "क्या दोहरी दृष्टि किसी विशेष समय या गतिविधि के दौरान बढ़ती है?",
       "en": "Does your double vision increase during any specific time or activity?",
       "category": "activity_related_double_vision",
-      "symptom": None,
-    },
-    {
-      "hi": "क्या आपकी दृष्टि में कोई अन्य परिवर्तन हो रहा है?",
-      "en": "Are there any other changes in your vision?",
-      "category": "other_vision_changes_with_double_vision",
       "symptom": None,
     },
     {
@@ -2854,12 +2795,6 @@ symptom_followup_questions = {
       "category": "watering_with_eye_redness",
       "symptom": "eye tearing",
     },
-    {
-      "hi": "क्या लालिमा के साथ आपकी आँखों में खुजली या जलन हो रही है?",
-      "en": "Are you experiencing itching or burning sensations in your eyes along with redness?",
-      "category": "itching_burning_with_eye_redness",
-      "symptom": "itching",
-    },
   ],
 
   "eye discharge": [
@@ -2894,12 +2829,6 @@ symptom_followup_questions = {
       "symptom": None,
     },
     {
-      "hi": "क्या आँखों में स्राव के साथ कोई अन्य लक्षण भी हैं?",
-      "en": "Are there any other symptoms along with eye discharge?",
-      "category": "other_symptoms_with_eye_discharge",
-      "symptom": None,
-    },
-    {
       "hi": "क्या स्राव के कारण आपकी आँखों में सूजन हो रही है?",
       "en": "Is there any swelling in your eyes due to discharge?",
       "category": "swelling_with_eye_discharge",
@@ -2908,12 +2837,7 @@ symptom_followup_questions = {
   ],
 
   "ear discharge": [
-    {
-      "hi": "क्या आपके कान से स्राव आ रहा है?",
-      "en": "Are you experiencing discharge from your ears?",
-      "category": "ear_discharge",
-      "symptom": "ear discharge",
-    },
+   
     {
       "hi": "क्या स्राव के साथ कान में दर्द भी हो रहा है?",
       "en": "Are you experiencing pain in your ears along with discharge?",
@@ -2943,12 +2867,6 @@ symptom_followup_questions = {
       "en": "Are you experiencing itching in your ears due to discharge?",
       "category": "itching_with_ear_discharge",
       "symptom": "itching",
-    },
-    {
-      "hi": "क्या स्राव के साथ आपको कोई अन्य लक्षण भी महसूस हो रहे हैं?",
-      "en": "Are you experiencing any other symptoms along with ear discharge?",
-      "category": "other_symptoms_with_ear_discharge",
-      "symptom": None,
     },
   ],
 
@@ -2998,12 +2916,7 @@ symptom_followup_questions = {
   ],
 
   "balance problem": [
-    {
-      "hi": "क्या आपको संतुलन बिगड़ने की समस्या हो रही है?",
-      "en": "Are you experiencing balance problems?",
-      "category": "balance_problems",
-      "symptom": "balance problems",
-    },
+ 
     {
       "hi": "क्या संतुलन बिगड़ने के साथ चक्कर आना भी हो रहा है?",
       "en": "Are you experiencing dizziness along with balance problems?",
@@ -3027,12 +2940,6 @@ symptom_followup_questions = {
       "en": "Are your daily activities being affected due to balance problems?",
       "category": "daily_activity_impact_with_balance_problems",
       "symptom": None,
-    },
-    {
-      "hi": "क्या संतुलन बिगड़ने के साथ कान में कोई समस्या है?",
-      "en": "Do you have any ear problems along with balance issues?",
-      "category": "ear_problems_with_balance_problems",
-      "symptom": "ear discharge",
     },
     {
       "hi": "क्या संतुलन बिगड़ने के कारण आपको चलने-फिरने में कठिनाई हो रही है?",
@@ -3074,12 +2981,6 @@ symptom_followup_questions = {
       "symptom": "decreased appetite",
     },
     {
-      "hi": "क्या आपको स्वाद में बदलाव के साथ कोई अन्य लक्षण भी महसूस हो रहे हैं?",
-      "en": "Are you experiencing any other symptoms along with taste changes?",
-      "category": "other_symptoms_with_taste_changes",
-      "symptom": None,
-    },
-    {
       "hi": "क्या स्वाद में बदलाव अचानक शुरू हुआ है या धीरे-धीरे?",
       "en": "Did your taste changes start suddenly or gradually?",
       "category": "sudden_graduate_taste_changes",
@@ -3107,12 +3008,6 @@ symptom_followup_questions = {
       "symptom": None,
     },
     {
-      "hi": "क्या आपको गंध में बदलाव के साथ कोई अन्य लक्षण भी महसूस हो रहे हैं?",
-      "en": "Are you experiencing any other symptoms along with smell changes?",
-      "category": "other_symptoms_with_smell_changes",
-      "symptom": None,
-    },
-    {
       "hi": "क्या गंध में बदलाव अचानक शुरू हुआ है या धीरे-धीरे?",
       "en": "Did your smell changes start suddenly or gradually?",
       "category": "sudden_graduate_smell_changes",
@@ -3133,18 +3028,7 @@ symptom_followup_questions = {
   ],
 
   "rapid breathing": [
-    {
-      "hi": "क्या आपकी सांसें तेजी से आ रही हैं?",
-      "en": "Are your breaths coming rapidly?",
-      "category": "rapid_breathing",
-      "symptom": "rapid breathing",
-    },
-    {
-      "hi": "क्या तेजी से सांस लेने के साथ कोई अन्य लक्षण भी हैं?",
-      "en": "Are there any other symptoms along with rapid breathing?",
-      "category": "other_symptoms_with_rapid_breathing",
-      "symptom": None,
-    },
+    
     {
       "hi": "क्या तेजी से सांस लेने के कारण आपको सांस लेने में कठिनाई हो रही है?",
       "en": "Are you having difficulty breathing due to rapid breathing?",
@@ -3207,12 +3091,6 @@ symptom_followup_questions = {
       "en": "Are you having difficulty breathing due to an irregular heartbeat?",
       "category": "breathing_difficulty_with_irregular_heartbeat",
       "symptom": "shortness of breath",
-    },
-    {
-      "hi": "क्या अनियमित धड़कन के साथ आपको कोई अन्य लक्षण भी महसूस हो रहे हैं?",
-      "en": "Are you experiencing any other symptoms along with an irregular heartbeat?",
-      "category": "other_symptoms_with_irregular_heartbeat",
-      "symptom": None,
     },
     {
       "hi": "क्या अनियमित धड़कन अचानक शुरू हुई है या धीरे-धीरे?",
