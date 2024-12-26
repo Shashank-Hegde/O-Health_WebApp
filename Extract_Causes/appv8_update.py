@@ -140,14 +140,6 @@ symptom_synonyms = {
    'rapid breathing': [
          'heavy breathing', 'shallow breathing', 'heart skipping beats'
     ],
-    'chest pain': [
-        'chest discomfort', 'sharp chest pain', 'tightness in chest', 'aching chest', 'burning chest', 'soreness in chest', 'chest pressure', 'tight chest', 'chest heaviness',
-        'stabbing chest pain', 'gripping chest pain', 'pain across chest', 'chest muscle soreness', 'sharp stabbing in chest', 'chronic chest pain', 'dull chest pain', 'mild chest ache',
-        'sharp twinges in chest', 'pleuritic chest pain', 'pain in left side of chest', 'pain in right side of chest', 'pain with deep breath', 'sharp pain when coughing',
-        'crushing chest pain', 'sensitive chest area', 'burning sensation in chest', 'tightness when breathing', 'sharp chest discomfort', 'radiating chest pain', 'underlying chest discomfort',
-        'aching on chest movement', 'sore chest muscles', 'pain in the rib cage', 'pressure across chest', 'stabbing pain with movement', 'cramp-like chest pain', 'tension in chest',
-        'stinging pain in chest', 'gripping sensation in chest', 'pain under the breastbone', 'breastbone discomfort', 'sharpness in the heart region', 'feeling of chest constriction'
-    ],
     'muscle pain': [
         'muscle ache', 'muscle soreness', 'muscle strain', 'muscle discomfort', 'muscle stiffness', 'muscle tension', 'muscle fatigue', 'muscle injury', 'muscle cramps',
         'muscle spasm', 'muscle pulling', 'muscle tears', 'muscle tightness', 'muscle throbbing', 'aching muscles', 'sore muscles', 'tender muscles', 'painful muscles',
