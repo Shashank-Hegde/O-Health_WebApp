@@ -156,7 +156,7 @@ symptom_synonyms = {
         'waking up too early', 'difficulty with sleep onset', 'difficulty getting comfortable at night', 'sleep anxiety', 'sleeping problems', 'frequent nighttime awakenings', 'irregular sleep cycle',
         'poor sleep habits', 'nighttime restlessness', 'waking in the middle of the night', 'sleep deprivation symptoms', 'daytime sleepiness from poor sleep', 'sleep fragmentation',
         'restless sleep', 'persistent insomnia', 'sleep troubles', 'light sleeping', 'short sleep duration', 'restorative sleep deprivation', 'fatigue from sleeplessness',
-        'waking up exhausted', 'sleep cycle disruption', 'sleep onset difficulty', 'insomnia due to stress', 'mental hyperactivity preventing sleep'
+        'waking up exhausted', 'sleep cycle disruption', 'sleep onset difficulty', 'insomnia due to stress', 'mental hyperactivity preventing sleep', 'cannot sleep', 'unable to sleep'
     ],
     'rash': [
         'skin rash', 'redness on skin', 'skin irritation', 'skin inflammation', 'skin breakout', 'itchy rash', 'hives', 'blotchy skin', 'skin eruption', 'skin lesions',
@@ -610,6 +610,169 @@ symptom_synonyms = {
     'spontaneous nosebleed', 'anterior nosebleed', 'posterior nosebleed', 'frequent nosebleeds', 'nosebleed episode', 'bleeding nostrils', 
     'blood coming out from the nose', 'nasal bleeding', 'bloody discharge from the nose', 'nasal passage bleeding', 'nosebleed symptoms', 'internal nasal bleeding',
     'nose injury bleeding'
+],
+'ear ringing': [
+    'tinnitus', 'ringing in the ears', 'ear buzzing', 'ear noise', 'persistent ear sound', 'ear whistling', 'ear humming', 'sounds in the ears', 
+    'ear roaring', 'ringing sound in the ear', 'constant ringing', 'ear congestion', 'noises in the ear', 'buzzing in the ear', 'hissing in the ear', 
+    'whistling in the ear', 'high-pitched sound', 'low-pitched ear sound', 'phantom sounds', 'ear sensation', 'auditory disturbance'
+],
+
+'dark urine': [
+    'dark-colored urine', 'dark yellow urine', 'brown urine', 'amber-colored urine', 'tea-colored urine', 'concentrated urine', 'urine with strong color', 
+    'deep yellow urine', 'urine discoloration', 'darkened urine', 'urine with reddish tint', 'dark brown urine', 'urine with high concentration', 'cloudy urine', 
+    'urine with abnormal color', 'dark urine caused by medication', 'urine with blood', 'urine with high pigment', 'strong urine color'
+],
+
+'blood in urine': [
+    'hematuria', 'urinary blood', 'bloody urine', 'red urine', 'urine with blood', 'blood-tinged urine', 'blood in the urine stream', 'pink urine', 
+    'urinary tract bleeding', 'blood in the urinary tract', 'hemorrhagic urine', 'urinary bleeding', 'presence of blood in urine', 'blood in the bladder', 
+    'bloody discharge in urine', 'urine with reddish tint', 'blood in the urine sample', 'bleeding from the kidneys', 'blood in the urine after urination', 
+    'visible blood in urine', 'microscopic hematuria'
+],
+
+'blood in stool': [
+    'hematochezia', 'rectal bleeding', 'bloody stool', 'stool with blood', 'bright red blood in stool', 'dark blood in stool', 'blood in the bowel movement', 
+    'blood-tinged stool', 'bloody feces', 'blood in feces', 'stool with reddish tint', 'blood in the stool sample', 'melena', 'dark tarry stool', 
+    'fecal blood', 'visible blood in stool', 'blood after bowel movement', 'stool with clots', 'bloody discharge from the rectum', 'abnormal stool color'
+],
+
+'high blood pressure': [
+    'hypertension', 'elevated blood pressure', 'high BP', 'high arterial pressure', 'raised blood pressure', 'increased blood pressure', 'high systolic pressure',
+    'high diastolic pressure', 'chronic hypertension', 'hypertensive condition', 'uncontrolled blood pressure', 'borderline hypertension', 'stage 1 hypertension', 
+    'stage 2 hypertension', 'persistent high blood pressure', 'high blood pressure disorder', 'abnormal blood pressure', 'hypertensive crisis', 'cardiovascular hypertension',
+    'risk of hypertension', 'elevated BP', 'hypertensive state', 'BP is high'
+],
+
+'low blood pressure': [
+    'hypotension', 'low BP', 'decreased blood pressure', 'low arterial pressure', 'reduced blood pressure', 'hypotensive condition', 'low systolic pressure',
+    'low diastolic pressure', 'abnormally low blood pressure', 'postural hypotension', 'orthostatic hypotension', 'chronic hypotension', 'mild hypotension',
+    'severe hypotension', 'low blood pressure symptoms', 'blood pressure drop', 'low cardiovascular pressure', 'circulatory hypotension', 'inadequate blood pressure',
+    'dizzy blood pressure', 'low blood pressure episode', 'BP is low'
+],
+
+'excessive thirst': [
+    'polydipsia', 'intense thirst', 'uncontrollable thirst', 'extreme thirst', 'constant thirst', 'increased thirst', 'abnormal thirst', 'drinking more water', 'consuming more water', 
+    'compulsive thirst', 'thirsty all the time', 'unquenchable thirst', 'chronic thirst', 'intense desire to drink', 'frequent thirst', 'dehydration thirst','thirsty feeling',
+    'abnormal fluid intake desire', 'thirst without relief', 'excessive fluid consumption', 'thirst due to dehydration', 'thirsty feeling', 'abnormal hydration needs'
+],
+
+'dehydration': [
+    'fluid loss', 'water depletion', 'lack of hydration', 'electrolyte imbalance', 'insufficient water intake', 'dehydrating',
+    'dehydrated state', 'water deficiency', 'reduced fluid levels', 'severe dehydration', 'mild dehydration', 'dehydration symptoms', 
+    'fluid imbalance', 'low body water', 'loss of body fluids', 'heat exhaustion', 'low hydration', 'hypohydration'
+],
+
+'red eyes': [
+    'eye redness', 'bloodshot eyes', 'conjunctival redness', 'inflamed eyes', 'eye irritation', 'eyes with blood vessels', 
+    'swollen eyes', 'sore eyes', 'tired eyes', 'watery eyes', 'eye inflammation', 'pink eye', 'eye congestion', 'eye discomfort', 'eyes looking inflamed', 
+    'redness in the eyes', 'burning eyes', 'allergic eyes', 'eyes with a reddish tint'
+],
+
+'eye discharge': [
+    'ocular discharge', 'eye mucus', 'eye secretion', 'eye crust', 'sticky eyes', 'eye pus', 'yellow eye discharge', 'clear eye discharge', 'water coming out of eyes',
+    'green eye discharge', 'gunky eyes', 'eye drainage', 'teary eyes', 'eye secretion buildup', 'crusty eyes', 'eye fluid', 'excessive tear production',
+    'morning eye crust', 'sticky eyelids', 'eye infection discharge', 'pus from the eye', 'watery eye discharge', 'eye discharge after sleep', 
+    'discharge from the tear duct', 'rheum in the eye','something coming out of eyes'
+],
+
+'ear discharge': [
+    'otorrhea', 'ear fluid', 'ear drainage', 'pus from the ear', 'ear pus', 'ear infection discharge', 'fluid from the ear', 'ear secretion', 
+    'yellow ear discharge', 'green ear discharge', 'watery ear discharge', 'bloody ear discharge', 'ear mucus', 'crust in the ear', 'excessive ear fluid',
+    'ear leakage', 'ear wax buildup', 'discharge from the ear canal', 'discharge from the middle ear', 'infection-related ear discharge', 'ear discharge after swimming', 
+    'ear drainage after injury', 'something coming out of ears'
+],
+
+'balance problem': [
+    'vertigo', 'loss of balance', 'balance disorder', 'impaired balance', 'unsteady gait', 'lack of coordination', 'dizziness and unsteadiness', 
+    'balance difficulty', 'feeling of instability', 'spatial disorientation', 'postural imbalance', 'equilibrium disturbance', 'feeling off-balance', 
+    'gait imbalance', 'disequilibrium', 'vestibular dysfunction', 'balance issues', 'vertiginous symptoms', 'coordination problems', 'stumbling', 'feeling lightheaded'
+],
+
+'irregular heartbeat': [
+    'arrhythmia', 'abnormal heartbeat', 'heart palpitations', 'irregular pulse', 'heart rhythm disorder', 'uneven heartbeat', 'skipped heartbeat', 
+    'rapid heartbeat', 'slow heartbeat', 'tachycardia', 'bradycardia', 'atrial fibrillation', 'ventricular fibrillation', 'heart flutter', 'irregular heart rhythm',
+    'heart irregularities', 'palpitations', 'fluttering heart', 'cardiac arrhythmia', 'dysrhythmia', 'irregular pulse rate', 'heartbeat irregularity', 
+    'irregular heart rate', 'heart pounding'
+],
+
+'fainting': [
+    'syncope', 'passing out', 'loss of consciousness', 'blackout', 'going unconscious', 'faint', 'collapse', 'temporary unconsciousness', 
+    'sudden fainting', 'faint spell', 'dizziness and fainting', 'dizzy spell', 'feeling lightheaded', 'near fainting', 'brief loss of consciousness',
+    'head rush', 'staggering', 'fainting episode', 'loss of awareness', 'unconsciousness', 'momentary blackout', 'unconscious',
+    'dizzy and lightheaded', 'feeling woozy'
+],
+
+'nervousness': [
+    'nervous tension', 'nervous energy', 'uneasiness', 'nervous feeling', 'worry', 'uneasy feeling', 'jitters', 'nervous anticipation', 'fearfulness', 'shakiness', 'edginess', 
+    'fidgeting', 'mental unease', 'trepidation', 'feeling on edge', 'worrying', 'nervous butterflies'
+],
+
+'panic attack': [
+    'anxiety attack', 'nervous breakdown', 'stress attack', 'overwhelming fear', 'intense fear episode', 'fight-or-flight response', 'panic episode', 'emotional breakdown', 
+    'sudden panic', 'heart-pounding anxiety', 'fear attack', 'panic episode', 'anxiety episode', 'intense panic', 'acute stress response', 'terror attack', 'nervous episode',
+    'severe panic', 'acute emotional distress', 'uncontrollable fear', 'chronic panic disorder'
+],
+
+'mood swing': [
+    'emotional swing', 'mood fluctuation', 'emotional rollercoaster', 'mood shift', 'mood change', 'mood variation', 'mood disorder', 
+    'rapid mood change', 'emotional instability', 'mood instability', 'mood alteration', 'emotional shift', 'temper fluctuation',  
+    'emotional lability', 'mood fluctuations', 'unstable mood', 'irregular mood', 'affective swing', 'mood imbalance', 'emotional outbursts', 
+    'highs and lows', 'emotional extremes'
+],
+
+'difficulty concentrating': [
+    'inability to focus', 'lack of focus', 'poor concentration', 'trouble focusing', 'concentration problems', 'distractibility', 
+    'difficulty paying attention', 'lack of mental clarity', 'difficulty staying focused', 'inattention', 'short attention span', 'mind wandering', 
+    'difficulty concentrating on tasks', 'poor attention span', 'difficulty maintaining focus', 'lack of mental focus', 'difficulty with concentration', 
+    'easily distracted', 'unable to focus', 'attention issues', 'concentration challenges'
+],
+
+'lack of motivation': [
+    'demotivated', 'low motivation', 'disinterest', 'lack of drive', 'lack of ambition', 'lack of initiative', 'apathy', 'unmotivated', 
+    'loss of drive', 'lack of enthusiasm', 'indifference', 'lack of determination', 'lack of purpose', 'loss of interest', 'lack of energy', 
+    'procrastination', 'lack of willpower', 'lack of focus', 'lack of passion', 'feeling uninspired', 'demotivation', 'lack of commitment', 'indifferent attitude'
+],
+
+'exhaustion': [
+    'fatigue', 'tiredness', 'weariness', 'drained', 'burnout', 'physical exhaustion', 'mental exhaustion', 'extreme fatigue', 'lack of energy',
+    'overwhelming tiredness', 'complete fatigue', 'depletion', 'lack of stamina', 'total exhaustion', 'exhausted feeling', 'chronic fatigue', 
+    'fatigued state', 'drowsiness', 'wearing out', 'energy depletion', 'fatigue syndrome', 'feeling drained', 'exhaustive tiredness', 'loss of energy',
+    'profound fatigue', 'fatigue and weakness'
+],
+
+'sprain': [
+    'ligament injury', 'joint sprain', 'ligament strain', 'stretched ligament', 'ligament tear', 
+    'sprained ligament', 'mild sprain', 'severe sprain', 'ligament damage'
+],
+
+'strain': [
+     
+    'soft tissue strain', 'overexertion', 'overworked muscle', 'acute strain', 'chronic strain', 'ligament strain'
+],
+
+'arthritis': [
+    'inflammatory arthritis', 'rheumatoid arthritis', 'osteoarthritis', 'degenerative joint disease',  'rheumatism',  'pain from arthritis',
+    'arthralgia', 'chronic arthritis', 'autoimmune arthritis', 'psoriatic arthritis'
+   
+],
+
+'gout': [ 
+    'uric acid buildup', 'acute gout', 'chronic gout', 'gout attack', 'joint pain from gout', 'gout flare-up', 'gouty inflammation', 'gouty attack',
+    'painful gout episode', 'gouty swelling', 'gout in the foot', 'gout in the big toe', 'gouty condition', 'uric acid crystals', 'gouty joint disease'
+],
+
+'shoulder pain': [
+    'shoulder discomfort', 'pain in the shoulder', 'shoulder ache', 'sharp shoulder pain', 'dull shoulder pain', 'shoulder stiffness', 'rotator cuff pain', 
+    'shoulder joint pain', 'pain in the shoulder joint', 'shoulder strain', 'shoulder injury', 'shoulder inflammation', 'pain in the upper arm', 
+    'muscle pain in the shoulder', 'shoulder tenderness', 'pain when moving the shoulder', 'shoulder sprain', 'pain in the deltoid', 'shoulder dislocation pain',
+    'pain in the scapula', 'pain after shoulder surgery', 'shoulder impingement pain', 'frozen shoulder', 'pain from shoulder overuse', 'referred shoulder pain'
+],
+
+'bone fracture': [
+    'broken bone', 'bone break', 'fractured bone', 'cracked bone', 'bone crack', 'bone injury', 'fracture', 'compound fracture', 'closed fracture', 
+    'stress fracture', 'hairline fracture', 'complete fracture', 'incomplete fracture', 'displaced fracture', 'non-displaced fracture', 'bone splinter', 
+    'fractured limb', 'fractured bone segment', 'broken limb', 'broken bone segment', 'cracked bone injury', 'bone rupture', 'bone fracture symptoms',
+    'fractured bone tissue', 'fracture of the bone', 'crack in bone'
 ],
 
     'vomiting': ['throwing up', 'puking', 'stomach upset'],
