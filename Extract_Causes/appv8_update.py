@@ -446,6 +446,175 @@ symptom_synonyms = {
         'false sensory perception', 'misinterpreted reality', 'altered state of perception', 'phantasmagoria', 'delusional thoughts', 'imaginative perception', 'delirious hallucinations', 'unfounded sensations',
         'falsified sensory experience', 'experiencing the non existent'
     ],
+  'loss of appetite': [
+    'decreased appetite', 'reduced appetite', 'appetite loss', 'lack of appetite', 'poor appetite', 'no desire to eat', 'loss of interest in food', 'unwillingness to eat',
+    'inability to eat', 'diminished appetite', 'eating less', 'loss of hunger', 'food aversion', 'food intolerance', 'decreased desire to eat', 'lack of hunger', 
+    'decrease in food intake', 'disinterest in eating', 'feeling full quickly', 'loss of taste for food', 'sudden loss of appetite', 'absence of hunger', 'nausea with food', 
+    'difficulty eating', 'reduced food consumption', 'lack of craving for food', 'feeling satiated quickly', 'loss of appetite due to illness', 'loss of appetite from stress',
+    'loss of appetite from medication', 'anorexia', 'anorexia nervosa', 'feeling no appetite', 'feeling disinterested in food', 'poor food intake', 'reduced food desire'
+],
+
+'constipation': [
+    'difficulty passing stool', 'infrequent bowel movements', 'hard stools', 'painful bowel movements', 'feeling of incomplete evacuation', 'straining during bowel movement',
+    'constipated', 'dry stool', 'difficulty in defecation', 'delayed bowel movements', 'irregular bowel movements', 'hard and dry stool', 'chronic constipation', 'temporary constipation',                'trouble with bowel movements', 'trouble passing stool', 'slow bowel transit', 'stool retention', 'decreased bowel movement frequency', 'bowel sluggishness',
+    'straining to poop', 'bowel movement difficulty', 'slow bowel function', 'lack of bowel movement', 'intestinal irregularity'
+],
+
+'flu': [
+    'influenza', 'seasonal flu', 'viral flu', 'flu virus', 'common flu', 'flu infection', 'respiratory flu', 'flu-like symptoms', 'flu illness', 
+    'acute influenza', 'viral infection', 'cold and flu', 'influenza virus', 'flu sickness', 'contagious flu', 'pandemic flu', 
+    'swine flu', 'avian flu', 'H1N1 flu', 'influenza strain', 'cough and flu', 'flu symptoms', 'body aches from flu', 'cold flu', 
+    'influenza fever', 'flu epidemic', 'general flu discomfort', 'influenza outbreak', 'flu season illness', 'sudden flu'
+],
+
+'infection': [
+    'contamination', 'infectious disease', 'germ infection', 'bacterial infection', 'viral infection', 'fungal infection', 'parasite infection', 'microbial infection',
+    'pathogen invasion', 'infected area', 'infection outbreak', 'systemic infection', 'local infection', 'wound infection', 'skin infection', 'respiratory infection',
+    'urinary tract infection', 'ear infection', 'sinus infection', 'blood infection', 'sepsis', 'foodborne illness', 'infected tissue', 'infection of the bloodstream',
+    'infection of the lungs', 'bacterial contamination', 'inflammation from infection', 'infectious agent', 'disease-causing infection', 'contagion', 'infection symptoms',
+    'chronic infection', 'acute infection', 'health infection', 'infection spread', 'infection risk', 'infectious condition', 'contagious disease'
+],
+
+'inflammation': [
+    'inflammatory response', 'immune response', 'chronic inflammation', 'acute inflammation', 'inflammatory reaction', 'inflammation of tissues', 'inflammation in the body', 
+    'inflammation of the skin', 'joint inflammation', 'internal inflammation', 'inflammatory condition', 'cellular inflammation', 'inflammatory disorder', 'local inflammation', 
+    'systemic inflammation', 'inflammation from infection', 'inflammation from injury', 'inflammation from disease', 'autoimmune inflammation', 'inflammation in the joints', 
+    'stiffness from inflammation', 'inflammation from trauma', 'inflammation due to allergies'
+],
+
+'cramp': [
+    'paining cramp', 'cramped muscle', 'cramping sensation', 'cramping'
+],
+
+'bleeding': [
+    'blood loss', 'hemorrhage', 'hemorrhaging', 'bloodshed', 'wound bleeding', 'internal bleeding', 'external bleeding', 'bleeding from injury', 'blood flow', 
+    'spurting blood', 'bleeding wound', 'gushing blood', 'cut bleeding', 'profuse bleeding', 'minor bleeding', 'heavy bleeding', 'excessive bleeding', 
+    'periodic bleeding', 'bleeding from incision', 'bleeding from surgery', 'abnormal bleeding', 'uncontrolled bleeding', 'bleeding disorder'
+],
+
+'irritation': [
+    'annoyance', 'chronic irritation', 'temporary irritation', 'allergic irritation', 'irritated feeling'
+],
+
+'anxiety': [
+    'worry', 'unease', 'stress', 'fear', 'apprehension', 'nervous tension', 'anxiousness', 'nervous anxiety', 'social anxiety', 'generalized anxiety', 'anxiety disorder',   'anticipatory anxiety', 'anxiety attack', 'apprehensive feeling', 'distress', 'emotional unease', 'worrying', 'overthinking', 'mental tension'
+],
+
+'depression': [
+    'sadness', 'melancholy', 'despair', 'low mood', 'dismay', 'hopelessness', 'discouragement', 'despondency', 'blues', 'dejectedness', 'very sad', 'sad', 
+    'feeling down', 'feeling hopeless', 'loss of interest', 'unhappiness', 'mental exhaustion', 'loss of joy', 'major depressive disorder', 
+    'clinical depression', 'chronic depression', 'depressive episode', 'anhedonia', 'negative mood', 'downheartedness'
+],
+
+'nausea': [
+    'queasiness',  'feeling nauseous', 'nauseousness', 'feeling of nausea', 'feeling queasy'
+],
+
+'cancer': [
+    'malignant tumor', 'carcinoma', 'neoplasm', 'oncological disease', 'cancerous growth', 'tumor', 'metastatic cancer', 'cancer cells', 'tumor growth', 
+    'breast cancer', 'lung cancer', 'skin cancer', 'prostate cancer', 'colon cancer', 'leukemia', 'lymphoma', 'sarcoma', 'head and neck cancer', 
+    'pancreatic cancer', 'bladder cancer', 'stomach cancer', 'cancer diagnosis', 'cancerous tumor', 'fatal cancer', 'chronic cancer', 'advanced cancer', 
+    'stage 4 cancer', 'cancer treatment', 'chemotherapy', 'radiation therapy', 'cancer stage', 'oncology'
+],
+
+'diabetes': [
+    'diabetes mellitus', 'high blood sugar', 'high sugar', 'insulin resistance', 'type 1 diabetes', 'type 2 diabetes', 'gestational diabetes', 'sugar diabetes', 
+    'chronic high blood sugar', 'endocrine disorder', 'metabolic disorder', 'insulin deficiency', 'insulin imbalance', 'glucose intolerance', 'sugar level is high',
+    'blood sugar imbalance', 'hyperglycemia', 'diabetic condition', 'diabetic disease', 'diabetic disorder', 'pancreatic disorder', 'non-insulin dependent diabetes',
+    'insulin-dependent diabetes', 'pre-diabetes', 'diabetic symptoms', 'diabetic complications', 'diabetes management', 'diabetes treatment'
+],
+
+'weight loss': [
+    'fat loss', 'loss of body weight', 'slimming down', 'losing pounds', 'weight reduction', 'weight management', 'fat burning', 'weight cut', 
+    'body slimming', 'reduction in weight', 'fat shedding', 'calorie burning', 'trimming down', 'losing inches', 'dropping weight', 'healthy weight loss',
+    'body fat reduction', 'weight loss journey', 'sustainable weight loss', 'rapid weight loss', 'gradual weight loss', 'controlled weight loss', 
+    'dieting', 'fitness weight loss', 'weight loss goals'
+],
+
+'hair loss': [
+    'alopecia', 'balding', 'thinning hair', 'hair thinning', 'hair shedding', 'hair fall', 'scalp hair loss', 'bald spots', 'receding hairline',
+    'hairline recession', 'hair breakage', 'excessive hair loss', 'temporary hair loss', 'pattern baldness', 'male pattern baldness', 'female pattern baldness',
+    'androgenic alopecia', 'patchy hair loss', 'diffuse hair loss', 'hair loss due to stress', 'postpartum hair loss', 'age-related hair loss', 'genetic hair loss',
+    'hair fall disorder', 'alopecia areata', 'hair loss condition', 'scalp thinning', 'hair loss treatment'
+],
+
+'blurred vision': [
+    'vision impairment', 'unclear vision', 'fuzzy vision', 'distorted vision', 'foggy vision', 'hazy vision', 'blurry eyesight', 'impaired vision', 'cannot see properly', 
+    'vision distortion', 'clouded vision', 'poor vision', 'vision fuzziness', 'difficulty seeing clearly', 'blurred eyesight', 'visual disturbance', 
+    'unclear eyesight', 'visual impairment', 'blurry sight', 'sight distortion', 'vision problems', 'temporary blurred vision', 'chronic blurred vision', 
+    'blurry perception'
+],
+
+'numbness': [
+    'loss of sensation', 'tingling', 'pins and needles', 'lack of feeling', 'reduced sensation', 'sensory loss', 'numb sensation', 'feeling of numbness',
+    'numb feeling', 'sensory numbness', 'partial numbness', 'temporary numbness', 'persistent numbness'
+],
+
+'dry mouth': [
+    'xerostomia', 'cottonmouth', 'parched mouth', 'thirsty mouth', 'dryness in the mouth', 'lack of saliva', 'reduced saliva production', 'mouth dryness',
+    'sticky mouth', 'dryness of the oral cavity', 'uncomfortable dry mouth', 'dry tongue', 'thirsty feeling in the mouth', 'saliva deficiency', 'oral dryness',
+    'mouth discomfort', 'dryness in the mouth and throat', 'sore dry mouth', 'dehydrated mouth', 'dryness due to medication', 'mouth feels dry', 'no saliva'
+],
+
+'frequent urination': [
+    'urinary frequency', 'increased urination', 'urinary urgency', 'excessive urination', 'frequent trips to the bathroom', 'overactive bladder', 
+    'need to urinate often', 'urination urgency', 'recurrent urination', 'constant urination', 'frequent need to pee', 'urgent urination', 'pollakiuria',
+    'urinary incontinence', 'nighttime urination', 'nocturia', 'constant need to urinate', 'increased frequency of urination'
+],
+
+'acne': [
+    'pimples', 'blemishes', 'zits', 'whiteheads', 'blackheads', 'cystic acne', 'teenage acne', 'adult acne', 'pimple outbreaks', 'clogged pores', 'acne vulgaris', 'skin spots', 'face pimples', 'hormonal acne', 'acne lesions', 'acne scars', 'clogged follicles', 'sebaceous gland activity', 'oil acne', 'acne on the back', 'acne on the chest'
+],
+
+'difficulty swallowing': [
+    'dysphagia', 'trouble swallowing', 'swallowing difficulty', 'painful swallowing', 'difficulty with swallowing', 'difficulty in swallowing food', 
+    'difficulty swallowing liquids', 'inability to swallow', 'swallowing discomfort', 'choking sensation', 'difficulty swallowing pills', 'food getting stuck',
+    'difficulty in throat swallowing', 'swallowing obstruction', 'swallowing problems', 'gagging while swallowing', 'swallowing trouble', 
+    'feeling of blockage while swallowing'
+],
+
+'restlessness': [
+    'unease', 'fidgeting', 'inability to relax', 'impatience', 'uneasiness', 'hyperactivity', 'jitteriness', 'inability to stay still', 'unsettledness', 
+    'fidgety feeling', 'lack of calm', 'shaky feeling'
+],
+
+'bloating': [
+    'abdominal bloating', 'stomach bloating', 'gas buildup', 'swollen belly', 'feeling of fullness', 'abdominal distention', 
+    'overfull stomach', 'stomach discomfort', 'stomach swelling', 'intestinal bloating', 'bloated stomach', 'feeling puffed up', 'bloating sensation',
+    'gassy stomach', 'stomach pressure', 'bloating after eating', 'digestive bloating', 'feeling bloated', 'bloating in the abdomen', 'gas pain', 
+    'cramping and bloating'
+],
+
+'gas': [
+    'flatulence', 'intestinal gas', 'stomach gas', 'abdominal gas', 'gassy feeling', 'farting', 'passing gas', 'gas buildup', 
+    'wind', 'belching', 'burping', 'gas discomfort', 'gas pains', 'digestive gas', 'stomach is full', 'gassy stomach', 'trapped gas', 
+    'excessive gas', 'gas expulsion', 'intestinal discomfort', 'gas release', 'unwanted gas', 'gas in the stomach', 'passing wind'
+],
+
+'indigestion': [
+    'dyspepsia', 'digestive discomfort', 'fullness after eating', 'nausea after eating', 'acidic stomach', 'belching', 'feeling of heaviness', 'difficulty digesting', 'food intolerance', 'excessive burping' 
+],
+
+'heartburn': [
+    'acid reflux', 'gastroesophageal reflux', 'GERD', 'acid indigestion', 'stomach acid', 'burning sensation in the chest', 'burning throat', 
+    'acidic taste in the mouth', 'chronic heartburn', 'esophageal burning', 'gastric reflux', 'burning chest pain', 'sour stomach', 'acid regurgitation', 
+    'acid backflow', 'stomach acid reflux', 'acid reflux disease', 'heartburn symptoms', 'irritated esophagus', 'burning sensation after eating', 
+    'heartburn discomfort'
+],
+
+'mouth sore': [
+    'oral ulcer', 'canker sore', 'cold sore', 'blister in the mouth', 'mouth ulcer', 'painful mouth lesion', 'sores in the mouth', 'lesions on the gums', 
+    'painful spot in the mouth', 'mouth blister', 'mouth irritation', 'gum ulcer', 'sore inside the mouth', 'ulcerated mouth tissue', 'painful mouth spot', 
+    'burning mouth', 'painful tongue spot', 'sores on the lips', 'swollen mouth tissue', 'open mouth wound', 'oral lesion', 'mouth wound', 'infected mouth area'
+],
+
+'nosebleed': [
+    'epistaxis', 'bleeding from the nose', 'nasal hemorrhage', 'nose bleeding', 'bloody nose', 'hemorrhaging from the nose', 'nose blood flow', 
+    'spontaneous nosebleed', 'anterior nosebleed', 'posterior nosebleed', 'frequent nosebleeds', 'nosebleed episode', 'bleeding nostrils', 
+    'blood coming out from the nose', 'nasal bleeding', 'bloody discharge from the nose', 'nasal passage bleeding', 'nosebleed symptoms', 'internal nasal bleeding',
+    'nose injury bleeding'
+],
+
     'vomiting': ['throwing up', 'puking', 'stomach upset'],
     'hearing loss' : ['loss of hearing'],
     'bone pain': ['bone tenderness', 'bone swelling'],
