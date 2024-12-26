@@ -622,6 +622,7 @@ symptom_synonyms = {
     'hearing loss': ['damaging hearing', 'loss in hearing'],
     'skin burning' : ['burning', 'burn'],
     'itching': ['skin itching'],
+    'injury': ['injured'],
     'jaundice' : ['icterus','yellow skin'],
     'yellow eyes' : ['eyes are yellow'],
     'sleepy': ['sleeping'],
