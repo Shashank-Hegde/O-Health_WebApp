@@ -625,7 +625,7 @@ symptom_synonyms = {
     'injury': ['injured'],
     'jaundice' : ['icterus','yellow skin'],
     'yellow eyes' : ['eyes are yellow'],
-    'sleepy': ['sleeping'],
+    'sleepy': ['sleeping', 'sleepiness','drowsy', 'asleep'],
    }
 # ------------------------------------------------------------------ #
 # ----------------------- Followup Question ------------------------ #
