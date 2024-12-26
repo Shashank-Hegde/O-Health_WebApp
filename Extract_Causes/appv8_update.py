@@ -6125,6 +6125,44 @@ symptom_followup_questions = {
     "symptom": "exhaustion"
   },
 ],
+"sleepy": [
+  {
+    "hi": "क्या आपको सोने में कठिनाई होती है, नींद में रुकावट आती है, या आप बहुत जल्दी उठ जाते हैं?",
+    "en": "Do you have trouble falling asleep, staying asleep, or waking up too early?",
+    "category": "sleepy",
+    "symptom": "sleepy"
+  },
+  {
+    "hi": "आप सामान्यतः रात में कितने घंटे सोते हैं?",
+    "en": "How many hours of sleep do you usually get per night?",
+    "category": "sleepy",
+    "symptom": "sleepy"
+  },
+  {
+    "hi": "क्या आप खर्राटे लेते हैं या क्या आपको बताया गया है कि सोते समय आपकी सांस रुक जाती है?",
+    "en": "Do you snore or have you been told you stop breathing while sleeping?",
+    "category": "sleepy",
+    "symptom": "sleepy"
+  },
+  {
+    "hi": "क्या आपने हाल ही में अपनी दिनचर्या या तनाव स्तर में कोई बदलाव महसूस किया है?",
+    "en": "Have you experienced any recent changes in your routine or stress levels?",
+    "category": "sleepy",
+    "symptom": "sleepy"
+  },
+  {
+    "hi": "क्या आप कोई दवाइयाँ या पदार्थ ले रहे हैं जो आपकी नींद को प्रभावित कर सकते हैं?",
+    "en": "Are you taking any medications or substances that could affect your sleep?",
+    "category": "sleepy",
+    "symptom": "sleepy"
+  },
+  {
+    "hi": "क्या आपको दिन में अत्यधिक थकान महसूस होती है, भले ही आपने पूरी रात की नींद ली हो?",
+    "en": "Do you feel excessively tired during the day, even after a full night of sleep?",
+    "category": "sleepy",
+    "symptom": "sleepy"
+  },
+],
 
 
 }
