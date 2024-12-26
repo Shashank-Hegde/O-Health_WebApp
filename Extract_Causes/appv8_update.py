@@ -438,7 +438,7 @@ symptom_synonyms = {
         'drifting away from details', 'no anchor to past events'
     ],  
   'hallucination': [
-    'delusion', 'illusion', 'false perception', 'sensory distortion', 'visual disturbance', 'auditory hallucination', 'seeing things', 'hearing things', 
+    'delusion', 'illusion', 'false perception', 'sensory distortion', 'visual disturbance', 'auditory hallucination',  
     'perceptual distortion', 'false sensory experience', 'phantom perception', 'psychotic episode', 'imagined sight', 'imagined sound', 'mind illusion', 
     'sensory misperception', 'hallucinatory experience', 'out-of-body experience', 'visual illusion', 'auditory illusion', 'mental delusion', 'altered reality'
 ],
