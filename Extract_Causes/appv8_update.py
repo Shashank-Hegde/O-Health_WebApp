@@ -415,13 +415,6 @@ symptom_synonyms = {
         'chronic back pain', 'pain from spinal degeneration', 'aching back muscles', 'back pain with tingling', 'pain from back strain', 'pain when sitting for too long', 'swollen back muscles',
         'pain from muscle spasms in the back', 'pain with back movement', 'sharp shooting pain in the back'
     ],
-    'muscle pain': [
-        'muscle soreness', 'muscle ache', 'muscle tenderness', 'muscle fatigue', 'muscle strain', 'muscle injury', 'aching muscles', 'muscle cramps', 'tender muscles', 'sore muscles',
-        'muscle inflammation', 'muscle tightness', 'muscle discomfort', 'muscle spasms', 'pain from overworked muscles', 'muscle stiffness', 'muscle pull', 'muscle weakness', 'muscle stiffness from exercise',
-        'muscle soreness after workout', 'muscle pain from exercise', 'deep muscle pain', 'pain from muscle overload', 'chronic muscle pain', 'dull muscle ache', 'sharp muscle pain', 'muscle knots',
-        'muscle tension', 'pain from stretching muscles', 'tired muscles', 'pain from muscle injury during sports', 'fatigued muscles', 'swollen muscles', 'pain from repetitive muscle movement',
-        'muscle ache after physical activity', 'muscle pain from lifting weights'
-    ],
     'memory loss': [
         'forgetfulness', 'difficulty recalling', 'poor memory', 'memory lapses', 'amnestic episodes', 'short-term memory issues', 'difficulty remembering recent events', 'blanking out on details',
         'slip of the mind', 'fuzzy recollections', 'failing memory', 'losing track of thoughts', 'can’t recall names', 'vacant mental storage', 'holes in memory', 'patchy recollection',
