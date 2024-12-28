@@ -6506,6 +6506,133 @@ symptom_followup_questions = {
     "symptom": "sleepy"
   },
 ],
+"back bone issue": [
+    {
+      "hi": "क्या आपकी पीठ सीधी है या झुकी हुई है?",
+      "en": "Is your back straight or bent?",
+      "category": "back bone issue",
+      "symptom": "back bone issue"
+    },
+    {
+      "hi": "क्या आप दर्द की स्थिति और पैटर्न का वर्णन कर सकते हैं?",
+      "en": "Can you describe the pain’s location and pattern?",
+      "category": "back bone issue",
+      "symptom": "back bone issue"
+    },
+    {
+      "hi": "क्या आपको पिछली पीठ की चोटें या सर्जरी हुई हैं?",
+      "en": "Have you had any previous back injuries or surgeries?",
+      "category": "back bone issue",
+      "symptom": "back bone issue"
+    },
+    {
+      "hi": "क्या कुछ ऐसा है जो दर्द को बेहतर या बदतर करता है?",
+      "en": "Does anything make the pain better or worse?",
+      "category": "back bone issue",
+      "symptom": "back bone issue"
+    },
+    {
+      "hi": "क्या आपने मल या मूत्र नियंत्रण में कोई बदलाव महसूस किया है?",
+      "en": "Have you noticed any changes in bowel or bladder control?",
+      "category": "back bone issue",
+      "symptom": "back bone issue"
+    },
+    {
+      "hi": "क्या आपको अन्य चिकित्सा स्थितियों का कोई इतिहास है?",
+      "en": "Do you have any history of other medical conditions?",
+      "category": "back bone issue",
+      "symptom": "back bone issue"
+    },
+    {
+      "hi": "क्या आपने दर्द के लिए कोई उपचार试 किया है, और क्या उन्होंने मदद की?",
+      "en": "Have you tried any treatments for the pain, and did they help?",
+      "category": "back bone issue",
+      "symptom": "back bone issue"
+    },
+],
+"thyroid": [
+    {
+      "hi": "क्या आपके परिवार में किसी को थायरॉयड संबंधित विकारों का इतिहास है?",
+      "en": "Do you have a history of thyroid disorders in your family?",
+      "category": "thyroid",
+      "symptom": "thyroid"
+    },
+    {
+      "hi": "क्या आपने अपनी भूख या वजन में कोई बदलाव महसूस किया है?",
+      "en": "Have you noticed any changes in your appetite or weight?",
+      "category": "thyroid",
+      "symptom": "thyroid"
+    },
+    {
+      "hi": "क्या आपने अपनी त्वचा, बालों, या नाखूनों में कोई बदलाव अनुभव किया है?",
+      "en": "Have you experienced any changes in your skin, hair, or nails?",
+      "category": "thyroid",
+      "symptom": "thyroid"
+    },
+    {
+      "hi": "क्या आप अपनी मानसिक स्थिति में कोई बदलाव अनुभव कर रहे हैं, जैसे कि अवसाद या चिंता?",
+      "en": "Are you experiencing any changes in your mood, such as depression or anxiety?",
+      "category": "thyroid",
+      "symptom": "thyroid"
+    },
+    {
+      "hi": "क्या आपने अपने मासिक चक्र में कोई अनियमितताएँ महसूस की हैं (महिलाओं के लिए)?",
+      "en": "Have you had any irregularities in your menstrual cycle (for women)?",
+      "category": "thyroid",
+      "symptom": "thyroid"
+    },
+    {
+      "hi": "क्या आप असामान्य रूप से ठंडा या गर्म महसूस कर रहे हैं, या तापमान में बदलाव के प्रति संवेदनशीलता अनुभव कर रहे हैं?",
+      "en": "Are you feeling unusually cold or hot, or experiencing sensitivity to temperature changes?",
+      "category": "thyroid",
+      "symptom": "thyroid"
+    },
+    {
+      "hi": "क्या आपने पहले थायरॉयड संबंधित समस्याओं के लिए कोई दवाइयाँ या उपचार लिया है?",
+      "en": "Have you been on any medications or treatments for thyroid issues in the past?",
+      "category": "thyroid",
+      "symptom": "thyroid"
+    },
+],
+"piles": [
+    {
+      "hi": "क्या आपने शौच के दौरान कोई खून बहते हुए देखा है? अगर हां, तो कितना?",
+      "en": "Have you noticed any bleeding during bowel movements? If so, how much?",
+      "category": "piles",
+      "symptom": "piles"
+    },
+    {
+      "hi": "क्या आपको बैठने या शौच के दौरान कोई दर्द या असहजता महसूस होती है?",
+      "en": "Do you experience any pain or discomfort while sitting or during bowel movements?",
+      "category": "piles",
+      "symptom": "piles"
+    },
+    {
+      "hi": "क्या आपकी शौच की आदतों में कोई बदलाव आया है (जैसे कब्ज, दस्त)?",
+      "en": "Have you had any changes in your bowel habits (e.g., constipation, diarrhea)?",
+      "category": "piles",
+      "symptom": "piles"
+    },
+    {
+      "hi": "क्या आपने शौच के दौरान या भारी वस्तुएं उठाते समय कोई जोर लगाया है?",
+      "en": "Do you have a history of straining during bowel movements or lifting heavy objects?",
+      "category": "piles",
+      "symptom": "piles"
+    },
+    {
+      "hi": "क्या आपने गुदा के आसपास कोई गांठ या सूजन महसूस की है?",
+      "en": "Have you experienced any lumps or swelling around the anus?",
+      "category": "piles",
+      "symptom": "piles"
+    },
+    {
+      "hi": "क्या आपको कोई पुरानी स्थितियाँ हैं, जैसे कब्ज, यकृत रोग, या गर्भावस्था?",
+      "en": "Do you have any history of chronic conditions, such as constipation, liver disease, or pregnancy?",
+      "category": "piles",
+      "symptom": "piles"
+    },
+],
+
 
 
 }
