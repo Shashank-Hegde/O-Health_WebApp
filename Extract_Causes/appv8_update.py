@@ -6550,6 +6550,51 @@ symptom_followup_questions = {
       "symptom": "back bone issue"
     },
 ],
+"female issue": [
+    {
+      "hi": "क्या आपकी मासिक धर्म चक्र में कोई बदलाव आया है (जैसे, माहवारी छूट जाना, अधिक या दर्दनाक माहवारी)?",
+      "en": "Have you had any changes in your menstrual cycle (e.g., missed periods, heavy or painful periods)?",
+      "category": "female issue",
+      "symptom": "female issue"
+    },
+    {
+      "hi": "क्या आपको मूत्र संबंधी कोई लक्षण हैं, जैसे बार-बार पेशाब आना या पेशाब करते समय दर्द होना?",
+      "en": "Do you have any history of urinary symptoms, such as frequent urination or pain while urinating?",
+      "category": "female issue",
+      "symptom": "female issue"
+    },
+    {
+      "hi": "क्या आपने कोई असामान्य योनि स्राव या गंध महसूस की है?",
+      "en": "Have you noticed any unusual vaginal discharge or odors?",
+      "category": "female issue",
+      "symptom": "female issue"
+    },
+    {
+      "hi": "क्या आपको कोई गाइनकोलॉजिकल स्थितियाँ हैं, जैसे कि फाइब्रॉयड्स, एंडोमेट्रियोसिस, या अंडकोषीय सिस्ट?",
+      "en": "Do you have any history of gynecological conditions, such as fibroids, endometriosis, or ovarian cysts?",
+      "category": "female issue",
+      "symptom": "female issue"
+    },
+    {
+      "hi": "क्या आपको पॉलीसिस्टिक अंडाशय सिंड्रोम (PCOS) या अन्य हार्मोनल विकार हैं?",
+      "en": "Do you have PCOS or other hormonal disorders?",
+      "category": "female issue",
+      "symptom": "female issue"
+    },
+    {
+      "hi": "क्या आप अपनी माहवारी से पहले या दौरान कोई दर्द या ऐंठन महसूस कर रही हैं?",
+      "en": "Are you experiencing any pain or cramping before or during your period?",
+      "category": "female issue",
+      "symptom": "female issue"
+    },
+    {
+      "hi": "क्या आपके शरीर में कोई हार्मोनल असंतुलन है?",
+      "en": "Is there any hormonal imbalance in your body?",
+      "category": "female issue",
+      "symptom": "female issue"
+    },
+],
+
 "thyroid": [
     {
       "hi": "क्या आपके परिवार में किसी को थायरॉयड संबंधित विकारों का इतिहास है?",
