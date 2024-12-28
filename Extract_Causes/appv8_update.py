@@ -14,7 +14,9 @@ symptom_list = [
 'hearing loss', 'balance problem', 'irregular heartbeat', 'fainting', 'tremor', 'nervousness', 'panic attack', 'mood swing', 'difficulty concentrating',
 'hallucination', 'lack of motivation', 'exhaustion', 'bone pain', 'wrist pain', 'sprain', 'strain', 'arthritis', 'gout', 'headache', 'injury', 'chills',
 'leg pain', 'hand pain', 'arm pain', 'foot pain', 'knee pain', 'shoulder pain', 'hip pain', 'jaw pain', 'tooth pain','sleepy', 'bone fracture', 'back bone issue',
-'female issue', 'thyroid', 'piles' 
+'female issue', 'thyroid', 'piles',
+# weakness symtom
+'eye weakness','leg weakness'
   #'yellow eyes', 'red eyes'
 ]
 
@@ -807,6 +809,10 @@ symptom_synonyms = {
     'jaundice' : ['icterus','yellow skin'],
     #'yellow eyes' : ['eyes are yellow'],
     'sleepy': ['sleeping', 'sleepiness','drowsy', 'asleep'],
+
+   'eye weakness':['weakness in eyes','weak eyes','eyes are weak','eyes are becoming weak','eye is weak'],
+    'leg weakness': ['legs are becoming weak', 'weakness in legs','leg is weak', 'legs are weak']
+  
    }
 # ------------------------------------------------------------------ #
 # ----------------------- Followup Question ------------------------ #
