@@ -13,7 +13,8 @@ symptom_list = [
 'low blood pressure', 'excessive thirst', 'dehydration', 'sweat', 'eye pain',  'eye discharge', 'ear discharge', 'jaundice',
 'hearing loss', 'balance problem', 'irregular heartbeat', 'fainting', 'tremor', 'nervousness', 'panic attack', 'mood swing', 'difficulty concentrating',
 'hallucination', 'lack of motivation', 'exhaustion', 'bone pain', 'wrist pain', 'sprain', 'strain', 'arthritis', 'gout', 'headache', 'injury', 'chills',
-'leg pain', 'hand pain', 'arm pain', 'foot pain', 'knee pain', 'shoulder pain', 'hip pain', 'jaw pain', 'tooth pain','sleepy', 'bone fracture'
+'leg pain', 'hand pain', 'arm pain', 'foot pain', 'knee pain', 'shoulder pain', 'hip pain', 'jaw pain', 'tooth pain','sleepy', 'bone fracture', 'back bone',
+'female issues', 'thyroid', 'piles' 
   #'yellow eyes', 'red eyes'
 ]
 
