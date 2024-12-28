@@ -14,7 +14,7 @@ symptom_list = [
 'hearing loss', 'balance problem', 'irregular heartbeat', 'fainting', 'tremor', 'nervousness', 'panic attack', 'mood swing', 'difficulty concentrating',
 'hallucination', 'lack of motivation', 'exhaustion', 'bone pain', 'wrist pain', 'sprain', 'strain', 'arthritis', 'gout', 'headache', 'injury', 'chills',
 'leg pain', 'hand pain', 'arm pain', 'foot pain', 'knee pain', 'shoulder pain', 'hip pain', 'jaw pain', 'tooth pain','sleepy', 'bone fracture', 'back bone issue',
-'female issues', 'thyroid', 'piles' 
+'female issue', 'thyroid', 'piles' 
   #'yellow eyes', 'red eyes'
 ]
 
@@ -768,6 +768,32 @@ symptom_synonyms = {
     'stress fracture', 'hairline fracture', 'complete fracture', 'incomplete fracture', 'displaced fracture', 'non-displaced fracture', 'bone splinter', 
     'fractured limb', 'fractured bone segment', 'broken limb', 'broken bone segment', 'cracked bone injury', 'bone rupture', 'bone fracture symptoms',
     'fractured bone tissue', 'fracture of the bone', 'crack in bone'
+],
+  
+'back bone issue': [
+    'spinal problem', 'back bone pain', 'spinal condition', 'vertebral issue', 'spinal disorder', 'back injury', 'spinal misalignment', 'back bone is paining',
+    'disc herniation', 'sciatica', 'spinal injury', 'neck and back issues', 'spinal discomfort', 'lumbar pain', 'spinal cord issue', 'slipped disc', 'musculoskeletal disorder',
+    'spinal health issue', 'postural problems', 'spondylosis', 'degenerative disc disease', 'spine misalignment', 'spinal deformity', 'spinal arthritis', 'spinal stenosis'
+],
+
+'female issue': [
+    'women’s health', 'gynecological issue', 'female reproductive health', 'menstrual problems', 'menstrual irregularities', 'PCOS', 'endometriosis', 'fibroids', 'ovarian cysts',
+    'vaginal infection', 'vaginal discharge', 'fertility issues', 'menopause', 'pre-menopause', 'post-menopause', 'infertility', 'vaginal dryness', 'prolapsed uterus',
+    'birth control issues', 'female urinary issues', 'pregnancy complications'
+],
+
+'thyroid': [
+    'thyroid gland', 'hypothyroidism', 'hyperthyroidism', 'thyroid disorder', 'thyroid imbalance', 'underactive thyroid', 'overactive thyroid', 'goiter', 'thyroid dysfunction',
+    'thyroid disease', 'thyroid cancer', 'thyroiditis', 'low thyroid function', 'high thyroid function', 'endocrine disorder', 'thyroid nodules', 'thyroid hormone imbalance',
+    'TSH imbalance', 'thyroid condition', 'thyroid problems', 'autoimmune thyroid disease', 'pituitary-thyroid dysfunction', 'thyroid health', 'thyroid testing'
+],
+
+'piles': [
+    'hemorrhoids', 'anal piles', 'rectal swelling', 'swollen veins', 'internal hemorrhoids', 'external hemorrhoids', 
+    'hemorrhoidal disease', 'rectal discomfort', 'anal itching', 'anal bleeding', 'rectal bleeding', 'chronic hemorrhoids', 
+    'painful hemorrhoids', 'prolapsed hemorrhoids', 'thrombosed hemorrhoids', 'anal fissures', 'blood clots in hemorrhoids', 
+    'swollen hemorrhoids', 'anal prolapse', 'inflamed hemorrhoids', 'rectal irritation', 'constipation-related hemorrhoids', 
+    'itchy anus', 'hemorrhoid treatment', 'hemorrhoid relief'
 ],
 
     'vomiting': ['throwing up', 'puking', 'stomach upset'],
