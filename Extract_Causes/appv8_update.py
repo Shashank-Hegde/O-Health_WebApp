@@ -274,8 +274,8 @@ symptom_synonyms = {
     ],
     
     'ear pain': [
-        'ear ache', 'pain in the ear', 'ear discomfort', 'ear irritation', 'painful ear', 'throbbing ear ache', 'sharp ear pain', 'dull ear pain', 'stabbing pain in ear',
-        'ringing ear pain', 'pressure in ear', 'ear sensitivity', 'intense ear discomfort', 'itchy ear', 'swollen ear', 'ear tenderness', 'ear pulsations', 'persistent ear pain', 'ear          infection pain', 'ear tenderness', 'pain behind ear', 'soreness in ear', 'ear pressure', 'ear inflammation', 'ear ache from cold', 'stuffy ear pain', 'pain in ear canal', 
+        'ear ache', 'pain in the ear', 'ear discomfort', 'ear irritation', 'painful ear', 'throbbing ear ache', 'sharp ear pain', 'dull ear pain', 'stabbing pain in ear', 'pus in ears', 'pus in ear',
+        'ringing ear pain', 'pressure in ear', 'ear sensitivity', 'intense ear discomfort', 'itchy ear', 'swollen ear', 'ear tenderness', 'ear pulsations', 'persistent ear pain', 'ear infection pain', 'ear tenderness', 'pain behind ear', 'soreness in ear', 'ear pressure', 'ear inflammation', 'ear ache from cold', 'stuffy ear pain', 'pain in ear canal', 
         'ear ache when swallowing', 'painful inner ear', 'hearing sensitivity with pain', 'fluid in ear causing pain', 'acute ear pain', 'chronic ear ache', 'pain after water exposure', 'ear infection causing pain', 'tender ear lobes', 'painful eardrum', 'painful earful feeling', 'pounding ear pain', 'sharp stabbing ear ache', 'swollen ear canal', 'eardrum sensitivity', 'sharp pressure sensation in ear', 'soreness in ear cavity', 'clogged ear with pain', 'throbbing sensation in ear', 'ear ache during sleep'
     ],
     'back pain': [
@@ -786,7 +786,7 @@ symptom_synonyms = {
     'otorrhea', 'ear fluid', 'ear drainage', 'pus from the ear', 'ear pus', 'ear infection discharge', 'fluid from the ear', 'ear secretion', 
     'yellow ear discharge', 'green ear discharge', 'watery ear discharge', 'bloody ear discharge', 'ear mucus', 'crust in the ear', 'excessive ear fluid',
     'ear leakage', 'ear wax buildup', 'discharge from the ear canal', 'discharge from the middle ear', 'infection-related ear discharge', 'ear discharge after swimming', 
-    'ear drainage after injury', 'something coming out of ears'
+    'ear drainage after injury', 'something coming out of ears', 'pus is coming out of ear'
 ],
 
 'balance problem': [
@@ -902,7 +902,7 @@ symptom_synonyms = {
 'female issue': [
     'women’s health', 'gynecological issue', 'female reproductive health', 'menstrual problems', 'menstrual irregularities', 'PCOS', 'endometriosis', 'fibroids', 'ovarian cysts',
     'vaginal infection', 'vaginal discharge', 'fertility issues', 'menopause', 'pre-menopause', 'post-menopause', 'infertility', 'vaginal dryness', 'prolapsed uterus',
-    'birth control issues', 'female urinary issues', 'pregnancy complications'
+    'birth control issues', 'female urinary issues', 'pregnancy complications','white discharge'
 ],
 
 'thyroid': [
@@ -1005,9 +1005,9 @@ symptom_synonyms = {
 
 'sleepy': [
 'sleeping', 'sleepiness', 'drowsy', 'asleep', 'lethargic', 'groggy', 'tired', 'sluggish', 'heavy-eyed', 'nodding off', 'fatigued', 'dozing',  
-'half-asleep', 'sleep-deprived', 'exhausted', 'yawning', 'slow-moving', 'low energy', 'ready for bed', 'snoozy', 'sleep-prone', 'droopy-eyed', 'barely awake',  
+'half asleep', 'sleep-deprived', 'exhausted', 'yawning', 'slow-moving', 'low energy', 'ready for bed', 'snoozy', 'sleep-prone', 'droopy eyed', 'barely awake',  
 'mentally tired', 'physically tired', 'in need of rest', 'overly relaxed', 'hard to stay awake', 'sleep craving', 'languid', 'wearied', 'brain fog',  
-'bed-ready', 'sleep-drawn', 'lazy-eyed', 'unfocused from tiredness', 'nodding head', 'drifting off', 'sleepy sensation', 'slumberous', 'soporific', 'somnolent',  
+'bed ready', 'sleep drawn', 'lazy eyed', 'unfocused from tiredness', 'nodding head', 'drifting off', 'sleepy sensation', 'slumberous', 'soporific', 'somnolent',  
 'half-awake', 'daytime sleepiness', 'overwhelming fatigue', 'rest-seeking', 'near dozing', 'eyes struggling to stay open', 'unable to concentrate', 'dull from tiredness'
 ],
 
