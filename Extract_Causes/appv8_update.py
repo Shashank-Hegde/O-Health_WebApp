@@ -6644,12 +6644,6 @@ symptom_followup_questions = {
       "symptom": "back bone issue"
     },
     {
-      "hi": "क्या आपने मल या मूत्र नियंत्रण में कोई बदलाव महसूस किया है?",
-      "en": "Have you noticed any changes in bowel or bladder control?",
-      "category": "back bone issue",
-      "symptom": "back bone issue"
-    },
-    {
       "hi": "क्या आपको अन्य चिकित्सा स्थितियों का कोई इतिहास है?",
       "en": "Do you have any history of other medical conditions?",
       "category": "back bone issue",
@@ -6729,12 +6723,6 @@ symptom_followup_questions = {
     {
       "hi": "क्या आप अपनी मानसिक स्थिति में कोई बदलाव अनुभव कर रहे हैं, जैसे कि अवसाद या चिंता?",
       "en": "Are you experiencing any changes in your mood, such as depression or anxiety?",
-      "category": "thyroid",
-      "symptom": "thyroid"
-    },
-    {
-      "hi": "क्या आपने अपने मासिक चक्र में कोई अनियमितताएँ महसूस की हैं (महिलाओं के लिए)?",
-      "en": "Have you had any irregularities in your menstrual cycle (for women)?",
       "category": "thyroid",
       "symptom": "thyroid"
     },
