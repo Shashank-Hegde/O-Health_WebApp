@@ -501,10 +501,6 @@ symptom_synonyms = {
     'clinical depression', 'chronic depression', 'depressive episode', 'anhedonia', 'negative mood', 'downheartedness'
 ],
 
-'nausea': [
-    'queasiness',  'feeling nauseous', 'nauseousness', 'feeling of nausea', 'feeling queasy'
-],
-
 'cancer': [
     'malignant tumor', 'carcinoma', 'neoplasm', 'oncological disease', 'cancerous growth', 'tumor', 'metastatic cancer', 'cancer cells', 'tumor growth',
     'breast cancer', 'lung cancer', 'skin cancer', 'prostate cancer', 'colon cancer', 'leukemia', 'lymphoma', 'sarcoma', 'head and neck cancer',
