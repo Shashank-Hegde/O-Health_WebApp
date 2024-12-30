@@ -918,7 +918,7 @@ symptom_synonyms = {
 strict_symptoms = ['itching','female issues']
 
 # Words to exclude from mapping to symptoms through fuzzy/embedding
-filtered_words = ['got', 'old','gotten','female','male']  # We can add more words here if needed
+filtered_words = ['got', 'old','gotten','female','male','straight']  # We can add more words here if needed
 
 # ------------------------------------------------------------------ #
 # ----------------------- Followup Question ------------------------ #
