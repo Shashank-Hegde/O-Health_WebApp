@@ -915,7 +915,7 @@ symptom_synonyms = {
    }
 
 # NEW CODE COMMENT: Symptoms that must only be detected if their exact word or synonyms are found
-strict_symptoms = ['itching','female issues']
+strict_symptoms = ['itching','female issue']
 
 # Words to exclude from mapping to symptoms through fuzzy/embedding
 filtered_words = ['got', 'old','gotten','female','male','straight']  # We can add more words here if needed
