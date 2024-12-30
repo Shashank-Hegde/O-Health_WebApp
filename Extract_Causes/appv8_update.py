@@ -645,7 +645,7 @@ symptom_synonyms = {
     'hypotension', 'low BP', 'decreased blood pressure', 'low arterial pressure', 'reduced blood pressure', 'hypotensive condition', 'low systolic pressure',
     'low diastolic pressure', 'abnormally low blood pressure', 'postural hypotension', 'orthostatic hypotension', 'chronic hypotension', 'mild hypotension',
     'severe hypotension', 'low blood pressure symptoms', 'blood pressure drop', 'low cardiovascular pressure', 'circulatory hypotension', 'inadequate blood pressure',
-    'dizzy blood pressure', 'low blood pressure episode', 'BP is low'
+    'dizzy blood pressure', 'low blood pressure episode', 'BP is low','low blood pressure'
 ],
 
 'excessive thirst': [
@@ -915,7 +915,7 @@ symptom_synonyms = {
    }
 
 # NEW CODE COMMENT: Symptoms that must only be detected if their exact word or synonyms are found
-strict_symptoms = ['itching','female issue']
+strict_symptoms = ['itching','female issue','low blood pressure']
 
 # Words to exclude from mapping to symptoms through fuzzy/embedding
 filtered_words = ['got', 'old','gotten','female','male','straight']  # We can add more words here if needed
