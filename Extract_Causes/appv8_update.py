@@ -14,7 +14,7 @@ symptom_list = [
 'hearing loss', 'balance problem', 'irregular heartbeat', 'fainting', 'tremor', 'nervousness', 'panic attack', 'mood swing', 'difficulty concentrating',
 'hallucination', 'lack of motivation', 'exhaustion', 'bone pain', 'wrist pain', 'sprain', 'strain', 'arthritis', 'gout', 'headache', 'injury', 'chills',
 'leg pain', 'hand pain', 'arm pain', 'foot pain', 'knee pain', 'shoulder pain', 'hip pain', 'jaw pain', 'tooth pain','sleepy', 'bone fracture','sleepy','back bone issue',
-'female issue', 'thyroid', 'piles',
+'female issue', 'thyroid', 'piles', 'asthma','pneumonia',
 # weakness symtom
 'eye weakness','leg weakness'
   #'yellow eyes', 'red eyes'
@@ -908,6 +908,10 @@ symptom_synonyms = {
 'legs feel like jelly', 'legs feel heavy and weak', 'poor leg control', 'unstable footing', 'weakness after prolonged standing', 'leg stiffness',
 'inability to bear weight on legs', 'sensation of leg failure', 'unresponsive legs'
 ],
+
+'asthma': ['wheezing', 'reactive airway disease', 'hyperresponsive airway disease', 'asthmatic condition', 'asthmas', 'asthama','whistling sound while breathing'],
+
+'pneumonia': ['lung infection','alveolar infection'],
    }
 
 # NEW CODE COMMENT: Symptoms that must only be detected if their exact word or synonyms are found
@@ -1775,33 +1779,6 @@ symptom_followup_questions = {
       "hi": "क्या ठंडक की अनुभूति किसी विशेष समय पर अधिक होती है?",
       "en": "Do you feel chills more at any specific time?",
       "category": "time_related_chills",
-      "symptom": None,
-    },
-  ],
-
-  "shortness of breath": [
-    {
-      "hi": "क्या आपको सांस लेने में कठिनाई हो रही है?",
-      "en": "Are you having difficulty breathing?",
-      "category": "breathing_difficulty",
-      "symptom": None,
-    },
-    {
-      "hi": "क्या सांस लेने में कठिनाई के साथ दिल की धड़कन तेज हो रही है?",
-      "en": "Is your heart rate increasing along with difficulty breathing?",
-      "category": "heart_rate_increase",
-      "symptom": None,
-    },
-    {
-      "hi": "क्या सांस लेने में कठिनाई किसी विशेष गतिविधि के दौरान बढ़ती है?",
-      "en": "Does your difficulty in breathing increase during any specific activity?",
-      "category": "activity_related_difficulty",
-      "symptom": None,
-    },
-    {
-      "hi": "क्या आपको सांस लेने में दर्द भी हो रहा है?",
-      "en": "Are you experiencing pain while breathing?",
-      "category": "breathing_pain",
       "symptom": None,
     },
   ],
@@ -6765,6 +6742,123 @@ symptom_followup_questions = {
       "en": "Do you have any history of chronic conditions, such as constipation, liver disease, or pregnancy?",
       "category": "piles",
       "symptom": "piles"
+    },
+],
+
+    "shortness of breath": [
+    {
+      "hi": "क्या आपको सांस लेने में कठिनाई हो रही है?",
+      "en": "Are you having difficulty breathing?",
+      "category": "breathing_difficulty",
+      "symptom": None,
+    },
+    {
+      "hi": "क्या सांस लेने में कठिनाई के साथ दिल की धड़कन तेज हो रही है?",
+      "en": "Is your heart rate increasing along with difficulty breathing?",
+      "category": "heart_rate_increase",
+      "symptom": None,
+    },
+    {
+      "hi": "क्या सांस लेने में कठिनाई किसी विशेष गतिविधि के दौरान बढ़ती है?",
+      "en": "Does your difficulty in breathing increase during any specific activity?",
+      "category": "activity_related_difficulty",
+      "symptom": None,
+    },
+    {
+      "hi": "क्या आपको सांस लेने में दर्द भी हो रहा है?",
+      "en": "Are you experiencing pain while breathing?",
+      "category": "breathing_pain",
+      "symptom": None,
+    },  
+    {
+      "hi": "क्या आप धूम्रपान करते हैं या शराब पीते हैं?",
+      "en": "Do you smoke or drink?",
+      "category": "smoking_drinking",
+     "symptom": None,
+    },
+    {
+       "hi": "क्या आपके परिवार में किसी को अस्थमा है?",
+       "en": "Do you have a family history of asthma?",
+       "category": "family_history_asthma",
+       "symptom": None,
+    },
+  ],
+
+    "asthma": [
+    {
+            "hi": "क्या आप धूम्रपान करते हैं या शराब पीते हैं?",
+            "en": "Do you smoke or drink?",
+            "category": "smoking_drinking",
+            "symptom": None,
+    },
+    {
+            "hi": "क्या आपके परिवार में किसी को अस्थमा है?",
+            "en": "Do you have a family history of asthma?",
+            "category": "family_history_asthma",
+            "symptom": None,
+    },
+    {
+        "hi": "क्या आपको सांस लेने पर व्हीजिंग या सीटी की आवाजें आती हैं?",
+        "en": "Do you experience wheezing or whistling sounds when you breathe?",
+        "category": "wheezing",
+        "symptom": None,
+    },
+    {
+        "hi": "क्या आपकी अस्थमा रात या सुबह जल्दी बढ़ जाती है?",
+        "en": "Does your asthma worsen at night or early morning?",
+        "category": "night_worsening",
+        "symptom": None,
+    },
+    {
+        "hi": "क्या आपने हाल ही में किसी एलर्जन के संपर्क में आए हैं?",
+        "en": "Have you been exposed to any allergens recently?",
+        "category": "allergen_exposure",
+        "symptom": None,
+    },
+    {
+        "hi": "क्या आपको किसी प्रकार की एलर्जी प्रतिक्रिया का इतिहास है?",
+        "en": "Do you have a history of allergic reactions?",
+        "category": "allergy_history",
+        "symptom": None,
+    },
+    {
+        "hi": "क्या आपने हाल ही में अपने रेस्क्यू इनहेलर का अधिक उपयोग किया है?",
+        "en": "Have you been using any rescue inhaler more frequently than usual?",
+        "category": "inhaler_usage",
+        "symptom": None,
+    },
+    ],
+
+    "pneumonia": [
+    {
+        "hi": "क्या आपको सांस लेने या खांसने पर सीने में दर्द होता है?",
+        "en": "Are you experiencing chest pain when breathing or coughing?",
+        "category": "chest_pain",
+        "symptom": None,
+    },
+    {
+        "hi": "क्या आपको तेज बुखार के साथ ठंड लगती है?",
+        "en": "Do you have a high fever with chills?",
+        "category": "fever_chills",
+        "symptom": None,
+    },
+    {
+        "hi": "क्या आप बलगम या म्यूकस खांस रहे हैं?",
+        "en": "Are you coughing up phlegm or mucus?",
+        "category": "coughing_phlegm",
+        "symptom": None,
+    },
+    {
+        "hi": "क्या आप असामान्य थकान या कमजोरी महसूस कर रहे हैं?",
+        "en": "Have you been feeling unusually tired or weak?",
+        "category": "fatigue_weakness",
+        "symptom": None,
+    },
+    {
+        "hi": "क्या आपने हाल ही में भूख में कमी या वजन घटने का अनुभव किया है?",
+        "en": "Have you noticed any loss of appetite or weight loss recently?",
+        "category": "appetite_weight_loss",
+        "symptom": None,
     },
 ],
 
