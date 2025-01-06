@@ -14,7 +14,7 @@ symptom_list = [
 'hearing loss', 'balance problem', 'irregular heartbeat', 'fainting', 'tremor', 'nervousness', 'panic attack', 'mood swing', 'difficulty concentrating',
 'hallucination', 'lack of motivation', 'exhaustion', 'bone pain', 'wrist pain', 'sprain', 'strain', 'arthritis', 'gout', 'headache', 'injury', 'chills',
 'leg pain', 'hand pain', 'arm pain', 'foot pain', 'knee pain', 'shoulder pain', 'hip pain', 'jaw pain', 'tooth pain','sleepy', 'bone fracture','sleepy','back bone issue',
-'female issue', 'thyroid', 'piles', 'asthma','pneumonia',
+'female issue', 'thyroid', 'piles', 'asthma','pneumonia', 'sugar',
 # weakness symtom
 'eye weakness','leg weakness'
   #'yellow eyes', 'red eyes'
@@ -912,6 +912,8 @@ symptom_synonyms = {
 'asthma': ['wheezing', 'reactive airway disease', 'hyperresponsive airway disease', 'asthmatic condition', 'asthmas', 'asthama','whistling sound while breathing'],
 
 'pneumonia': ['lung infection','alveolar infection'],
+
+'sugar': ['sugars', 'glucose', 'blood sugar', 'hyperglycemia', 'hypoglycemia'],
    }
 
 # NEW CODE COMMENT: Symptoms that must only be detected if their exact word or synonyms are found
@@ -6976,7 +6978,7 @@ symptom_followup_questions = {
       "en": "Do you smoke or drink?",
       "category": "smoking_drinking",
      "symptom": None,
-     "risk_factor": False,    },
+     "risk_factor": True,    },
     {
        "hi": "क्या आपके परिवार में किसी को अस्थमा है?",
        "en": "Do you have a family history of asthma?",
@@ -7021,7 +7023,7 @@ symptom_followup_questions = {
         "en": "Do you have a history of allergic reactions?",
         "category": "allergy_history",
         "symptom": None,
-        "risk_factor": False,
+        "risk_factor": True,
     },
     {
         "hi": "क्या आपने हाल ही में अपने रेस्क्यू इनहेलर का अधिक उपयोग किया है?",
@@ -7063,6 +7065,73 @@ symptom_followup_questions = {
         "symptom": None,
         "risk_factor": False,    },
 ],
+
+  'sugar': [
+        {
+            "hi": "क्या आप नियमित रूप से अपने ब्लड शुगर लेवल की जांच करते हैं?",
+            "en": "Do you regularly monitor your blood sugar levels?",
+            "category": "blood_sugar_monitoring",
+            "symptom": "sugar",
+            "risk_factor": True,
+        },
+        {
+            "hi": "क्या आपने हाल ही में अपने ब्लड शुगर में किसी भी असामान्य बदलाव का अनुभव किया है?",
+            "en": "Have you experienced any unusual changes in your blood sugar levels recently?",
+            "category": "blood_sugar_changes",
+            "symptom": "sugar",
+            "risk_factor": False,
+        },
+        {
+            "hi": "क्या आपको अपने ब्लड शुगर के स्तर को नियंत्रित करने के लिए दवाओं का उपयोग करना पड़ता है?",
+            "en": "Do you need to take medications to control your blood sugar levels?",
+            "category": "blood_sugar_medications",
+            "symptom": "sugar",
+            "risk_factor": True,
+        },
+        {
+            "hi": "क्या आपके खानपान में कोई विशेष बदलाव आया है ताकि आप अपने ब्लड शुगर को नियंत्रित कर सकें?",
+            "en": "Have you made any specific changes to your diet to manage your blood sugar?",
+            "category": "blood_sugar_diet_changes",
+            "symptom": "sugar",
+            "risk_factor": False,
+        },
+        {
+            "hi": "क्या आप शारीरिक गतिविधि में किसी प्रकार की वृद्धि या कमी देख रहे हैं ताकि आप अपने ब्लड शुगर को नियंत्रित कर सकें?",
+            "en": "Are you increasing or decreasing your physical activities to manage your blood sugar levels?",
+            "category": "blood_sugar_physical_activity",
+            "symptom": "sugar",
+            "risk_factor": False,
+        },
+        {
+            "hi": "क्या आपके परिवार में किसी को डायबिटीज़ है?",
+            "en": "Do you have a family history of diabetes?",
+            "category": "family_history_diabetes",
+            "symptom": "sugar",
+            "risk_factor": True,
+        },
+        {
+            "hi": "क्या आपको अपने ब्लड शुगर के स्तर में अचानक गिरावट या वृद्धि का अनुभव होता है?",
+            "en": "Do you experience sudden drops or spikes in your blood sugar levels?",
+            "category": "blood_sugar_fluctuations",
+            "symptom": "sugar",
+            "risk_factor": False,
+        },
+        {
+            "hi": "क्या आपको अपने ब्लड शुगर के स्तर को नियंत्रित करने के लिए इंसुलिन का उपयोग करना पड़ता है?",
+            "en": "Do you need to use insulin to control your blood sugar levels?",
+            "category": "insulin_usage",
+            "symptom": "sugar",
+            "risk_factor": True,
+        },
+
+        {
+            "hi": "क्या आप अपने ब्लड शुगर के स्तर पर किसी प्रकार के स्ट्रेस या मानसिक दबाव का अनुभव करते हैं?",
+            "en": "Do you experience any stress or mental pressure that affects your blood sugar levels?",
+            "category": "blood_sugar_stress",
+            "symptom": "sugar",
+            "risk_factor": False,
+        },
+    ],
 }
 
 #  ------------------------------------------------------------------ #
