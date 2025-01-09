@@ -1253,12 +1253,6 @@ symptom_followup_questions = {
       "category": "loss_of_appetite",
       "symptom": "Loss of appetite",
       "risk_factor": False,    },
-    {
-      "hi": "क्या आपके शरीर में कोई अन्य दर्द महसूस हो रहा है?",
-      "en": "Are you experiencing any other pains in your body?",
-      "category": "other_pains",
-      "symptom": None,
-      "risk_factor": False,    },
   ],
 
   "cough": [
