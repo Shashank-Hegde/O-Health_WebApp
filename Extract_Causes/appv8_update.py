@@ -928,14 +928,14 @@ filtered_words = ['got', 'old','gotten','female','male','straight']  # We can ad
 symptom_followup_questions = {
   "stomach pain": [
     {
-      "hi": "दर्द कहाँ स्थित है?",
-      "en": "Where exactly is the pain located?",
+      "hi": "पेट दर्द वास्तव में कहाँ स्थित है?",
+      "en": "Where exactly is the stomach pain located?",
       "category": "stomach ache",
       "symptom": "stomach ache",
       "risk_factor": False,    },
     {
-      "hi": "क्या आप दर्द का वर्णन कर सकते हैं? (तेज, हल्का, ऐंठन, जलन आदि)",
-      "en": "Can you describe the pain? (Sharp, dull, cramping, burning, etc.)",
+      "hi": "क्या आप पेट दर्द का वर्णन कर सकते हैं? (तीव्र, सुस्त, ऐंठन, जलन, आदि)",
+      "en": "Can you describe the stomach pain? (Sharp, dull, cramping, burning, etc.)",
       "category": "stomach ache",
       "symptom": "stomach ache",
       "risk_factor": False,    },
@@ -1397,14 +1397,14 @@ symptom_followup_questions = {
       "symptom": "knee pain",
       "risk_factor": False,    },
     {
-      "hi": "क्या आप दर्द का वर्णन कर सकते हैं? (तेज, हल्का, ऐंठन, जलन आदि)",
-      "en": "Can you describe the pain? (Sharp, dull, aching, etc.)",
+      "hi": "क्या आप घुटने के दर्द का वर्णन कर सकते हैं? (तीव्र, सुस्त, दर्द, आदि)",
+      "en": "Can you describe the knee pain? (Sharp, dull, aching, etc.)",
       "category": "knee pain",
       "symptom": "knee pain",
       "risk_factor": False,    },
     {
-      "hi": "क्या दर्द लगातार है या यह कभी-कभी होता है?",
-      "en": "Does the pain occur constantly, or does it come and go?",
+      "hi": "क्या घुटनों में दर्द लगातार होता रहता है, या आता-जाता रहता है?",
+      "en": "Does the knee pain occur constantly, or does it come and go?",
       "category": "knee pain",
       "symptom": "knee pain",
       "risk_factor": False,    },
@@ -1415,8 +1415,8 @@ symptom_followup_questions = {
       "symptom": "knee pain",
       "risk_factor": False,    },
     {
-      "hi": "क्या दर्द कुछ गतिविधियों जैसे चलने या सीढ़ियाँ चढ़ने से बढ़ जाता है?",
-      "en": "Does the pain get worse with certain activities, like walking or climbing stairs?",
+      "hi": "क्या चलने या सीढ़ियाँ चढ़ने जैसी कुछ गतिविधियों से घुटने का दर्द बढ़ जाता है?",
+      "en": "Does the knee pain get worse with certain activities, like walking or climbing stairs?",
       "category": "knee pain",
       "symptom": "knee pain",
       "risk_factor": False,    },
@@ -1442,14 +1442,14 @@ symptom_followup_questions = {
   "wrist pain": [
 
     {
-      "hi": "क्या आप दर्द का वर्णन कर सकते हैं? (तेज, हल्का, ऐंठन, जलन आदि)",
-      "en": "Can you describe the pain? (Sharp, dull, aching, etc.)",
+      "hi": "क्या आप कलाई के दर्द का वर्णन कर सकते हैं? (तीव्र, सुस्त, दर्द, आदि)",
+      "en": "Can you describe the wrist pain? (Sharp, dull, aching, etc.)",
       "category": "wrist pain",
       "symptom": "wrist pain",
       "risk_factor": False,    },
     {
-      "hi": "कौन सी गतिविधियाँ दर्द को और बढ़ाती हैं?",
-      "en": "What activities make the pain worse?",
+      "hi": "कौन सी गतिविधियाँ कलाई के दर्द को बदतर बना देती हैं?",
+      "en": "What activities make the wrist pain worse?",
       "category": "wrist pain",
       "symptom": "wrist pain",
       "risk_factor": False,    },
@@ -1478,14 +1478,14 @@ symptom_followup_questions = {
       "symptom": "wrist pain",
       "risk_factor": False,    },
     {
-      "hi": "क्या दर्द लगातार है या यह कभी-कभी होता है?",
-      "en": "Is the pain constant or intermittent?",
+      "hi": "क्या कलाई में दर्द लगातार या रुक-रुक कर होता है?",
+      "en": "Is the wrist pain constant or intermittent?",
       "category": "wrist pain",
       "symptom": "wrist pain",
       "risk_factor": False,    },
     {
-      "hi": "क्या विश्राम करने पर दर्द में कोई सुधार या वृद्धि होती है?",
-      "en": "Does the pain improve or worsen with rest?",
+      "hi": "क्या आराम करने से कलाई का दर्द ठीक हो जाता है या बिगड़ जाता है?",
+      "en": "Does the wrist pain improve or worsen with rest?",
       "category": "wrist pain",
       "symptom": "wrist pain",
       "risk_factor": False,    },
